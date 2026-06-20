@@ -1,0 +1,1 @@
+"""Validate constitutional article references."""

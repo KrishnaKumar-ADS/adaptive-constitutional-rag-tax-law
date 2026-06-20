@@ -1,0 +1,1 @@
+"""Verify citation was retrieved."""

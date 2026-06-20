@@ -1,0 +1,1 @@
+"""Generate factoid dataset."""

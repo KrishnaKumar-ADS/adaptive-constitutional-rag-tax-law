@@ -1,0 +1,26 @@
+# Git ignore rules
+# Python
+__pycache__/
+*.pyc
+
+# Virtual Environment
+venv/
+
+# Environment Variables
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+
+# Logs
+*.log
+
+# Database
+*.db
+
+# OS Files
+.DS_Store
+Thumbs.db
