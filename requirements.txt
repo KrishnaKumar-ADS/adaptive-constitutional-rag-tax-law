@@ -5,3 +5,9 @@ pydantic
 pydantic-settings
 
 python-dotenv
+
+
+## Advanced
+psycopg2-binary
+redis
+qdrant-client

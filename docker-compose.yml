@@ -1,1 +1,45 @@
-# Docker services configuration
+version: "3.9"
+
+services:
+
+  postgres:
+    image: postgres:16
+
+    container_name: tax_rag_postgres
+
+    environment:
+      POSTGRES_DB: tax_rag
+      POSTGRES_USER: tax_rag
+      POSTGRES_PASSWORD: postgres
+
+    ports:
+      - "5432:5432"
+
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  redis:
+    image: redis:7-alpine
+
+    container_name: tax_rag_redis
+
+    ports:
+      - "6379:6379"
+
+  qdrant:
+    image: qdrant/qdrant:latest
+
+    container_name: tax_rag_qdrant
+
+    ports:
+      - "6333:6333"
+      - "6334:6334"
+
+    volumes:
+      - qdrant_data:/qdrant/storage
+
+volumes:
+
+  postgres_data:
+
+  qdrant_data:
