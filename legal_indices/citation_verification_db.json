@@ -1,0 +1,6184 @@
+{
+  "document_type": "constitution",
+  "total_articles": 474,
+  "citations": {
+    "Article 1": {
+      "exists": true,
+      "type": "article",
+      "page": 33,
+      "chunk_ids": [
+        "constitution_article_1_chunk_1",
+        "constitution_article_1_chunk_2",
+        "constitution_article_1_chunk_3",
+        "constitution_article_1_chunk_4"
+      ],
+      "unit_id": "constitution_article_1",
+      "title": "Name and territory of the Union"
+    },
+    "Article 1(12A)": {
+      "exists": true,
+      "type": "subsection",
+      "parent_article": "Article 1",
+      "page": 255,
+      "chunk_id": "constitution_article_1_chunk_2",
+      "char_offset": 294,
+      "text_snippet": " 1[(12A) “goods and services tax” means any tax on supply of goods, or services or both except taxes on the supply of the alcoholic liquor for human consumption] ; (13) “guarantee” includes any obliga"
+    },
+    "Article 10": {
+      "exists": true,
+      "type": "article",
+      "page": 36,
+      "chunk_ids": [
+        "constitution_article_10_chunk_1"
+      ],
+      "unit_id": "constitution_article_10",
+      "title": "Continuance of the rights of citizenship"
+    },
+    "Article 100": {
+      "exists": true,
+      "type": "article",
+      "page": 75,
+      "chunk_ids": [
+        "constitution_article_100_chunk_1",
+        "constitution_article_100_chunk_2"
+      ],
+      "unit_id": "constitution_article_100",
+      "title": "Voting in Houses, power of Houses to act notwithstanding"
+    },
+    "Article 101": {
+      "exists": true,
+      "type": "article",
+      "page": 75,
+      "chunk_ids": [
+        "constitution_article_101_chunk_1"
+      ],
+      "unit_id": "constitution_article_101",
+      "title": "Vacation of seats"
+    },
+    "Article 102": {
+      "exists": true,
+      "type": "article",
+      "page": 77,
+      "chunk_ids": [
+        "constitution_article_102_chunk_1"
+      ],
+      "unit_id": "constitution_article_102",
+      "title": "Disqualifications for membership"
+    },
+    "Article 103": {
+      "exists": true,
+      "type": "article",
+      "page": 77,
+      "chunk_ids": [
+        "constitution_article_103_chunk_1"
+      ],
+      "unit_id": "constitution_article_103",
+      "title": "Decision on questions as to disqualifications of members"
+    },
+    "Article 104": {
+      "exists": true,
+      "type": "article",
+      "page": 78,
+      "chunk_ids": [
+        "constitution_article_104_chunk_1"
+      ],
+      "unit_id": "constitution_article_104",
+      "title": "Penalty for sitting and voting before making oath or affirmation"
+    },
+    "Article 105": {
+      "exists": true,
+      "type": "article",
+      "page": 78,
+      "chunk_ids": [
+        "constitution_article_105_chunk_1"
+      ],
+      "unit_id": "constitution_article_105",
+      "title": "Powers, privileges, etc., of the Houses of Parliament and of the"
+    },
+    "Article 106": {
+      "exists": true,
+      "type": "article",
+      "page": 79,
+      "chunk_ids": [
+        "constitution_article_106_chunk_1"
+      ],
+      "unit_id": "constitution_article_106",
+      "title": "Salaries and allowances of members"
+    },
+    "Article 107": {
+      "exists": true,
+      "type": "article",
+      "page": 79,
+      "chunk_ids": [
+        "constitution_article_107_chunk_1"
+      ],
+      "unit_id": "constitution_article_107",
+      "title": "Provisions as to introduction and passing of Bills"
+    },
+    "Article 108": {
+      "exists": true,
+      "type": "article",
+      "page": 79,
+      "chunk_ids": [
+        "constitution_article_108_chunk_1",
+        "constitution_article_108_chunk_2",
+        "constitution_article_108_chunk_3"
+      ],
+      "unit_id": "constitution_article_108",
+      "title": "Joint sitting of both Houses in certain cases"
+    },
+    "Article 109": {
+      "exists": true,
+      "type": "article",
+      "page": 80,
+      "chunk_ids": [
+        "constitution_article_109_chunk_1",
+        "constitution_article_109_chunk_2"
+      ],
+      "unit_id": "constitution_article_109",
+      "title": "Special procedure in respect of Money Bills"
+    },
+    "Article 11": {
+      "exists": true,
+      "type": "article",
+      "page": 36,
+      "chunk_ids": [
+        "constitution_article_11_chunk_1"
+      ],
+      "unit_id": "constitution_article_11",
+      "title": "Parliament to regulate the right of citizenship by law"
+    },
+    "Article 110": {
+      "exists": true,
+      "type": "article",
+      "page": 81,
+      "chunk_ids": [
+        "constitution_article_110_chunk_1",
+        "constitution_article_110_chunk_2"
+      ],
+      "unit_id": "constitution_article_110",
+      "title": "Definition of “Money Bills”"
+    },
+    "Article 111": {
+      "exists": true,
+      "type": "article",
+      "page": 82,
+      "chunk_ids": [
+        "constitution_article_111_chunk_1"
+      ],
+      "unit_id": "constitution_article_111",
+      "title": "Assent to Bills"
+    },
+    "Article 112": {
+      "exists": true,
+      "type": "article",
+      "page": 82,
+      "chunk_ids": [
+        "constitution_article_112_chunk_1",
+        "constitution_article_112_chunk_2"
+      ],
+      "unit_id": "constitution_article_112",
+      "title": "Annual financial statement"
+    },
+    "Article 113": {
+      "exists": true,
+      "type": "article",
+      "page": 83,
+      "chunk_ids": [
+        "constitution_article_113_chunk_1"
+      ],
+      "unit_id": "constitution_article_113",
+      "title": "Procedure in Parliament with respect to estimates"
+    },
+    "Article 114": {
+      "exists": true,
+      "type": "article",
+      "page": 84,
+      "chunk_ids": [
+        "constitution_article_114_chunk_1"
+      ],
+      "unit_id": "constitution_article_114",
+      "title": "Appropriation Bills"
+    },
+    "Article 115": {
+      "exists": true,
+      "type": "article",
+      "page": 84,
+      "chunk_ids": [
+        "constitution_article_115_chunk_1",
+        "constitution_article_115_chunk_2"
+      ],
+      "unit_id": "constitution_article_115",
+      "title": "Supplementary, additional or excess grants"
+    },
+    "Article 116": {
+      "exists": true,
+      "type": "article",
+      "page": 85,
+      "chunk_ids": [
+        "constitution_article_116_chunk_1",
+        "constitution_article_116_chunk_2"
+      ],
+      "unit_id": "constitution_article_116",
+      "title": "Votes on account, votes of credit and exceptional"
+    },
+    "Article 117": {
+      "exists": true,
+      "type": "article",
+      "page": 85,
+      "chunk_ids": [
+        "constitution_article_117_chunk_1",
+        "constitution_article_117_chunk_2"
+      ],
+      "unit_id": "constitution_article_117",
+      "title": "Special provisions as to financial Bills"
+    },
+    "Article 118": {
+      "exists": true,
+      "type": "article",
+      "page": 86,
+      "chunk_ids": [
+        "constitution_article_118_chunk_1"
+      ],
+      "unit_id": "constitution_article_118",
+      "title": "Rules of procedure"
+    },
+    "Article 119": {
+      "exists": true,
+      "type": "article",
+      "page": 86,
+      "chunk_ids": [
+        "constitution_article_119_chunk_1"
+      ],
+      "unit_id": "constitution_article_119",
+      "title": "Regulation by law of procedure in Parliament in relation to"
+    },
+    "Article 12": {
+      "exists": true,
+      "type": "article",
+      "page": 37,
+      "chunk_ids": [
+        "constitution_article_12_chunk_1"
+      ],
+      "unit_id": "constitution_article_12",
+      "title": "Definition"
+    },
+    "Article 120": {
+      "exists": true,
+      "type": "article",
+      "page": 87,
+      "chunk_ids": [
+        "constitution_article_120_chunk_1"
+      ],
+      "unit_id": "constitution_article_120",
+      "title": "Language to be used in Parliament"
+    },
+    "Article 121": {
+      "exists": true,
+      "type": "article",
+      "page": 87,
+      "chunk_ids": [
+        "constitution_article_121_chunk_1"
+      ],
+      "unit_id": "constitution_article_121",
+      "title": "Restriction on discussion in Parliament"
+    },
+    "Article 122": {
+      "exists": true,
+      "type": "article",
+      "page": 87,
+      "chunk_ids": [
+        "constitution_article_122_chunk_1"
+      ],
+      "unit_id": "constitution_article_122",
+      "title": "Courts not to inquire into proceedings of Parliament"
+    },
+    "Article 123": {
+      "exists": true,
+      "type": "article",
+      "page": 87,
+      "chunk_ids": [
+        "constitution_article_123_chunk_1",
+        "constitution_article_123_chunk_2"
+      ],
+      "unit_id": "constitution_article_123",
+      "title": "Power of President to promulgate Ordinances during recess of"
+    },
+    "Article 124": {
+      "exists": true,
+      "type": "article",
+      "page": 88,
+      "chunk_ids": [
+        "constitution_article_124_chunk_1"
+      ],
+      "unit_id": "constitution_article_124",
+      "title": "Establishment and constitution of Supreme Court"
+    },
+    "Article 124A": {
+      "exists": true,
+      "type": "article",
+      "page": 89,
+      "chunk_ids": [
+        "constitution_article_124A_chunk_1"
+      ],
+      "unit_id": "constitution_article_124A",
+      "title": "National Judicial Appointments Commission"
+    },
+    "Article 124B": {
+      "exists": true,
+      "type": "article",
+      "page": 90,
+      "chunk_ids": [
+        "constitution_article_124B_chunk_1"
+      ],
+      "unit_id": "constitution_article_124B",
+      "title": "Functions of Commission.––It shall be the duty of the National"
+    },
+    "Article 124C": {
+      "exists": true,
+      "type": "article",
+      "page": 90,
+      "chunk_ids": [
+        "constitution_article_124C_chunk_1"
+      ],
+      "unit_id": "constitution_article_124C",
+      "title": "Power of Parliament to make law.––Parliament may, by law,"
+    },
+    "Article 125": {
+      "exists": true,
+      "type": "article",
+      "page": 90,
+      "chunk_ids": [
+        "constitution_article_125_chunk_1"
+      ],
+      "unit_id": "constitution_article_125",
+      "title": "Salaries, etc., of Judges"
+    },
+    "Article 126": {
+      "exists": true,
+      "type": "article",
+      "page": 91,
+      "chunk_ids": [
+        "constitution_article_126_chunk_1"
+      ],
+      "unit_id": "constitution_article_126",
+      "title": "Appointment of acting Chief Justice"
+    },
+    "Article 127": {
+      "exists": true,
+      "type": "article",
+      "page": 91,
+      "chunk_ids": [
+        "constitution_article_127_chunk_1"
+      ],
+      "unit_id": "constitution_article_127",
+      "title": "Appointment of ad hoc Judges"
+    },
+    "Article 128": {
+      "exists": true,
+      "type": "article",
+      "page": 91,
+      "chunk_ids": [
+        "constitution_article_128_chunk_1"
+      ],
+      "unit_id": "constitution_article_128",
+      "title": "Attendance of retired Judges at sittings of the Supreme"
+    },
+    "Article 129": {
+      "exists": true,
+      "type": "article",
+      "page": 92,
+      "chunk_ids": [
+        "constitution_article_129_chunk_1"
+      ],
+      "unit_id": "constitution_article_129",
+      "title": "Supreme Court to be a court of record"
+    },
+    "Article 13": {
+      "exists": true,
+      "type": "article",
+      "page": 37,
+      "chunk_ids": [
+        "constitution_article_13_chunk_1"
+      ],
+      "unit_id": "constitution_article_13",
+      "title": "Laws inconsistent with or in derogation of the fundamental"
+    },
+    "Article 130": {
+      "exists": true,
+      "type": "article",
+      "page": 92,
+      "chunk_ids": [
+        "constitution_article_130_chunk_1"
+      ],
+      "unit_id": "constitution_article_130",
+      "title": "Seat of Supreme Court"
+    },
+    "Article 131": {
+      "exists": true,
+      "type": "article",
+      "page": 92,
+      "chunk_ids": [
+        "constitution_article_131_chunk_1"
+      ],
+      "unit_id": "constitution_article_131",
+      "title": "Original jurisdiction of the Supreme Court"
+    },
+    "Article 131A": {
+      "exists": true,
+      "type": "article",
+      "page": 92,
+      "chunk_ids": [
+        "constitution_article_131A_chunk_1"
+      ],
+      "unit_id": "constitution_article_131A",
+      "title": "Exclusive jurisdiction of the Supreme Court in regard to"
+    },
+    "Article 132": {
+      "exists": true,
+      "type": "article",
+      "page": 92,
+      "chunk_ids": [
+        "constitution_article_132_chunk_1"
+      ],
+      "unit_id": "constitution_article_132",
+      "title": "Appellate jurisdiction of Supreme Court in appeals from High"
+    },
+    "Article 133": {
+      "exists": true,
+      "type": "article",
+      "page": 93,
+      "chunk_ids": [
+        "constitution_article_133_chunk_1"
+      ],
+      "unit_id": "constitution_article_133",
+      "title": "Appellate jurisdiction of Supreme Court in appeals from High"
+    },
+    "Article 134": {
+      "exists": true,
+      "type": "article",
+      "page": 93,
+      "chunk_ids": [
+        "constitution_article_134_chunk_1"
+      ],
+      "unit_id": "constitution_article_134",
+      "title": "Appellate jurisdiction of Supreme Court in regard to criminal"
+    },
+    "Article 134A": {
+      "exists": true,
+      "type": "article",
+      "page": 94,
+      "chunk_ids": [
+        "constitution_article_134A_chunk_1"
+      ],
+      "unit_id": "constitution_article_134A",
+      "title": "Certificate for appeal to the Supreme Court"
+    },
+    "Article 135": {
+      "exists": true,
+      "type": "article",
+      "page": 94,
+      "chunk_ids": [
+        "constitution_article_135_chunk_1"
+      ],
+      "unit_id": "constitution_article_135",
+      "title": "Jurisdiction and powers of the Federal Court under existing"
+    },
+    "Article 136": {
+      "exists": true,
+      "type": "article",
+      "page": 94,
+      "chunk_ids": [
+        "constitution_article_136_chunk_1"
+      ],
+      "unit_id": "constitution_article_136",
+      "title": "Special leave to appeal by the Supreme Court"
+    },
+    "Article 137": {
+      "exists": true,
+      "type": "article",
+      "page": 94,
+      "chunk_ids": [
+        "constitution_article_137_chunk_1"
+      ],
+      "unit_id": "constitution_article_137",
+      "title": "Review of judgments or orders by the Supreme Court"
+    },
+    "Article 138": {
+      "exists": true,
+      "type": "article",
+      "page": 94,
+      "chunk_ids": [
+        "constitution_article_138_chunk_1"
+      ],
+      "unit_id": "constitution_article_138",
+      "title": "Enlargement of the jurisdiction of the Supreme Court"
+    },
+    "Article 139": {
+      "exists": true,
+      "type": "article",
+      "page": 95,
+      "chunk_ids": [
+        "constitution_article_139_chunk_1"
+      ],
+      "unit_id": "constitution_article_139",
+      "title": "Conferment on the Supreme Court of powers to issue certain"
+    },
+    "Article 139A": {
+      "exists": true,
+      "type": "article",
+      "page": 95,
+      "chunk_ids": [
+        "constitution_article_139A_chunk_1"
+      ],
+      "unit_id": "constitution_article_139A",
+      "title": "Transfer of certain cases"
+    },
+    "Article 14": {
+      "exists": true,
+      "type": "article",
+      "page": 37,
+      "chunk_ids": [
+        "constitution_article_14_chunk_1"
+      ],
+      "unit_id": "constitution_article_14",
+      "title": "Equality before law"
+    },
+    "Article 140": {
+      "exists": true,
+      "type": "article",
+      "page": 95,
+      "chunk_ids": [
+        "constitution_article_140_chunk_1"
+      ],
+      "unit_id": "constitution_article_140",
+      "title": "Ancillary powers of Supreme Court"
+    },
+    "Article 141": {
+      "exists": true,
+      "type": "article",
+      "page": 95,
+      "chunk_ids": [
+        "constitution_article_141_chunk_1"
+      ],
+      "unit_id": "constitution_article_141",
+      "title": "Law declared by Supreme Court to be binding on all courts"
+    },
+    "Article 142": {
+      "exists": true,
+      "type": "article",
+      "page": 96,
+      "chunk_ids": [
+        "constitution_article_142_chunk_1"
+      ],
+      "unit_id": "constitution_article_142",
+      "title": "Enforcement of decrees and orders of Supreme Court and"
+    },
+    "Article 143": {
+      "exists": true,
+      "type": "article",
+      "page": 96,
+      "chunk_ids": [
+        "constitution_article_143_chunk_1"
+      ],
+      "unit_id": "constitution_article_143",
+      "title": "Power of President to consult Supreme Court"
+    },
+    "Article 144": {
+      "exists": true,
+      "type": "article",
+      "page": 96,
+      "chunk_ids": [
+        "constitution_article_144_chunk_1"
+      ],
+      "unit_id": "constitution_article_144",
+      "title": "Civil and judicial authorities to act in aid of the Supreme"
+    },
+    "Article 145": {
+      "exists": true,
+      "type": "article",
+      "page": 96,
+      "chunk_ids": [
+        "constitution_article_145_chunk_1"
+      ],
+      "unit_id": "constitution_article_145",
+      "title": "Rules of Court, etc"
+    },
+    "Article 146": {
+      "exists": true,
+      "type": "article",
+      "page": 98,
+      "chunk_ids": [
+        "constitution_article_146_chunk_1",
+        "constitution_article_146_chunk_2"
+      ],
+      "unit_id": "constitution_article_146",
+      "title": "Officers and servants and the expenses of the Supreme Court"
+    },
+    "Article 146(1)": {
+      "exists": true,
+      "type": "subsection",
+      "parent_article": "Article 146",
+      "page": 98,
+      "chunk_id": "constitution_article_146_chunk_1",
+      "char_offset": 66,
+      "text_snippet": " (1) Appointments of officers and servants of the Supreme Court shall be made by the Chief Justice of India or such other Judge or officer of the Court as he may direct: Provided that the President ma"
+    },
+    "Article 146(3)": {
+      "exists": true,
+      "type": "subsection",
+      "parent_article": "Article 146",
+      "page": 98,
+      "chunk_id": "constitution_article_146_chunk_2",
+      "char_offset": 0,
+      "text_snippet": "(3) The administrative expenses of the Supreme Court, including all salaries, allowances and pensions payable to or in respect of the officers and servants of the Court, shall be charged upon the Cons"
+    },
+    "Article 147": {
+      "exists": true,
+      "type": "article",
+      "page": 98,
+      "chunk_ids": [
+        "constitution_article_147_chunk_1"
+      ],
+      "unit_id": "constitution_article_147",
+      "title": "Interpretation"
+    },
+    "Article 148": {
+      "exists": true,
+      "type": "article",
+      "page": 99,
+      "chunk_ids": [
+        "constitution_article_148_chunk_1",
+        "constitution_article_148_chunk_2"
+      ],
+      "unit_id": "constitution_article_148",
+      "title": "Comptroller and Auditor-General of India"
+    },
+    "Article 148(4)": {
+      "exists": true,
+      "type": "subsection",
+      "parent_article": "Article 148",
+      "page": 99,
+      "chunk_id": "constitution_article_148_chunk_2",
+      "char_offset": 0,
+      "text_snippet": "(4) The Comptroller and Auditor-General shall not be eligible for further office either under the Government of India or under the Government of any State after he has ceased to hold his office. (5) S"
+    },
+    "Article 149": {
+      "exists": true,
+      "type": "article",
+      "page": 99,
+      "chunk_ids": [
+        "constitution_article_149_chunk_1"
+      ],
+      "unit_id": "constitution_article_149",
+      "title": "Duties and powers of the Comptroller and Auditor-General"
+    },
+    "Article 15": {
+      "exists": true,
+      "type": "article",
+      "page": 37,
+      "chunk_ids": [
+        "constitution_article_15_chunk_1"
+      ],
+      "unit_id": "constitution_article_15",
+      "title": "Prohibition of discrimination on grounds of religion, race, caste,"
+    },
+    "Article 150": {
+      "exists": true,
+      "type": "article",
+      "page": 100,
+      "chunk_ids": [
+        "constitution_article_150_chunk_1"
+      ],
+      "unit_id": "constitution_article_150",
+      "title": "Form of accounts of the Union and of the States"
+    },
+    "Article 151": {
+      "exists": true,
+      "type": "article",
+      "page": 100,
+      "chunk_ids": [
+        "constitution_article_151_chunk_1"
+      ],
+      "unit_id": "constitution_article_151",
+      "title": "Audit reports"
+    },
+    "Article 152": {
+      "exists": true,
+      "type": "article",
+      "page": 101,
+      "chunk_ids": [
+        "constitution_article_152_chunk_1"
+      ],
+      "unit_id": "constitution_article_152",
+      "title": "Definition"
+    },
+    "Article 153": {
+      "exists": true,
+      "type": "article",
+      "page": 101,
+      "chunk_ids": [
+        "constitution_article_153_chunk_1"
+      ],
+      "unit_id": "constitution_article_153",
+      "title": "Governors of States"
+    },
+    "Article 154": {
+      "exists": true,
+      "type": "article",
+      "page": 101,
+      "chunk_ids": [
+        "constitution_article_154_chunk_1"
+      ],
+      "unit_id": "constitution_article_154",
+      "title": "Executive power of State"
+    },
+    "Article 155": {
+      "exists": true,
+      "type": "article",
+      "page": 101,
+      "chunk_ids": [
+        "constitution_article_155_chunk_1"
+      ],
+      "unit_id": "constitution_article_155",
+      "title": "Appointment of Governor"
+    },
+    "Article 156": {
+      "exists": true,
+      "type": "article",
+      "page": 101,
+      "chunk_ids": [
+        "constitution_article_156_chunk_1"
+      ],
+      "unit_id": "constitution_article_156",
+      "title": "Term of office of Governor"
+    },
+    "Article 157": {
+      "exists": true,
+      "type": "article",
+      "page": 102,
+      "chunk_ids": [
+        "constitution_article_157_chunk_1"
+      ],
+      "unit_id": "constitution_article_157",
+      "title": "Qualifications for appointment as Governor"
+    },
+    "Article 158": {
+      "exists": true,
+      "type": "article",
+      "page": 102,
+      "chunk_ids": [
+        "constitution_article_158_chunk_1"
+      ],
+      "unit_id": "constitution_article_158",
+      "title": "Conditions of Governor's office"
+    },
+    "Article 158(3)": {
+      "exists": true,
+      "type": "subsection",
+      "parent_article": "Article 158",
+      "page": 102,
+      "chunk_id": "constitution_article_158_chunk_1",
+      "char_offset": 483,
+      "text_snippet": " (3) The Governor shall be entitled without payment of rent to the use of his official residences and shall be also entitled to such emoluments, allowances and privileges as may be determined by Parli"
+    },
+    "Article 159": {
+      "exists": true,
+      "type": "article",
+      "page": 102,
+      "chunk_ids": [
+        "constitution_article_159_chunk_1"
+      ],
+      "unit_id": "constitution_article_159",
+      "title": "Oath or affirmation by the Governor"
+    },
+    "Article 16": {
+      "exists": true,
+      "type": "article",
+      "page": 39,
+      "chunk_ids": [
+        "constitution_article_16_chunk_1",
+        "constitution_article_16_chunk_2"
+      ],
+      "unit_id": "constitution_article_16",
+      "title": "Equality of opportunity in matters of public employment"
+    },
+    "Article 160": {
+      "exists": true,
+      "type": "article",
+      "page": 103,
+      "chunk_ids": [
+        "constitution_article_160_chunk_1"
+      ],
+      "unit_id": "constitution_article_160",
+      "title": "Discharge of the functions of the Governor in certain"
+    },
+    "Article 161": {
+      "exists": true,
+      "type": "article",
+      "page": 103,
+      "chunk_ids": [
+        "constitution_article_161_chunk_1"
+      ],
+      "unit_id": "constitution_article_161",
+      "title": "Power of Governor to grant pardons, etc., and to suspend, remit"
+    },
+    "Article 162": {
+      "exists": true,
+      "type": "article",
+      "page": 103,
+      "chunk_ids": [
+        "constitution_article_162_chunk_1"
+      ],
+      "unit_id": "constitution_article_162",
+      "title": "Extent of executive power of State"
+    },
+    "Article 163": {
+      "exists": true,
+      "type": "article",
+      "page": 103,
+      "chunk_ids": [
+        "constitution_article_163_chunk_1"
+      ],
+      "unit_id": "constitution_article_163",
+      "title": "Council of Ministers to aid and advise Governor"
+    },
+    "Article 164": {
+      "exists": true,
+      "type": "article",
+      "page": 103,
+      "chunk_ids": [
+        "constitution_article_164_chunk_1",
+        "constitution_article_164_chunk_2",
+        "constitution_article_164_chunk_3"
+      ],
+      "unit_id": "constitution_article_164",
+      "title": "Other provisions as to Ministers"
+    },
+    "Article 165": {
+      "exists": true,
+      "type": "article",
+      "page": 105,
+      "chunk_ids": [
+        "constitution_article_165_chunk_1"
+      ],
+      "unit_id": "constitution_article_165",
+      "title": "Advocate-General for the State"
+    },
+    "Article 166": {
+      "exists": true,
+      "type": "article",
+      "page": 105,
+      "chunk_ids": [
+        "constitution_article_166_chunk_1"
+      ],
+      "unit_id": "constitution_article_166",
+      "title": "Conduct of Business of the Government of a State"
+    },
+    "Article 167": {
+      "exists": true,
+      "type": "article",
+      "page": 106,
+      "chunk_ids": [
+        "constitution_article_167_chunk_1"
+      ],
+      "unit_id": "constitution_article_167",
+      "title": "Duties of Chief Minister as respects the furnishing of"
+    },
+    "Article 168": {
+      "exists": true,
+      "type": "article",
+      "page": 106,
+      "chunk_ids": [
+        "constitution_article_168_chunk_1"
+      ],
+      "unit_id": "constitution_article_168",
+      "title": "Constitution of Legislatures in States"
+    },
+    "Article 169": {
+      "exists": true,
+      "type": "article",
+      "page": 107,
+      "chunk_ids": [
+        "constitution_article_169_chunk_1"
+      ],
+      "unit_id": "constitution_article_169",
+      "title": "Abolition or creation of Legislative Councils in States"
+    },
+    "Article 17": {
+      "exists": true,
+      "type": "article",
+      "page": 40,
+      "chunk_ids": [
+        "constitution_article_17_chunk_1"
+      ],
+      "unit_id": "constitution_article_17",
+      "title": "Abolition of Untouchability"
+    },
+    "Article 170": {
+      "exists": true,
+      "type": "article",
+      "page": 107,
+      "chunk_ids": [
+        "constitution_article_170_chunk_1"
+      ],
+      "unit_id": "constitution_article_170",
+      "title": "Composition of the Legislative Assemblies"
+    },
+    "Article 171": {
+      "exists": true,
+      "type": "article",
+      "page": 108,
+      "chunk_ids": [
+        "constitution_article_171_chunk_1"
+      ],
+      "unit_id": "constitution_article_171",
+      "title": "Composition of the Legislative Councils"
+    },
+    "Article 172": {
+      "exists": true,
+      "type": "article",
+      "page": 110,
+      "chunk_ids": [
+        "constitution_article_172_chunk_1"
+      ],
+      "unit_id": "constitution_article_172",
+      "title": "Duration of State Legislatures"
+    },
+    "Article 173": {
+      "exists": true,
+      "type": "article",
+      "page": 110,
+      "chunk_ids": [
+        "constitution_article_173_chunk_1"
+      ],
+      "unit_id": "constitution_article_173",
+      "title": "Qualification for membership of the State Legislature"
+    },
+    "Article 174": {
+      "exists": true,
+      "type": "article",
+      "page": 111,
+      "chunk_ids": [
+        "constitution_article_174_chunk_1"
+      ],
+      "unit_id": "constitution_article_174",
+      "title": "Sessions of the State Legislature, prorogation and"
+    },
+    "Article 175": {
+      "exists": true,
+      "type": "article",
+      "page": 111,
+      "chunk_ids": [
+        "constitution_article_175_chunk_1"
+      ],
+      "unit_id": "constitution_article_175",
+      "title": "Right of Governor to address and send messages to the House"
+    },
+    "Article 176": {
+      "exists": true,
+      "type": "article",
+      "page": 111,
+      "chunk_ids": [
+        "constitution_article_176_chunk_1"
+      ],
+      "unit_id": "constitution_article_176",
+      "title": "Special address by the Governor"
+    },
+    "Article 177": {
+      "exists": true,
+      "type": "article",
+      "page": 111,
+      "chunk_ids": [
+        "constitution_article_177_chunk_1"
+      ],
+      "unit_id": "constitution_article_177",
+      "title": "Rights of Ministers and Advocate-General as respects the"
+    },
+    "Article 178": {
+      "exists": true,
+      "type": "article",
+      "page": 112,
+      "chunk_ids": [
+        "constitution_article_178_chunk_1"
+      ],
+      "unit_id": "constitution_article_178",
+      "title": "The Speaker and Deputy Speaker of the Legislative"
+    },
+    "Article 179": {
+      "exists": true,
+      "type": "article",
+      "page": 112,
+      "chunk_ids": [
+        "constitution_article_179_chunk_1"
+      ],
+      "unit_id": "constitution_article_179",
+      "title": "Vacation and resignation of, and removal from, the offices of"
+    },
+    "Article 18": {
+      "exists": true,
+      "type": "article",
+      "page": 40,
+      "chunk_ids": [
+        "constitution_article_18_chunk_1"
+      ],
+      "unit_id": "constitution_article_18",
+      "title": "Abolition of titles"
+    },
+    "Article 18(3)": {
+      "exists": true,
+      "type": "subsection",
+      "parent_article": "Article 18",
+      "page": 40,
+      "chunk_id": "constitution_article_18_chunk_1",
+      "char_offset": 188,
+      "text_snippet": " (3) No person who is not a citizen of India shall, while he holds any office of profit or trust under the State, accept without the consent of the President any title from any foreign State. (4) No p"
+    },
+    "Article 180": {
+      "exists": true,
+      "type": "article",
+      "page": 112,
+      "chunk_ids": [
+        "constitution_article_180_chunk_1"
+      ],
+      "unit_id": "constitution_article_180",
+      "title": "Power of the Deputy Speaker or other person to perform the"
+    },
+    "Article 181": {
+      "exists": true,
+      "type": "article",
+      "page": 112,
+      "chunk_ids": [
+        "constitution_article_181_chunk_1"
+      ],
+      "unit_id": "constitution_article_181",
+      "title": "The Speaker or the Deputy Speaker not to preside while a"
+    },
+    "Article 182": {
+      "exists": true,
+      "type": "article",
+      "page": 113,
+      "chunk_ids": [
+        "constitution_article_182_chunk_1"
+      ],
+      "unit_id": "constitution_article_182",
+      "title": "The Chairman and Deputy Chairman of the Legislative"
+    },
+    "Article 183": {
+      "exists": true,
+      "type": "article",
+      "page": 113,
+      "chunk_ids": [
+        "constitution_article_183_chunk_1"
+      ],
+      "unit_id": "constitution_article_183",
+      "title": "Vacation and resignation of, and removal from, the offices of"
+    },
+    "Article 184": {
+      "exists": true,
+      "type": "article",
+      "page": 113,
+      "chunk_ids": [
+        "constitution_article_184_chunk_1"
+      ],
+      "unit_id": "constitution_article_184",
+      "title": "Power of the Deputy Chairman or other person to perform the"
+    },
+    "Article 185": {
+      "exists": true,
+      "type": "article",
+      "page": 114,
+      "chunk_ids": [
+        "constitution_article_185_chunk_1"
+      ],
+      "unit_id": "constitution_article_185",
+      "title": "The Chairman or the Deputy Chairman not to preside while a"
+    },
+    "Article 186": {
+      "exists": true,
+      "type": "article",
+      "page": 114,
+      "chunk_ids": [
+        "constitution_article_186_chunk_1"
+      ],
+      "unit_id": "constitution_article_186",
+      "title": "Salaries and allowances of the Speaker and Deputy Speaker"
+    },
+    "Article 187": {
+      "exists": true,
+      "type": "article",
+      "page": 114,
+      "chunk_ids": [
+        "constitution_article_187_chunk_1"
+      ],
+      "unit_id": "constitution_article_187",
+      "title": "Secretariat of State Legislature"
+    },
+    "Article 188": {
+      "exists": true,
+      "type": "article",
+      "page": 115,
+      "chunk_ids": [
+        "constitution_article_188_chunk_1"
+      ],
+      "unit_id": "constitution_article_188",
+      "title": "Oath or affirmation by members"
+    },
+    "Article 189": {
+      "exists": true,
+      "type": "article",
+      "page": 115,
+      "chunk_ids": [
+        "constitution_article_189_chunk_1",
+        "constitution_article_189_chunk_2"
+      ],
+      "unit_id": "constitution_article_189",
+      "title": "Voting in Houses, power of Houses to act notwithstanding"
+    },
+    "Article 19": {
+      "exists": true,
+      "type": "article",
+      "page": 40,
+      "chunk_ids": [
+        "constitution_article_19_chunk_1"
+      ],
+      "unit_id": "constitution_article_19",
+      "title": "Protection of certain rights regarding freedom of speech, etc"
+    },
+    "Article 19(1)": {
+      "exists": true,
+      "type": "subsection",
+      "parent_article": "Article 19",
+      "page": 40,
+      "chunk_id": "constitution_article_19_chunk_1",
+      "char_offset": 67,
+      "text_snippet": " (1) All citizens shall have the right— (a) to freedom of speech and expression; (b) to assemble peaceably and without arms; (c) to form associations or unions 2[or co-operative societies]; (d) to mov"
+    },
+    "Article 190": {
+      "exists": true,
+      "type": "article",
+      "page": 115,
+      "chunk_ids": [
+        "constitution_article_190_chunk_1"
+      ],
+      "unit_id": "constitution_article_190",
+      "title": "Vacation of seats"
+    },
+    "Article 191": {
+      "exists": true,
+      "type": "article",
+      "page": 116,
+      "chunk_ids": [
+        "constitution_article_191_chunk_1"
+      ],
+      "unit_id": "constitution_article_191",
+      "title": "Disqualifications for membership"
+    },
+    "Article 192": {
+      "exists": true,
+      "type": "article",
+      "page": 117,
+      "chunk_ids": [
+        "constitution_article_192_chunk_1"
+      ],
+      "unit_id": "constitution_article_192",
+      "title": "Decision on questions as to disqualifications of members"
+    },
+    "Article 193": {
+      "exists": true,
+      "type": "article",
+      "page": 118,
+      "chunk_ids": [
+        "constitution_article_193_chunk_1"
+      ],
+      "unit_id": "constitution_article_193",
+      "title": "Penalty for sitting and voting before making oath or affirmation"
+    },
+    "Article 194": {
+      "exists": true,
+      "type": "article",
+      "page": 118,
+      "chunk_ids": [
+        "constitution_article_194_chunk_1"
+      ],
+      "unit_id": "constitution_article_194",
+      "title": "Powers, privileges, etc., of the Houses of Legislatures and of the"
+    },
+    "Article 195": {
+      "exists": true,
+      "type": "article",
+      "page": 119,
+      "chunk_ids": [
+        "constitution_article_195_chunk_1"
+      ],
+      "unit_id": "constitution_article_195",
+      "title": "Salaries and allowances of members"
+    },
+    "Article 196": {
+      "exists": true,
+      "type": "article",
+      "page": 119,
+      "chunk_ids": [
+        "constitution_article_196_chunk_1"
+      ],
+      "unit_id": "constitution_article_196",
+      "title": "Provisions as to introduction and passing of Bills"
+    },
+    "Article 197": {
+      "exists": true,
+      "type": "article",
+      "page": 119,
+      "chunk_ids": [
+        "constitution_article_197_chunk_1",
+        "constitution_article_197_chunk_2"
+      ],
+      "unit_id": "constitution_article_197",
+      "title": "Restriction on powers of Legislative Council as to Bills other"
+    },
+    "Article 198": {
+      "exists": true,
+      "type": "article",
+      "page": 120,
+      "chunk_ids": [
+        "constitution_article_198_chunk_1",
+        "constitution_article_198_chunk_2"
+      ],
+      "unit_id": "constitution_article_198",
+      "title": "Special procedure in respect of Money Bills"
+    },
+    "Article 199": {
+      "exists": true,
+      "type": "article",
+      "page": 121,
+      "chunk_ids": [
+        "constitution_article_199_chunk_1",
+        "constitution_article_199_chunk_2"
+      ],
+      "unit_id": "constitution_article_199",
+      "title": "Definition of “Money Bills”"
+    },
+    "Article 2": {
+      "exists": true,
+      "type": "article",
+      "page": 33,
+      "chunk_ids": [
+        "constitution_article_2_chunk_1"
+      ],
+      "unit_id": "constitution_article_2",
+      "title": "Admission or establishment of new States"
+    },
+    "Article 20": {
+      "exists": true,
+      "type": "article",
+      "page": 42,
+      "chunk_ids": [
+        "constitution_article_20_chunk_1"
+      ],
+      "unit_id": "constitution_article_20",
+      "title": "Protection in respect of conviction for offences"
+    },
+    "Article 200": {
+      "exists": true,
+      "type": "article",
+      "page": 122,
+      "chunk_ids": [
+        "constitution_article_200_chunk_1",
+        "constitution_article_200_chunk_2"
+      ],
+      "unit_id": "constitution_article_200",
+      "title": "Assent to Bills"
+    },
+    "Article 201": {
+      "exists": true,
+      "type": "article",
+      "page": 122,
+      "chunk_ids": [
+        "constitution_article_201_chunk_1"
+      ],
+      "unit_id": "constitution_article_201",
+      "title": "Bills reserved for consideration"
+    },
+    "Article 202": {
+      "exists": true,
+      "type": "article",
+      "page": 123,
+      "chunk_ids": [
+        "constitution_article_202_chunk_1",
+        "constitution_article_202_chunk_2"
+      ],
+      "unit_id": "constitution_article_202",
+      "title": "Annual financial statement"
+    },
+    "Article 203": {
+      "exists": true,
+      "type": "article",
+      "page": 123,
+      "chunk_ids": [
+        "constitution_article_203_chunk_1"
+      ],
+      "unit_id": "constitution_article_203",
+      "title": "Procedure in Legislature with respect to estimates"
+    },
+    "Article 204": {
+      "exists": true,
+      "type": "article",
+      "page": 124,
+      "chunk_ids": [
+        "constitution_article_204_chunk_1"
+      ],
+      "unit_id": "constitution_article_204",
+      "title": "Appropriation Bills"
+    },
+    "Article 205": {
+      "exists": true,
+      "type": "article",
+      "page": 124,
+      "chunk_ids": [
+        "constitution_article_205_chunk_1",
+        "constitution_article_205_chunk_2"
+      ],
+      "unit_id": "constitution_article_205",
+      "title": "Supplementary, additional or excess grants"
+    },
+    "Article 206": {
+      "exists": true,
+      "type": "article",
+      "page": 125,
+      "chunk_ids": [
+        "constitution_article_206_chunk_1",
+        "constitution_article_206_chunk_2"
+      ],
+      "unit_id": "constitution_article_206",
+      "title": "Votes on account, votes of credit and exceptional grants"
+    },
+    "Article 207": {
+      "exists": true,
+      "type": "article",
+      "page": 126,
+      "chunk_ids": [
+        "constitution_article_207_chunk_1",
+        "constitution_article_207_chunk_2"
+      ],
+      "unit_id": "constitution_article_207",
+      "title": "Special provisions as to financial Bills"
+    },
+    "Article 208": {
+      "exists": true,
+      "type": "article",
+      "page": 126,
+      "chunk_ids": [
+        "constitution_article_208_chunk_1"
+      ],
+      "unit_id": "constitution_article_208",
+      "title": "Rules of procedure"
+    },
+    "Article 209": {
+      "exists": true,
+      "type": "article",
+      "page": 127,
+      "chunk_ids": [
+        "constitution_article_209_chunk_1"
+      ],
+      "unit_id": "constitution_article_209",
+      "title": "Regulation by law of procedure in the Legislature of the State in"
+    },
+    "Article 21": {
+      "exists": true,
+      "type": "article",
+      "page": 42,
+      "chunk_ids": [
+        "constitution_article_21_chunk_1"
+      ],
+      "unit_id": "constitution_article_21",
+      "title": "Protection of life and personal liberty"
+    },
+    "Article 210": {
+      "exists": true,
+      "type": "article",
+      "page": 127,
+      "chunk_ids": [
+        "constitution_article_210_chunk_1",
+        "constitution_article_210_chunk_2"
+      ],
+      "unit_id": "constitution_article_210",
+      "title": "Language to be used in the Legislature"
+    },
+    "Article 211": {
+      "exists": true,
+      "type": "article",
+      "page": 128,
+      "chunk_ids": [
+        "constitution_article_211_chunk_1"
+      ],
+      "unit_id": "constitution_article_211",
+      "title": "Restriction on discussion in the Legislature"
+    },
+    "Article 212": {
+      "exists": true,
+      "type": "article",
+      "page": 128,
+      "chunk_ids": [
+        "constitution_article_212_chunk_1"
+      ],
+      "unit_id": "constitution_article_212",
+      "title": "Courts not to inquire into proceedings of the Legislature"
+    },
+    "Article 213": {
+      "exists": true,
+      "type": "article",
+      "page": 128,
+      "chunk_ids": [
+        "constitution_article_213_chunk_1",
+        "constitution_article_213_chunk_2",
+        "constitution_article_213_chunk_3"
+      ],
+      "unit_id": "constitution_article_213",
+      "title": "Power of Governor to promulgate Ordinances during recess of"
+    },
+    "Article 214": {
+      "exists": true,
+      "type": "article",
+      "page": 129,
+      "chunk_ids": [
+        "constitution_article_214_chunk_1"
+      ],
+      "unit_id": "constitution_article_214",
+      "title": "High Courts for States"
+    },
+    "Article 215": {
+      "exists": true,
+      "type": "article",
+      "page": 129,
+      "chunk_ids": [
+        "constitution_article_215_chunk_1"
+      ],
+      "unit_id": "constitution_article_215",
+      "title": "High Courts to be courts of record"
+    },
+    "Article 216": {
+      "exists": true,
+      "type": "article",
+      "page": 130,
+      "chunk_ids": [
+        "constitution_article_216_chunk_1"
+      ],
+      "unit_id": "constitution_article_216",
+      "title": "Constitution of High Courts"
+    },
+    "Article 217": {
+      "exists": true,
+      "type": "article",
+      "page": 130,
+      "chunk_ids": [
+        "constitution_article_217_chunk_1",
+        "constitution_article_217_chunk_2"
+      ],
+      "unit_id": "constitution_article_217",
+      "title": "Appointment and conditions of the office of a Judge of a High"
+    },
+    "Article 218": {
+      "exists": true,
+      "type": "article",
+      "page": 132,
+      "chunk_ids": [
+        "constitution_article_218_chunk_1"
+      ],
+      "unit_id": "constitution_article_218",
+      "title": "Application of certain provisions relating to Supreme Court to"
+    },
+    "Article 219": {
+      "exists": true,
+      "type": "article",
+      "page": 132,
+      "chunk_ids": [
+        "constitution_article_219_chunk_1"
+      ],
+      "unit_id": "constitution_article_219",
+      "title": "Oath or affirmation by Judges of High Courts"
+    },
+    "Article 21A": {
+      "exists": true,
+      "type": "article",
+      "page": 42,
+      "chunk_ids": [
+        "constitution_article_21A_chunk_1"
+      ],
+      "unit_id": "constitution_article_21A",
+      "title": "Right to education"
+    },
+    "Article 22": {
+      "exists": true,
+      "type": "article",
+      "page": 42,
+      "chunk_ids": [
+        "constitution_article_22_chunk_1"
+      ],
+      "unit_id": "constitution_article_22",
+      "title": "Protection against arrest and detention in certain cases"
+    },
+    "Article 220": {
+      "exists": true,
+      "type": "article",
+      "page": 132,
+      "chunk_ids": [
+        "constitution_article_220_chunk_1"
+      ],
+      "unit_id": "constitution_article_220",
+      "title": "Restriction on practice after being a permanent Judge"
+    },
+    "Article 221": {
+      "exists": true,
+      "type": "article",
+      "page": 132,
+      "chunk_ids": [
+        "constitution_article_221_chunk_1"
+      ],
+      "unit_id": "constitution_article_221",
+      "title": "Salaries, etc., of Judges"
+    },
+    "Article 222": {
+      "exists": true,
+      "type": "article",
+      "page": 133,
+      "chunk_ids": [
+        "constitution_article_222_chunk_1"
+      ],
+      "unit_id": "constitution_article_222",
+      "title": "Transfer of a Judge from one High Court to another"
+    },
+    "Article 223": {
+      "exists": true,
+      "type": "article",
+      "page": 133,
+      "chunk_ids": [
+        "constitution_article_223_chunk_1"
+      ],
+      "unit_id": "constitution_article_223",
+      "title": "Appointment of acting Chief Justice"
+    },
+    "Article 224": {
+      "exists": true,
+      "type": "article",
+      "page": 133,
+      "chunk_ids": [
+        "constitution_article_224_chunk_1"
+      ],
+      "unit_id": "constitution_article_224",
+      "title": "Appointment of additional and acting Judges"
+    },
+    "Article 224A": {
+      "exists": true,
+      "type": "article",
+      "page": 134,
+      "chunk_ids": [
+        "constitution_article_224A_chunk_1"
+      ],
+      "unit_id": "constitution_article_224A",
+      "title": "Appointment of retired Judges at sittings of High Courts"
+    },
+    "Article 225": {
+      "exists": true,
+      "type": "article",
+      "page": 134,
+      "chunk_ids": [
+        "constitution_article_225_chunk_1"
+      ],
+      "unit_id": "constitution_article_225",
+      "title": "Jurisdiction of existing High Courts"
+    },
+    "Article 226": {
+      "exists": true,
+      "type": "article",
+      "page": 135,
+      "chunk_ids": [
+        "constitution_article_226_chunk_1",
+        "constitution_article_226_chunk_2"
+      ],
+      "unit_id": "constitution_article_226",
+      "title": "Power of High Courts to issue certain writs"
+    },
+    "Article 226(3)": {
+      "exists": true,
+      "type": "subsection",
+      "parent_article": "Article 226",
+      "page": 135,
+      "chunk_id": "constitution_article_226_chunk_2",
+      "char_offset": 0,
+      "text_snippet": "5[(3) Where any party against whom an interim order, whether by way of injunction or stay or in any other manner, is made on, or in any proceedings relating to, a petition under clause (1), without— ("
+    },
+    "Article 227": {
+      "exists": true,
+      "type": "article",
+      "page": 136,
+      "chunk_ids": [
+        "constitution_article_227_chunk_1"
+      ],
+      "unit_id": "constitution_article_227",
+      "title": "Power of superintendence over all courts by the High Court"
+    },
+    "Article 227(1)": {
+      "exists": true,
+      "type": "subsection",
+      "parent_article": "Article 227",
+      "page": 136,
+      "chunk_id": "constitution_article_227_chunk_1",
+      "char_offset": 65,
+      "text_snippet": " 3[(1) Every High Court shall have superintendence over all courts and tribunals throughout the territories in relation to which it exercises jurisdiction.] (2) Without prejudice to the generality of "
+    },
+    "Article 228": {
+      "exists": true,
+      "type": "article",
+      "page": 137,
+      "chunk_ids": [
+        "constitution_article_228_chunk_1"
+      ],
+      "unit_id": "constitution_article_228",
+      "title": "Transfer of certain cases to High Court"
+    },
+    "Article 229": {
+      "exists": true,
+      "type": "article",
+      "page": 137,
+      "chunk_ids": [
+        "constitution_article_229_chunk_1"
+      ],
+      "unit_id": "constitution_article_229",
+      "title": "Officers and servants and the expenses of High Courts"
+    },
+    "Article 23": {
+      "exists": true,
+      "type": "article",
+      "page": 45,
+      "chunk_ids": [
+        "constitution_article_23_chunk_1"
+      ],
+      "unit_id": "constitution_article_23",
+      "title": "Prohibition of traffic in human beings and forced labour"
+    },
+    "Article 230": {
+      "exists": true,
+      "type": "article",
+      "page": 138,
+      "chunk_ids": [
+        "constitution_article_230_chunk_1"
+      ],
+      "unit_id": "constitution_article_230",
+      "title": "Extension of jurisdiction of High Courts to Union"
+    },
+    "Article 231": {
+      "exists": true,
+      "type": "article",
+      "page": 138,
+      "chunk_ids": [
+        "constitution_article_231_chunk_1"
+      ],
+      "unit_id": "constitution_article_231",
+      "title": "Establishment of a common High Court for two or more"
+    },
+    "Article 233": {
+      "exists": true,
+      "type": "article",
+      "page": 139,
+      "chunk_ids": [
+        "constitution_article_233_chunk_1"
+      ],
+      "unit_id": "constitution_article_233",
+      "title": "Appointment of district judges"
+    },
+    "Article 233A": {
+      "exists": true,
+      "type": "article",
+      "page": 140,
+      "chunk_ids": [
+        "constitution_article_233A_chunk_1",
+        "constitution_article_233A_chunk_2"
+      ],
+      "unit_id": "constitution_article_233A",
+      "title": "Validation of appointments of, and judgments, etc.,"
+    },
+    "Article 234": {
+      "exists": true,
+      "type": "article",
+      "page": 140,
+      "chunk_ids": [
+        "constitution_article_234_chunk_1"
+      ],
+      "unit_id": "constitution_article_234",
+      "title": "Recruitment of persons other than district judges to the judicial"
+    },
+    "Article 235": {
+      "exists": true,
+      "type": "article",
+      "page": 140,
+      "chunk_ids": [
+        "constitution_article_235_chunk_1"
+      ],
+      "unit_id": "constitution_article_235",
+      "title": "Control over subordinate courts"
+    },
+    "Article 236": {
+      "exists": true,
+      "type": "article",
+      "page": 141,
+      "chunk_ids": [
+        "constitution_article_236_chunk_1"
+      ],
+      "unit_id": "constitution_article_236",
+      "title": "Interpretation"
+    },
+    "Article 237": {
+      "exists": true,
+      "type": "article",
+      "page": 141,
+      "chunk_ids": [
+        "constitution_article_237_chunk_1"
+      ],
+      "unit_id": "constitution_article_237",
+      "title": "Application of the provisions of this Chapter to certain class or"
+    },
+    "Article 239": {
+      "exists": true,
+      "type": "article",
+      "page": 143,
+      "chunk_ids": [
+        "constitution_article_239_chunk_1"
+      ],
+      "unit_id": "constitution_article_239",
+      "title": "Administration of Union territories"
+    },
+    "Article 239A": {
+      "exists": true,
+      "type": "article",
+      "page": 143,
+      "chunk_ids": [
+        "constitution_article_239A_chunk_1"
+      ],
+      "unit_id": "constitution_article_239A",
+      "title": "Creation of local Legislatures or Council of Ministers or"
+    },
+    "Article 239AA": {
+      "exists": true,
+      "type": "article",
+      "page": 144,
+      "chunk_ids": [
+        "constitution_article_239AA_chunk_1",
+        "constitution_article_239AA_chunk_2"
+      ],
+      "unit_id": "constitution_article_239AA",
+      "title": "Special provisions with respect to Delhi"
+    },
+    "Article 239AB": {
+      "exists": true,
+      "type": "article",
+      "page": 146,
+      "chunk_ids": [
+        "constitution_article_239AB_chunk_1"
+      ],
+      "unit_id": "constitution_article_239AB",
+      "title": "Provision in case of failure of constitutional machinery"
+    },
+    "Article 239B": {
+      "exists": true,
+      "type": "article",
+      "page": 147,
+      "chunk_ids": [
+        "constitution_article_239B_chunk_1",
+        "constitution_article_239B_chunk_2"
+      ],
+      "unit_id": "constitution_article_239B",
+      "title": "Power of administrator to promulgate Ordinances during"
+    },
+    "Article 24": {
+      "exists": true,
+      "type": "article",
+      "page": 45,
+      "chunk_ids": [
+        "constitution_article_24_chunk_1"
+      ],
+      "unit_id": "constitution_article_24",
+      "title": "Prohibition of employment of children in factories, etc"
+    },
+    "Article 240": {
+      "exists": true,
+      "type": "article",
+      "page": 148,
+      "chunk_ids": [
+        "constitution_article_240_chunk_1"
+      ],
+      "unit_id": "constitution_article_240",
+      "title": "Power of President to make regulations for certain Union"
+    },
+    "Article 241": {
+      "exists": true,
+      "type": "article",
+      "page": 149,
+      "chunk_ids": [
+        "constitution_article_241_chunk_1"
+      ],
+      "unit_id": "constitution_article_241",
+      "title": "High Courts for Union territories"
+    },
+    "Article 243": {
+      "exists": true,
+      "type": "article",
+      "page": 150,
+      "chunk_ids": [
+        "constitution_article_243_chunk_1"
+      ],
+      "unit_id": "constitution_article_243",
+      "title": "Definitions"
+    },
+    "Article 243A": {
+      "exists": true,
+      "type": "article",
+      "page": 150,
+      "chunk_ids": [
+        "constitution_article_243A_chunk_1"
+      ],
+      "unit_id": "constitution_article_243A",
+      "title": "Gram Sabha"
+    },
+    "Article 243B": {
+      "exists": true,
+      "type": "article",
+      "page": 150,
+      "chunk_ids": [
+        "constitution_article_243B_chunk_1"
+      ],
+      "unit_id": "constitution_article_243B",
+      "title": "Constitution of Panchayats"
+    },
+    "Article 243C": {
+      "exists": true,
+      "type": "article",
+      "page": 150,
+      "chunk_ids": [
+        "constitution_article_243C_chunk_1"
+      ],
+      "unit_id": "constitution_article_243C",
+      "title": "Composition of Panchayats"
+    },
+    "Article 243D": {
+      "exists": true,
+      "type": "article",
+      "page": 152,
+      "chunk_ids": [
+        "constitution_article_243D_chunk_1",
+        "constitution_article_243D_chunk_2",
+        "constitution_article_243D_chunk_3"
+      ],
+      "unit_id": "constitution_article_243D",
+      "title": "Reservation of seats"
+    },
+    "Article 243E": {
+      "exists": true,
+      "type": "article",
+      "page": 153,
+      "chunk_ids": [
+        "constitution_article_243E_chunk_1"
+      ],
+      "unit_id": "constitution_article_243E",
+      "title": "Duration of Panchayats, etc"
+    },
+    "Article 243F": {
+      "exists": true,
+      "type": "article",
+      "page": 153,
+      "chunk_ids": [
+        "constitution_article_243F_chunk_1"
+      ],
+      "unit_id": "constitution_article_243F",
+      "title": "Disqualifications for membership"
+    },
+    "Article 243G": {
+      "exists": true,
+      "type": "article",
+      "page": 154,
+      "chunk_ids": [
+        "constitution_article_243G_chunk_1"
+      ],
+      "unit_id": "constitution_article_243G",
+      "title": "Powers, authority and responsibilities of Panchayats"
+    },
+    "Article 243H": {
+      "exists": true,
+      "type": "article",
+      "page": 154,
+      "chunk_ids": [
+        "constitution_article_243H_chunk_1",
+        "constitution_article_243H_chunk_2",
+        "constitution_article_243H_chunk_3"
+      ],
+      "unit_id": "constitution_article_243H",
+      "title": "Powers to impose taxes by, and Funds of, the Panchayats"
+    },
+    "Article 243J": {
+      "exists": true,
+      "type": "article",
+      "page": 155,
+      "chunk_ids": [
+        "constitution_article_243J_chunk_1"
+      ],
+      "unit_id": "constitution_article_243J",
+      "title": "Audit of accounts of Panchayats"
+    },
+    "Article 243K": {
+      "exists": true,
+      "type": "article",
+      "page": 155,
+      "chunk_ids": [
+        "constitution_article_243K_chunk_1",
+        "constitution_article_243K_chunk_2"
+      ],
+      "unit_id": "constitution_article_243K",
+      "title": "Elections to the Panchayats"
+    },
+    "Article 243L": {
+      "exists": true,
+      "type": "article",
+      "page": 156,
+      "chunk_ids": [
+        "constitution_article_243L_chunk_1"
+      ],
+      "unit_id": "constitution_article_243L",
+      "title": "Application to Union territories"
+    },
+    "Article 243M": {
+      "exists": true,
+      "type": "article",
+      "page": 156,
+      "chunk_ids": [
+        "constitution_article_243M_chunk_1",
+        "constitution_article_243M_chunk_2"
+      ],
+      "unit_id": "constitution_article_243M",
+      "title": "Part not to apply to certain areas"
+    },
+    "Article 243N": {
+      "exists": true,
+      "type": "article",
+      "page": 157,
+      "chunk_ids": [
+        "constitution_article_243N_chunk_1",
+        "constitution_article_243N_chunk_2"
+      ],
+      "unit_id": "constitution_article_243N",
+      "title": "Continuance of existing laws and Panchayats"
+    },
+    "Article 243P": {
+      "exists": true,
+      "type": "article",
+      "page": 158,
+      "chunk_ids": [
+        "constitution_article_243P_chunk_1"
+      ],
+      "unit_id": "constitution_article_243P",
+      "title": "Definitions"
+    },
+    "Article 243Q": {
+      "exists": true,
+      "type": "article",
+      "page": 158,
+      "chunk_ids": [
+        "constitution_article_243Q_chunk_1"
+      ],
+      "unit_id": "constitution_article_243Q",
+      "title": "Constitution of Municipalities"
+    },
+    "Article 243R": {
+      "exists": true,
+      "type": "article",
+      "page": 159,
+      "chunk_ids": [
+        "constitution_article_243R_chunk_1"
+      ],
+      "unit_id": "constitution_article_243R",
+      "title": "Composition of Municipalities"
+    },
+    "Article 243S": {
+      "exists": true,
+      "type": "article",
+      "page": 160,
+      "chunk_ids": [
+        "constitution_article_243S_chunk_1"
+      ],
+      "unit_id": "constitution_article_243S",
+      "title": "Constitution and composition of Wards Committees, etc"
+    },
+    "Article 243T": {
+      "exists": true,
+      "type": "article",
+      "page": 160,
+      "chunk_ids": [
+        "constitution_article_243T_chunk_1",
+        "constitution_article_243T_chunk_2"
+      ],
+      "unit_id": "constitution_article_243T",
+      "title": "Reservation of seats"
+    },
+    "Article 243U": {
+      "exists": true,
+      "type": "article",
+      "page": 161,
+      "chunk_ids": [
+        "constitution_article_243U_chunk_1",
+        "constitution_article_243U_chunk_2"
+      ],
+      "unit_id": "constitution_article_243U",
+      "title": "Duration of Municipalities, etc"
+    },
+    "Article 243V": {
+      "exists": true,
+      "type": "article",
+      "page": 162,
+      "chunk_ids": [
+        "constitution_article_243V_chunk_1"
+      ],
+      "unit_id": "constitution_article_243V",
+      "title": "Disqualifications for membership"
+    },
+    "Article 243W": {
+      "exists": true,
+      "type": "article",
+      "page": 162,
+      "chunk_ids": [
+        "constitution_article_243W_chunk_1"
+      ],
+      "unit_id": "constitution_article_243W",
+      "title": "Powers, authority and responsibilities of Municipalities,"
+    },
+    "Article 243X": {
+      "exists": true,
+      "type": "article",
+      "page": 162,
+      "chunk_ids": [
+        "constitution_article_243X_chunk_1"
+      ],
+      "unit_id": "constitution_article_243X",
+      "title": "Power to impose taxes by, and Funds of, the Municipalities"
+    },
+    "Article 243Y": {
+      "exists": true,
+      "type": "article",
+      "page": 163,
+      "chunk_ids": [
+        "constitution_article_243Y_chunk_1"
+      ],
+      "unit_id": "constitution_article_243Y",
+      "title": "Finance Commission"
+    },
+    "Article 243Z": {
+      "exists": true,
+      "type": "article",
+      "page": 163,
+      "chunk_ids": [
+        "constitution_article_243Z_chunk_1"
+      ],
+      "unit_id": "constitution_article_243Z",
+      "title": "Audit of accounts of Municipalities"
+    },
+    "Article 243ZA": {
+      "exists": true,
+      "type": "article",
+      "page": 164,
+      "chunk_ids": [
+        "constitution_article_243ZA_chunk_1"
+      ],
+      "unit_id": "constitution_article_243ZA",
+      "title": "Elections to the Municipalities"
+    },
+    "Article 243ZB": {
+      "exists": true,
+      "type": "article",
+      "page": 164,
+      "chunk_ids": [
+        "constitution_article_243ZB_chunk_1"
+      ],
+      "unit_id": "constitution_article_243ZB",
+      "title": "Application to Union territories"
+    },
+    "Article 243ZC": {
+      "exists": true,
+      "type": "article",
+      "page": 164,
+      "chunk_ids": [
+        "constitution_article_243ZC_chunk_1"
+      ],
+      "unit_id": "constitution_article_243ZC",
+      "title": "Part not to apply to certain areas"
+    },
+    "Article 243ZD": {
+      "exists": true,
+      "type": "article",
+      "page": 164,
+      "chunk_ids": [
+        "constitution_article_243ZD_chunk_1",
+        "constitution_article_243ZD_chunk_2"
+      ],
+      "unit_id": "constitution_article_243ZD",
+      "title": "Committee for district planning"
+    },
+    "Article 243ZE": {
+      "exists": true,
+      "type": "article",
+      "page": 165,
+      "chunk_ids": [
+        "constitution_article_243ZE_chunk_1",
+        "constitution_article_243ZE_chunk_2",
+        "constitution_article_243ZE_chunk_3"
+      ],
+      "unit_id": "constitution_article_243ZE",
+      "title": "Committee for Metropolitan planning"
+    },
+    "Article 243ZF": {
+      "exists": true,
+      "type": "article",
+      "page": 167,
+      "chunk_ids": [
+        "constitution_article_243ZF_chunk_1"
+      ],
+      "unit_id": "constitution_article_243ZF",
+      "title": "Continuance of existing laws and Municipalities"
+    },
+    "Article 243ZG": {
+      "exists": true,
+      "type": "article",
+      "page": 167,
+      "chunk_ids": [
+        "constitution_article_243ZG_chunk_1"
+      ],
+      "unit_id": "constitution_article_243ZG",
+      "title": "Bar to interference by courts in electoral matters"
+    },
+    "Article 243ZH": {
+      "exists": true,
+      "type": "article",
+      "page": 168,
+      "chunk_ids": [
+        "constitution_article_243ZH_chunk_1",
+        "constitution_article_243ZH_chunk_2"
+      ],
+      "unit_id": "constitution_article_243ZH",
+      "title": "Definitions"
+    },
+    "Article 243ZI": {
+      "exists": true,
+      "type": "article",
+      "page": 168,
+      "chunk_ids": [
+        "constitution_article_243ZI_chunk_1"
+      ],
+      "unit_id": "constitution_article_243ZI",
+      "title": "Incorporation of co-operative societies"
+    },
+    "Article 243ZJ": {
+      "exists": true,
+      "type": "article",
+      "page": 169,
+      "chunk_ids": [
+        "constitution_article_243ZJ_chunk_1",
+        "constitution_article_243ZJ_chunk_2"
+      ],
+      "unit_id": "constitution_article_243ZJ",
+      "title": "Number and term of members of board and its office"
+    },
+    "Article 243ZK": {
+      "exists": true,
+      "type": "article",
+      "page": 170,
+      "chunk_ids": [
+        "constitution_article_243ZK_chunk_1"
+      ],
+      "unit_id": "constitution_article_243ZK",
+      "title": "Election of members of board"
+    },
+    "Article 243ZL": {
+      "exists": true,
+      "type": "article",
+      "page": 170,
+      "chunk_ids": [
+        "constitution_article_243ZL_chunk_1",
+        "constitution_article_243ZL_chunk_2"
+      ],
+      "unit_id": "constitution_article_243ZL",
+      "title": "Supersession and suspension of board and interim"
+    },
+    "Article 243ZM": {
+      "exists": true,
+      "type": "article",
+      "page": 171,
+      "chunk_ids": [
+        "constitution_article_243ZM_chunk_1"
+      ],
+      "unit_id": "constitution_article_243ZM",
+      "title": "Audit of accounts of co-operative societies"
+    },
+    "Article 243ZN": {
+      "exists": true,
+      "type": "article",
+      "page": 171,
+      "chunk_ids": [
+        "constitution_article_243ZN_chunk_1"
+      ],
+      "unit_id": "constitution_article_243ZN",
+      "title": "Convening of general body meetings"
+    },
+    "Article 243ZO": {
+      "exists": true,
+      "type": "article",
+      "page": 172,
+      "chunk_ids": [
+        "constitution_article_243ZO_chunk_1"
+      ],
+      "unit_id": "constitution_article_243ZO",
+      "title": "Right of a member to get information"
+    },
+    "Article 243ZP": {
+      "exists": true,
+      "type": "article",
+      "page": 172,
+      "chunk_ids": [
+        "constitution_article_243ZP_chunk_1"
+      ],
+      "unit_id": "constitution_article_243ZP",
+      "title": "Returns"
+    },
+    "Article 243ZQ": {
+      "exists": true,
+      "type": "article",
+      "page": 172,
+      "chunk_ids": [
+        "constitution_article_243ZQ_chunk_1",
+        "constitution_article_243ZQ_chunk_2"
+      ],
+      "unit_id": "constitution_article_243ZQ",
+      "title": "Offences and penalties"
+    },
+    "Article 243ZR": {
+      "exists": true,
+      "type": "article",
+      "page": 173,
+      "chunk_ids": [
+        "constitution_article_243ZR_chunk_1"
+      ],
+      "unit_id": "constitution_article_243ZR",
+      "title": "Application to multi-State co-operative societies"
+    },
+    "Article 243ZS": {
+      "exists": true,
+      "type": "article",
+      "page": 173,
+      "chunk_ids": [
+        "constitution_article_243ZS_chunk_1"
+      ],
+      "unit_id": "constitution_article_243ZS",
+      "title": "Application to Union territories"
+    },
+    "Article 243ZT": {
+      "exists": true,
+      "type": "article",
+      "page": 173,
+      "chunk_ids": [
+        "constitution_article_243ZT_chunk_1"
+      ],
+      "unit_id": "constitution_article_243ZT",
+      "title": "Continuance of existing laws"
+    },
+    "Article 244": {
+      "exists": true,
+      "type": "article",
+      "page": 174,
+      "chunk_ids": [
+        "constitution_article_244_chunk_1"
+      ],
+      "unit_id": "constitution_article_244",
+      "title": "Administration of Scheduled Areas and Tribal Areas"
+    },
+    "Article 244A": {
+      "exists": true,
+      "type": "article",
+      "page": 174,
+      "chunk_ids": [
+        "constitution_article_244A_chunk_1"
+      ],
+      "unit_id": "constitution_article_244A",
+      "title": "Formation of an autonomous State comprising certain tribal"
+    },
+    "Article 245": {
+      "exists": true,
+      "type": "article",
+      "page": 176,
+      "chunk_ids": [
+        "constitution_article_245_chunk_1"
+      ],
+      "unit_id": "constitution_article_245",
+      "title": "Extent of laws made by Parliament and by the Legislatures of"
+    },
+    "Article 246": {
+      "exists": true,
+      "type": "article",
+      "page": 176,
+      "chunk_ids": [
+        "constitution_article_246_chunk_1"
+      ],
+      "unit_id": "constitution_article_246",
+      "title": "Subject-matter of laws made by Parliament and by the"
+    },
+    "Article 246A": {
+      "exists": true,
+      "type": "article",
+      "page": 176,
+      "chunk_ids": [
+        "constitution_article_246A_chunk_1"
+      ],
+      "unit_id": "constitution_article_246A",
+      "title": "Special provision with respect to goods and services tax"
+    },
+    "Article 247": {
+      "exists": true,
+      "type": "article",
+      "page": 177,
+      "chunk_ids": [
+        "constitution_article_247_chunk_1"
+      ],
+      "unit_id": "constitution_article_247",
+      "title": "Power of Parliament to provide for the establishment of certain"
+    },
+    "Article 248": {
+      "exists": true,
+      "type": "article",
+      "page": 177,
+      "chunk_ids": [
+        "constitution_article_248_chunk_1"
+      ],
+      "unit_id": "constitution_article_248",
+      "title": "Residuary powers of legislation"
+    },
+    "Article 249": {
+      "exists": true,
+      "type": "article",
+      "page": 177,
+      "chunk_ids": [
+        "constitution_article_249_chunk_1",
+        "constitution_article_249_chunk_2"
+      ],
+      "unit_id": "constitution_article_249",
+      "title": "Power of Parliament to legislate with respect to a matter in the"
+    },
+    "Article 25": {
+      "exists": true,
+      "type": "article",
+      "page": 45,
+      "chunk_ids": [
+        "constitution_article_25_chunk_1"
+      ],
+      "unit_id": "constitution_article_25",
+      "title": "Freedom of conscience and free profession, practice and"
+    },
+    "Article 250": {
+      "exists": true,
+      "type": "article",
+      "page": 178,
+      "chunk_ids": [
+        "constitution_article_250_chunk_1"
+      ],
+      "unit_id": "constitution_article_250",
+      "title": "Power of Parliament to legislate with respect to any matter in"
+    },
+    "Article 251": {
+      "exists": true,
+      "type": "article",
+      "page": 178,
+      "chunk_ids": [
+        "constitution_article_251_chunk_1"
+      ],
+      "unit_id": "constitution_article_251",
+      "title": "Inconsistency between laws made by Parliament under articles"
+    },
+    "Article 252": {
+      "exists": true,
+      "type": "article",
+      "page": 178,
+      "chunk_ids": [
+        "constitution_article_252_chunk_1"
+      ],
+      "unit_id": "constitution_article_252",
+      "title": "Power of Parliament to legislate for two or more States by"
+    },
+    "Article 253": {
+      "exists": true,
+      "type": "article",
+      "page": 179,
+      "chunk_ids": [
+        "constitution_article_253_chunk_1"
+      ],
+      "unit_id": "constitution_article_253",
+      "title": "Legislation for giving effect to international agreements"
+    },
+    "Article 254": {
+      "exists": true,
+      "type": "article",
+      "page": 179,
+      "chunk_ids": [
+        "constitution_article_254_chunk_1",
+        "constitution_article_254_chunk_2"
+      ],
+      "unit_id": "constitution_article_254",
+      "title": "Inconsistency between laws made by Parliament and laws made"
+    },
+    "Article 255": {
+      "exists": true,
+      "type": "article",
+      "page": 179,
+      "chunk_ids": [
+        "constitution_article_255_chunk_1"
+      ],
+      "unit_id": "constitution_article_255",
+      "title": "Requirements as to recommendations and previous sanctions to"
+    },
+    "Article 256": {
+      "exists": true,
+      "type": "article",
+      "page": 180,
+      "chunk_ids": [
+        "constitution_article_256_chunk_1"
+      ],
+      "unit_id": "constitution_article_256",
+      "title": "Obligation of States and the Union"
+    },
+    "Article 257": {
+      "exists": true,
+      "type": "article",
+      "page": 180,
+      "chunk_ids": [
+        "constitution_article_257_chunk_1",
+        "constitution_article_257_chunk_2"
+      ],
+      "unit_id": "constitution_article_257",
+      "title": "Control of the Union over States in certain cases"
+    },
+    "Article 258": {
+      "exists": true,
+      "type": "article",
+      "page": 181,
+      "chunk_ids": [
+        "constitution_article_258_chunk_1"
+      ],
+      "unit_id": "constitution_article_258",
+      "title": "Power of the Union to confer powers, etc., on States in certain"
+    },
+    "Article 26": {
+      "exists": true,
+      "type": "article",
+      "page": 45,
+      "chunk_ids": [
+        "constitution_article_26_chunk_1"
+      ],
+      "unit_id": "constitution_article_26",
+      "title": "Freedom to manage religious affairs"
+    },
+    "Article 260": {
+      "exists": true,
+      "type": "article",
+      "page": 181,
+      "chunk_ids": [
+        "constitution_article_260_chunk_1"
+      ],
+      "unit_id": "constitution_article_260",
+      "title": "Jurisdiction of the Union in relation to territories outside"
+    },
+    "Article 261": {
+      "exists": true,
+      "type": "article",
+      "page": 182,
+      "chunk_ids": [
+        "constitution_article_261_chunk_1"
+      ],
+      "unit_id": "constitution_article_261",
+      "title": "Public acts, records and judicial proceedings"
+    },
+    "Article 262": {
+      "exists": true,
+      "type": "article",
+      "page": 182,
+      "chunk_ids": [
+        "constitution_article_262_chunk_1"
+      ],
+      "unit_id": "constitution_article_262",
+      "title": "Adjudication of disputes relating to waters of inter-State rivers"
+    },
+    "Article 263": {
+      "exists": true,
+      "type": "article",
+      "page": 182,
+      "chunk_ids": [
+        "constitution_article_263_chunk_1"
+      ],
+      "unit_id": "constitution_article_263",
+      "title": "Provisions with respect to an inter-State Council"
+    },
+    "Article 264": {
+      "exists": true,
+      "type": "article",
+      "page": 183,
+      "chunk_ids": [
+        "constitution_article_264_chunk_1"
+      ],
+      "unit_id": "constitution_article_264",
+      "title": "Interpretation"
+    },
+    "Article 265": {
+      "exists": true,
+      "type": "article",
+      "page": 183,
+      "chunk_ids": [
+        "constitution_article_265_chunk_1"
+      ],
+      "unit_id": "constitution_article_265",
+      "title": "Taxes not to be imposed save by authority of law"
+    },
+    "Article 266": {
+      "exists": true,
+      "type": "article",
+      "page": 183,
+      "chunk_ids": [
+        "constitution_article_266_chunk_1",
+        "constitution_article_266_chunk_2"
+      ],
+      "unit_id": "constitution_article_266",
+      "title": "Consolidated Funds and public accounts of India and of the"
+    },
+    "Article 267": {
+      "exists": true,
+      "type": "article",
+      "page": 183,
+      "chunk_ids": [
+        "constitution_article_267_chunk_1"
+      ],
+      "unit_id": "constitution_article_267",
+      "title": "Contingency Fund"
+    },
+    "Article 268": {
+      "exists": true,
+      "type": "article",
+      "page": 184,
+      "chunk_ids": [
+        "constitution_article_268_chunk_1"
+      ],
+      "unit_id": "constitution_article_268",
+      "title": "Duties levied by the Union but collected and appropriated by"
+    },
+    "Article 269": {
+      "exists": true,
+      "type": "article",
+      "page": 185,
+      "chunk_ids": [
+        "constitution_article_269_chunk_1",
+        "constitution_article_269_chunk_2"
+      ],
+      "unit_id": "constitution_article_269",
+      "title": "Taxes levied and collected by the Union but assigned to the"
+    },
+    "Article 269A": {
+      "exists": true,
+      "type": "article",
+      "page": 185,
+      "chunk_ids": [
+        "constitution_article_269A_chunk_1"
+      ],
+      "unit_id": "constitution_article_269A",
+      "title": "Levy and collection of goods and services tax in course of"
+    },
+    "Article 27": {
+      "exists": true,
+      "type": "article",
+      "page": 46,
+      "chunk_ids": [
+        "constitution_article_27_chunk_1"
+      ],
+      "unit_id": "constitution_article_27",
+      "title": "Freedom as to payment of taxes for promotion of any particular"
+    },
+    "Article 270": {
+      "exists": true,
+      "type": "article",
+      "page": 186,
+      "chunk_ids": [
+        "constitution_article_270_chunk_1"
+      ],
+      "unit_id": "constitution_article_270",
+      "title": "Taxes levied and distributed between the Union and the"
+    },
+    "Article 271": {
+      "exists": true,
+      "type": "article",
+      "page": 187,
+      "chunk_ids": [
+        "constitution_article_271_chunk_1"
+      ],
+      "unit_id": "constitution_article_271",
+      "title": "Surcharge on certain duties and taxes for purposes of the"
+    },
+    "Article 273": {
+      "exists": true,
+      "type": "article",
+      "page": 187,
+      "chunk_ids": [
+        "constitution_article_273_chunk_1"
+      ],
+      "unit_id": "constitution_article_273",
+      "title": "Grants in lieu of export duty on jute and jute products"
+    },
+    "Article 274": {
+      "exists": true,
+      "type": "article",
+      "page": 188,
+      "chunk_ids": [
+        "constitution_article_274_chunk_1"
+      ],
+      "unit_id": "constitution_article_274",
+      "title": "Prior recommendation of President required to Bills affecting"
+    },
+    "Article 275": {
+      "exists": true,
+      "type": "article",
+      "page": 188,
+      "chunk_ids": [
+        "constitution_article_275_chunk_1",
+        "constitution_article_275_chunk_2",
+        "constitution_article_275_chunk_3"
+      ],
+      "unit_id": "constitution_article_275",
+      "title": "Grants from the Union to certain States"
+    },
+    "Article 276": {
+      "exists": true,
+      "type": "article",
+      "page": 189,
+      "chunk_ids": [
+        "constitution_article_276_chunk_1"
+      ],
+      "unit_id": "constitution_article_276",
+      "title": "Taxes on professions, trades, callings and employments"
+    },
+    "Article 277": {
+      "exists": true,
+      "type": "article",
+      "page": 190,
+      "chunk_ids": [
+        "constitution_article_277_chunk_1"
+      ],
+      "unit_id": "constitution_article_277",
+      "title": "Savings"
+    },
+    "Article 279": {
+      "exists": true,
+      "type": "article",
+      "page": 190,
+      "chunk_ids": [
+        "constitution_article_279_chunk_1"
+      ],
+      "unit_id": "constitution_article_279",
+      "title": "Calculation of “net proceeds”, etc"
+    },
+    "Article 279A": {
+      "exists": true,
+      "type": "article",
+      "page": 191,
+      "chunk_ids": [
+        "constitution_article_279A_chunk_1",
+        "constitution_article_279A_chunk_2"
+      ],
+      "unit_id": "constitution_article_279A",
+      "title": "Goods and Services Tax Council"
+    },
+    "Article 28": {
+      "exists": true,
+      "type": "article",
+      "page": 46,
+      "chunk_ids": [
+        "constitution_article_28_chunk_1"
+      ],
+      "unit_id": "constitution_article_28",
+      "title": "Freedom as to attendance at religious instruction or religious"
+    },
+    "Article 280": {
+      "exists": true,
+      "type": "article",
+      "page": 193,
+      "chunk_ids": [
+        "constitution_article_280_chunk_1",
+        "constitution_article_280_chunk_2"
+      ],
+      "unit_id": "constitution_article_280",
+      "title": "Finance Commission"
+    },
+    "Article 281": {
+      "exists": true,
+      "type": "article",
+      "page": 194,
+      "chunk_ids": [
+        "constitution_article_281_chunk_1"
+      ],
+      "unit_id": "constitution_article_281",
+      "title": "Recommendations of the Finance Commission"
+    },
+    "Article 282": {
+      "exists": true,
+      "type": "article",
+      "page": 194,
+      "chunk_ids": [
+        "constitution_article_282_chunk_1"
+      ],
+      "unit_id": "constitution_article_282",
+      "title": "Expenditure defrayable by the Union or a State out of its"
+    },
+    "Article 283": {
+      "exists": true,
+      "type": "article",
+      "page": 194,
+      "chunk_ids": [
+        "constitution_article_283_chunk_1",
+        "constitution_article_283_chunk_2"
+      ],
+      "unit_id": "constitution_article_283",
+      "title": "Custody, etc., of Consolidated Funds, Contingency Funds and"
+    },
+    "Article 284": {
+      "exists": true,
+      "type": "article",
+      "page": 194,
+      "chunk_ids": [
+        "constitution_article_284_chunk_1"
+      ],
+      "unit_id": "constitution_article_284",
+      "title": "Custody of suitors' deposits and other moneys received by"
+    },
+    "Article 285": {
+      "exists": true,
+      "type": "article",
+      "page": 195,
+      "chunk_ids": [
+        "constitution_article_285_chunk_1"
+      ],
+      "unit_id": "constitution_article_285",
+      "title": "Exemption of property of the Union from State taxation"
+    },
+    "Article 286": {
+      "exists": true,
+      "type": "article",
+      "page": 195,
+      "chunk_ids": [
+        "constitution_article_286_chunk_1"
+      ],
+      "unit_id": "constitution_article_286",
+      "title": "Restrictions as to imposition of tax on the sale or purchase of"
+    },
+    "Article 287": {
+      "exists": true,
+      "type": "article",
+      "page": 195,
+      "chunk_ids": [
+        "constitution_article_287_chunk_1"
+      ],
+      "unit_id": "constitution_article_287",
+      "title": "Exemption from taxes on electricity"
+    },
+    "Article 288": {
+      "exists": true,
+      "type": "article",
+      "page": 196,
+      "chunk_ids": [
+        "constitution_article_288_chunk_1",
+        "constitution_article_288_chunk_2"
+      ],
+      "unit_id": "constitution_article_288",
+      "title": "Exemption from taxation by States in respect of water or"
+    },
+    "Article 289": {
+      "exists": true,
+      "type": "article",
+      "page": 196,
+      "chunk_ids": [
+        "constitution_article_289_chunk_1"
+      ],
+      "unit_id": "constitution_article_289",
+      "title": "Exemption of property and income of a State from Union"
+    },
+    "Article 29": {
+      "exists": true,
+      "type": "article",
+      "page": 46,
+      "chunk_ids": [
+        "constitution_article_29_chunk_1"
+      ],
+      "unit_id": "constitution_article_29",
+      "title": "Protection of interests of minorities"
+    },
+    "Article 290": {
+      "exists": true,
+      "type": "article",
+      "page": 197,
+      "chunk_ids": [
+        "constitution_article_290_chunk_1",
+        "constitution_article_290_chunk_2"
+      ],
+      "unit_id": "constitution_article_290",
+      "title": "Adjustment in respect of certain expenses and pensions"
+    },
+    "Article 290A": {
+      "exists": true,
+      "type": "article",
+      "page": 197,
+      "chunk_ids": [
+        "constitution_article_290A_chunk_1"
+      ],
+      "unit_id": "constitution_article_290A",
+      "title": "Annual payment to certain Devaswom Funds"
+    },
+    "Article 292": {
+      "exists": true,
+      "type": "article",
+      "page": 198,
+      "chunk_ids": [
+        "constitution_article_292_chunk_1"
+      ],
+      "unit_id": "constitution_article_292",
+      "title": "Borrowing by the Government of India"
+    },
+    "Article 293": {
+      "exists": true,
+      "type": "article",
+      "page": 198,
+      "chunk_ids": [
+        "constitution_article_293_chunk_1",
+        "constitution_article_293_chunk_2"
+      ],
+      "unit_id": "constitution_article_293",
+      "title": "Borrowing by States"
+    },
+    "Article 294": {
+      "exists": true,
+      "type": "article",
+      "page": 198,
+      "chunk_ids": [
+        "constitution_article_294_chunk_1"
+      ],
+      "unit_id": "constitution_article_294",
+      "title": "Succession to property, assets, rights, liabilities and obligations"
+    },
+    "Article 295": {
+      "exists": true,
+      "type": "article",
+      "page": 199,
+      "chunk_ids": [
+        "constitution_article_295_chunk_1",
+        "constitution_article_295_chunk_2"
+      ],
+      "unit_id": "constitution_article_295",
+      "title": "Succession to property, assets, rights, liabilities and obligations"
+    },
+    "Article 296": {
+      "exists": true,
+      "type": "article",
+      "page": 199,
+      "chunk_ids": [
+        "constitution_article_296_chunk_1"
+      ],
+      "unit_id": "constitution_article_296",
+      "title": "Property accruing by escheat or lapse or as bona vacantia"
+    },
+    "Article 297": {
+      "exists": true,
+      "type": "article",
+      "page": 200,
+      "chunk_ids": [
+        "constitution_article_297_chunk_1"
+      ],
+      "unit_id": "constitution_article_297",
+      "title": "Things of value within territorial waters or continental shelf"
+    },
+    "Article 298": {
+      "exists": true,
+      "type": "article",
+      "page": 200,
+      "chunk_ids": [
+        "constitution_article_298_chunk_1"
+      ],
+      "unit_id": "constitution_article_298",
+      "title": "Power to carry on trade, etc"
+    },
+    "Article 299": {
+      "exists": true,
+      "type": "article",
+      "page": 201,
+      "chunk_ids": [
+        "constitution_article_299_chunk_1"
+      ],
+      "unit_id": "constitution_article_299",
+      "title": "Contracts"
+    },
+    "Article 2A": {
+      "exists": true,
+      "type": "article",
+      "page": 33,
+      "chunk_ids": [
+        "constitution_article_2A_chunk_1"
+      ],
+      "unit_id": "constitution_article_2A",
+      "title": "Sikkim to be associated with the Union"
+    },
+    "Article 3": {
+      "exists": true,
+      "type": "article",
+      "page": 33,
+      "chunk_ids": [
+        "constitution_article_3_chunk_1"
+      ],
+      "unit_id": "constitution_article_3",
+      "title": "Formation of new States and alteration of areas,"
+    },
+    "Article 30": {
+      "exists": true,
+      "type": "article",
+      "page": 46,
+      "chunk_ids": [
+        "constitution_article_30_chunk_1"
+      ],
+      "unit_id": "constitution_article_30",
+      "title": "Right of minorities to establish and administer educational"
+    },
+    "Article 300": {
+      "exists": true,
+      "type": "article",
+      "page": 201,
+      "chunk_ids": [
+        "constitution_article_300_chunk_1"
+      ],
+      "unit_id": "constitution_article_300",
+      "title": "Suits and proceedings"
+    },
+    "Article 300A": {
+      "exists": true,
+      "type": "article",
+      "page": 201,
+      "chunk_ids": [
+        "constitution_article_300A_chunk_1"
+      ],
+      "unit_id": "constitution_article_300A",
+      "title": "Persons not to be deprived of property save by authority of"
+    },
+    "Article 301": {
+      "exists": true,
+      "type": "article",
+      "page": 202,
+      "chunk_ids": [
+        "constitution_article_301_chunk_1"
+      ],
+      "unit_id": "constitution_article_301",
+      "title": "Freedom of trade, commerce and intercourse"
+    },
+    "Article 302": {
+      "exists": true,
+      "type": "article",
+      "page": 202,
+      "chunk_ids": [
+        "constitution_article_302_chunk_1"
+      ],
+      "unit_id": "constitution_article_302",
+      "title": "Power of Parliament to impose restrictions on trade, commerce"
+    },
+    "Article 303": {
+      "exists": true,
+      "type": "article",
+      "page": 202,
+      "chunk_ids": [
+        "constitution_article_303_chunk_1"
+      ],
+      "unit_id": "constitution_article_303",
+      "title": "Restrictions on the legislative powers of the Union and of the"
+    },
+    "Article 304": {
+      "exists": true,
+      "type": "article",
+      "page": 202,
+      "chunk_ids": [
+        "constitution_article_304_chunk_1"
+      ],
+      "unit_id": "constitution_article_304",
+      "title": "Restrictions on trade, commerce and intercourse among"
+    },
+    "Article 305": {
+      "exists": true,
+      "type": "article",
+      "page": 203,
+      "chunk_ids": [
+        "constitution_article_305_chunk_1"
+      ],
+      "unit_id": "constitution_article_305",
+      "title": "Saving of existing laws and laws providing for State"
+    },
+    "Article 307": {
+      "exists": true,
+      "type": "article",
+      "page": 203,
+      "chunk_ids": [
+        "constitution_article_307_chunk_1"
+      ],
+      "unit_id": "constitution_article_307",
+      "title": "Appointment of authority for carrying out the purposes of"
+    },
+    "Article 308": {
+      "exists": true,
+      "type": "article",
+      "page": 204,
+      "chunk_ids": [
+        "constitution_article_308_chunk_1"
+      ],
+      "unit_id": "constitution_article_308",
+      "title": "Interpretation"
+    },
+    "Article 309": {
+      "exists": true,
+      "type": "article",
+      "page": 204,
+      "chunk_ids": [
+        "constitution_article_309_chunk_1"
+      ],
+      "unit_id": "constitution_article_309",
+      "title": "Recruitment and conditions of service of persons serving the"
+    },
+    "Article 310": {
+      "exists": true,
+      "type": "article",
+      "page": 204,
+      "chunk_ids": [
+        "constitution_article_310_chunk_1"
+      ],
+      "unit_id": "constitution_article_310",
+      "title": "Tenure of office of persons serving the Union or a State"
+    },
+    "Article 311": {
+      "exists": true,
+      "type": "article",
+      "page": 205,
+      "chunk_ids": [
+        "constitution_article_311_chunk_1",
+        "constitution_article_311_chunk_2"
+      ],
+      "unit_id": "constitution_article_311",
+      "title": "Dismissal, removal or reduction in rank of persons employed in"
+    },
+    "Article 312": {
+      "exists": true,
+      "type": "article",
+      "page": 206,
+      "chunk_ids": [
+        "constitution_article_312_chunk_1",
+        "constitution_article_312_chunk_2"
+      ],
+      "unit_id": "constitution_article_312",
+      "title": "All-India services"
+    },
+    "Article 312A": {
+      "exists": true,
+      "type": "article",
+      "page": 206,
+      "chunk_ids": [
+        "constitution_article_312A_chunk_1"
+      ],
+      "unit_id": "constitution_article_312A",
+      "title": "Power of Parliament to vary or revoke conditions of service"
+    },
+    "Article 313": {
+      "exists": true,
+      "type": "article",
+      "page": 208,
+      "chunk_ids": [
+        "constitution_article_313_chunk_1"
+      ],
+      "unit_id": "constitution_article_313",
+      "title": "Transitional provisions"
+    },
+    "Article 315": {
+      "exists": true,
+      "type": "article",
+      "page": 208,
+      "chunk_ids": [
+        "constitution_article_315_chunk_1",
+        "constitution_article_315_chunk_2"
+      ],
+      "unit_id": "constitution_article_315",
+      "title": "Public Service Commissions for the Union and for the States"
+    },
+    "Article 315(1)": {
+      "exists": true,
+      "type": "subsection",
+      "parent_article": "Article 315",
+      "page": 208,
+      "chunk_id": "constitution_article_315_chunk_1",
+      "char_offset": 66,
+      "text_snippet": " (1) Subject to the provisions of this article, there shall be a Public Service Commission for the Union and a Public Service Commission for each State. (2) Two or more States may agree that there sha"
+    },
+    "Article 316": {
+      "exists": true,
+      "type": "article",
+      "page": 208,
+      "chunk_ids": [
+        "constitution_article_316_chunk_1"
+      ],
+      "unit_id": "constitution_article_316",
+      "title": "Appointment and term of office of members"
+    },
+    "Article 317": {
+      "exists": true,
+      "type": "article",
+      "page": 210,
+      "chunk_ids": [
+        "constitution_article_317_chunk_1",
+        "constitution_article_317_chunk_2"
+      ],
+      "unit_id": "constitution_article_317",
+      "title": "Removal and suspension of a member of a Public Service"
+    },
+    "Article 318": {
+      "exists": true,
+      "type": "article",
+      "page": 210,
+      "chunk_ids": [
+        "constitution_article_318_chunk_1"
+      ],
+      "unit_id": "constitution_article_318",
+      "title": "Power to make regulations as to conditions of service of"
+    },
+    "Article 319": {
+      "exists": true,
+      "type": "article",
+      "page": 211,
+      "chunk_ids": [
+        "constitution_article_319_chunk_1",
+        "constitution_article_319_chunk_2"
+      ],
+      "unit_id": "constitution_article_319",
+      "title": "Prohibition as to the holding of offices by members of"
+    },
+    "Article 31A": {
+      "exists": true,
+      "type": "article",
+      "page": 47,
+      "chunk_ids": [
+        "constitution_article_31A_chunk_1"
+      ],
+      "unit_id": "constitution_article_31A",
+      "title": "Saving of laws providing for acquisition of estates, etc"
+    },
+    "Article 31B": {
+      "exists": true,
+      "type": "article",
+      "page": 49,
+      "chunk_ids": [
+        "constitution_article_31B_chunk_1"
+      ],
+      "unit_id": "constitution_article_31B",
+      "title": "Validation of certain Acts and Regulations"
+    },
+    "Article 31C": {
+      "exists": true,
+      "type": "article",
+      "page": 49,
+      "chunk_ids": [
+        "constitution_article_31C_chunk_1"
+      ],
+      "unit_id": "constitution_article_31C",
+      "title": "Saving of laws giving effect to certain directive principles"
+    },
+    "Article 32": {
+      "exists": true,
+      "type": "article",
+      "page": 50,
+      "chunk_ids": [
+        "constitution_article_32_chunk_1"
+      ],
+      "unit_id": "constitution_article_32",
+      "title": "Remedies for enforcement of rights conferred by this Part"
+    },
+    "Article 320": {
+      "exists": true,
+      "type": "article",
+      "page": 211,
+      "chunk_ids": [
+        "constitution_article_320_chunk_1",
+        "constitution_article_320_chunk_2",
+        "constitution_article_320_chunk_3"
+      ],
+      "unit_id": "constitution_article_320",
+      "title": "Functions of Public Service Commissions"
+    },
+    "Article 321": {
+      "exists": true,
+      "type": "article",
+      "page": 213,
+      "chunk_ids": [
+        "constitution_article_321_chunk_1"
+      ],
+      "unit_id": "constitution_article_321",
+      "title": "Power to extend functions of Public Service Commissions"
+    },
+    "Article 322": {
+      "exists": true,
+      "type": "article",
+      "page": 213,
+      "chunk_ids": [
+        "constitution_article_322_chunk_1"
+      ],
+      "unit_id": "constitution_article_322",
+      "title": "Expenses of Public Service Commissions"
+    },
+    "Article 323": {
+      "exists": true,
+      "type": "article",
+      "page": 213,
+      "chunk_ids": [
+        "constitution_article_323_chunk_1"
+      ],
+      "unit_id": "constitution_article_323",
+      "title": "Reports of Public Service Commissions"
+    },
+    "Article 323A": {
+      "exists": true,
+      "type": "article",
+      "page": 214,
+      "chunk_ids": [
+        "constitution_article_323A_chunk_1",
+        "constitution_article_323A_chunk_2"
+      ],
+      "unit_id": "constitution_article_323A",
+      "title": "Administrative tribunals"
+    },
+    "Article 323B": {
+      "exists": true,
+      "type": "article",
+      "page": 215,
+      "chunk_ids": [
+        "constitution_article_323B_chunk_1",
+        "constitution_article_323B_chunk_2"
+      ],
+      "unit_id": "constitution_article_323B",
+      "title": "Tribunals for other matters"
+    },
+    "Article 324": {
+      "exists": true,
+      "type": "article",
+      "page": 218,
+      "chunk_ids": [
+        "constitution_article_324_chunk_1",
+        "constitution_article_324_chunk_2"
+      ],
+      "unit_id": "constitution_article_324",
+      "title": "Superintendence, direction and control of elections to be vested"
+    },
+    "Article 324(4)": {
+      "exists": true,
+      "type": "subsection",
+      "parent_article": "Article 324",
+      "page": 218,
+      "chunk_id": "constitution_article_324_chunk_2",
+      "char_offset": 0,
+      "text_snippet": "(4) Before each general election to the House of the People and to the Legislative Assembly of each State, and before the first general election and thereafter before each biennial election to the Leg"
+    },
+    "Article 325": {
+      "exists": true,
+      "type": "article",
+      "page": 219,
+      "chunk_ids": [
+        "constitution_article_325_chunk_1"
+      ],
+      "unit_id": "constitution_article_325",
+      "title": "No person to be ineligible for inclusion in, or to claim to be"
+    },
+    "Article 326": {
+      "exists": true,
+      "type": "article",
+      "page": 219,
+      "chunk_ids": [
+        "constitution_article_326_chunk_1"
+      ],
+      "unit_id": "constitution_article_326",
+      "title": "Elections to the House of the People and to the Legislative"
+    },
+    "Article 327": {
+      "exists": true,
+      "type": "article",
+      "page": 219,
+      "chunk_ids": [
+        "constitution_article_327_chunk_1"
+      ],
+      "unit_id": "constitution_article_327",
+      "title": "Power of Parliament to make provision with respect to elections"
+    },
+    "Article 328": {
+      "exists": true,
+      "type": "article",
+      "page": 220,
+      "chunk_ids": [
+        "constitution_article_328_chunk_1"
+      ],
+      "unit_id": "constitution_article_328",
+      "title": "Power of Legislature of a State to make provision with respect"
+    },
+    "Article 329": {
+      "exists": true,
+      "type": "article",
+      "page": 220,
+      "chunk_ids": [
+        "constitution_article_329_chunk_1"
+      ],
+      "unit_id": "constitution_article_329",
+      "title": "Bar to interference by courts in electoral matters"
+    },
+    "Article 33": {
+      "exists": true,
+      "type": "article",
+      "page": 50,
+      "chunk_ids": [
+        "constitution_article_33_chunk_1"
+      ],
+      "unit_id": "constitution_article_33",
+      "title": "Power of Parliament to modify the rights conferred by this Part"
+    },
+    "Article 330": {
+      "exists": true,
+      "type": "article",
+      "page": 221,
+      "chunk_ids": [
+        "constitution_article_330_chunk_1",
+        "constitution_article_330_chunk_2"
+      ],
+      "unit_id": "constitution_article_330",
+      "title": "Reservation of seats for Scheduled Castes and Scheduled Tribes"
+    },
+    "Article 331": {
+      "exists": true,
+      "type": "article",
+      "page": 222,
+      "chunk_ids": [
+        "constitution_article_331_chunk_1"
+      ],
+      "unit_id": "constitution_article_331",
+      "title": "Representation of the Anglo-Indian Community in the House of"
+    },
+    "Article 332": {
+      "exists": true,
+      "type": "article",
+      "page": 222,
+      "chunk_ids": [
+        "constitution_article_332_chunk_1",
+        "constitution_article_332_chunk_2"
+      ],
+      "unit_id": "constitution_article_332",
+      "title": "Reservation of seats for Scheduled Castes and Scheduled Tribes"
+    },
+    "Article 333": {
+      "exists": true,
+      "type": "article",
+      "page": 223,
+      "chunk_ids": [
+        "constitution_article_333_chunk_1"
+      ],
+      "unit_id": "constitution_article_333",
+      "title": "Representation of the Anglo-Indian community in the"
+    },
+    "Article 334": {
+      "exists": true,
+      "type": "article",
+      "page": 224,
+      "chunk_ids": [
+        "constitution_article_334_chunk_1"
+      ],
+      "unit_id": "constitution_article_334",
+      "title": "Reservation of seats and special representation to cease after"
+    },
+    "Article 335": {
+      "exists": true,
+      "type": "article",
+      "page": 224,
+      "chunk_ids": [
+        "constitution_article_335_chunk_1"
+      ],
+      "unit_id": "constitution_article_335",
+      "title": "Claims of Scheduled Castes and Scheduled Tribes to services"
+    },
+    "Article 3359A": {
+      "exists": true,
+      "type": "article",
+      "page": 249,
+      "chunk_ids": [
+        "constitution_article_3359A_chunk_1"
+      ],
+      "unit_id": "constitution_article_3359A",
+      "title": "Application of this Part to the State of Punjab"
+    },
+    "Article 336": {
+      "exists": true,
+      "type": "article",
+      "page": 224,
+      "chunk_ids": [
+        "constitution_article_336_chunk_1"
+      ],
+      "unit_id": "constitution_article_336",
+      "title": "Special provision for Anglo-Indian community in certain"
+    },
+    "Article 337": {
+      "exists": true,
+      "type": "article",
+      "page": 225,
+      "chunk_ids": [
+        "constitution_article_337_chunk_1"
+      ],
+      "unit_id": "constitution_article_337",
+      "title": "Special provision with respect to educational grants for the"
+    },
+    "Article 338": {
+      "exists": true,
+      "type": "article",
+      "page": 225,
+      "chunk_ids": [
+        "constitution_article_338_chunk_1"
+      ],
+      "unit_id": "constitution_article_338",
+      "title": "National Commission for Scheduled Castes"
+    },
+    "Article 338A": {
+      "exists": true,
+      "type": "article",
+      "page": 228,
+      "chunk_ids": [
+        "constitution_article_338A_chunk_1",
+        "constitution_article_338A_chunk_2"
+      ],
+      "unit_id": "constitution_article_338A",
+      "title": "National Commission for Scheduled Tribes"
+    },
+    "Article 338A(5)": {
+      "exists": true,
+      "type": "subsection",
+      "parent_article": "Article 338A",
+      "page": 228,
+      "chunk_id": "constitution_article_338A_chunk_1",
+      "char_offset": 725,
+      "text_snippet": " (5) It shall be the duty of the Commission— (a) to investigate and monitor all matters relating to the safeguards provided for the Scheduled Tribes under this Constitution or under any other law for "
+    },
+    "Article 338B": {
+      "exists": true,
+      "type": "article",
+      "page": 229,
+      "chunk_ids": [
+        "constitution_article_338B_chunk_1"
+      ],
+      "unit_id": "constitution_article_338B",
+      "title": "National Commission for Backward Classes"
+    },
+    "Article 339": {
+      "exists": true,
+      "type": "article",
+      "page": 231,
+      "chunk_ids": [
+        "constitution_article_339_chunk_1"
+      ],
+      "unit_id": "constitution_article_339",
+      "title": "Control of the Union over the administration of Scheduled"
+    },
+    "Article 34": {
+      "exists": true,
+      "type": "article",
+      "page": 51,
+      "chunk_ids": [
+        "constitution_article_34_chunk_1"
+      ],
+      "unit_id": "constitution_article_34",
+      "title": "Restriction on rights conferred by this Part while martial law is"
+    },
+    "Article 340": {
+      "exists": true,
+      "type": "article",
+      "page": 231,
+      "chunk_ids": [
+        "constitution_article_340_chunk_1"
+      ],
+      "unit_id": "constitution_article_340",
+      "title": "Appointment of a Commission to investigate the conditions of"
+    },
+    "Article 341": {
+      "exists": true,
+      "type": "article",
+      "page": 232,
+      "chunk_ids": [
+        "constitution_article_341_chunk_1"
+      ],
+      "unit_id": "constitution_article_341",
+      "title": "Scheduled Castes"
+    },
+    "Article 342": {
+      "exists": true,
+      "type": "article",
+      "page": 233,
+      "chunk_ids": [
+        "constitution_article_342_chunk_1"
+      ],
+      "unit_id": "constitution_article_342",
+      "title": "Scheduled Tribes"
+    },
+    "Article 342A": {
+      "exists": true,
+      "type": "article",
+      "page": 233,
+      "chunk_ids": [
+        "constitution_article_342A_chunk_1"
+      ],
+      "unit_id": "constitution_article_342A",
+      "title": "Socially and educationally backward classes"
+    },
+    "Article 343": {
+      "exists": true,
+      "type": "article",
+      "page": 235,
+      "chunk_ids": [
+        "constitution_article_343_chunk_1"
+      ],
+      "unit_id": "constitution_article_343",
+      "title": "Official language of the Union"
+    },
+    "Article 344": {
+      "exists": true,
+      "type": "article",
+      "page": 235,
+      "chunk_ids": [
+        "constitution_article_344_chunk_1"
+      ],
+      "unit_id": "constitution_article_344",
+      "title": "Commission and Committee of Parliament on official"
+    },
+    "Article 345": {
+      "exists": true,
+      "type": "article",
+      "page": 236,
+      "chunk_ids": [
+        "constitution_article_345_chunk_1"
+      ],
+      "unit_id": "constitution_article_345",
+      "title": "Official language or languages of a State"
+    },
+    "Article 346": {
+      "exists": true,
+      "type": "article",
+      "page": 236,
+      "chunk_ids": [
+        "constitution_article_346_chunk_1"
+      ],
+      "unit_id": "constitution_article_346",
+      "title": "Official language for communication between one State and"
+    },
+    "Article 347": {
+      "exists": true,
+      "type": "article",
+      "page": 237,
+      "chunk_ids": [
+        "constitution_article_347_chunk_1"
+      ],
+      "unit_id": "constitution_article_347",
+      "title": "Special provision relating to language spoken by a section of the"
+    },
+    "Article 348": {
+      "exists": true,
+      "type": "article",
+      "page": 237,
+      "chunk_ids": [
+        "constitution_article_348_chunk_1"
+      ],
+      "unit_id": "constitution_article_348",
+      "title": "Language to be used in the Supreme Court and in the High"
+    },
+    "Article 349": {
+      "exists": true,
+      "type": "article",
+      "page": 238,
+      "chunk_ids": [
+        "constitution_article_349_chunk_1"
+      ],
+      "unit_id": "constitution_article_349",
+      "title": "Special procedure for enactment of certain laws relating to"
+    },
+    "Article 35": {
+      "exists": true,
+      "type": "article",
+      "page": 51,
+      "chunk_ids": [
+        "constitution_article_35_chunk_1",
+        "constitution_article_35_chunk_2"
+      ],
+      "unit_id": "constitution_article_35",
+      "title": "Legislation to give effect to the provisions of this Part"
+    },
+    "Article 350": {
+      "exists": true,
+      "type": "article",
+      "page": 238,
+      "chunk_ids": [
+        "constitution_article_350_chunk_1"
+      ],
+      "unit_id": "constitution_article_350",
+      "title": "Language to be used in representations for redress of"
+    },
+    "Article 350A": {
+      "exists": true,
+      "type": "article",
+      "page": 238,
+      "chunk_ids": [
+        "constitution_article_350A_chunk_1"
+      ],
+      "unit_id": "constitution_article_350A",
+      "title": "Facilities for instruction in mother-tongue at primary"
+    },
+    "Article 350B": {
+      "exists": true,
+      "type": "article",
+      "page": 239,
+      "chunk_ids": [
+        "constitution_article_350B_chunk_1"
+      ],
+      "unit_id": "constitution_article_350B",
+      "title": "Special Officer for linguistic minorities"
+    },
+    "Article 351": {
+      "exists": true,
+      "type": "article",
+      "page": 239,
+      "chunk_ids": [
+        "constitution_article_351_chunk_1"
+      ],
+      "unit_id": "constitution_article_351",
+      "title": "Directive for development of the Hindi language"
+    },
+    "Article 352": {
+      "exists": true,
+      "type": "article",
+      "page": 240,
+      "chunk_ids": [
+        "constitution_article_352_chunk_1",
+        "constitution_article_352_chunk_2"
+      ],
+      "unit_id": "constitution_article_352",
+      "title": "Proclamation of Emergency"
+    },
+    "Article 353": {
+      "exists": true,
+      "type": "article",
+      "page": 242,
+      "chunk_ids": [
+        "constitution_article_353_chunk_1"
+      ],
+      "unit_id": "constitution_article_353",
+      "title": "Effect of Proclamation of Emergency"
+    },
+    "Article 354": {
+      "exists": true,
+      "type": "article",
+      "page": 243,
+      "chunk_ids": [
+        "constitution_article_354_chunk_1"
+      ],
+      "unit_id": "constitution_article_354",
+      "title": "Application of provisions relating to distribution of revenues"
+    },
+    "Article 355": {
+      "exists": true,
+      "type": "article",
+      "page": 243,
+      "chunk_ids": [
+        "constitution_article_355_chunk_1"
+      ],
+      "unit_id": "constitution_article_355",
+      "title": "Duty of the Union to protect States against external aggression"
+    },
+    "Article 356": {
+      "exists": true,
+      "type": "article",
+      "page": 243,
+      "chunk_ids": [
+        "constitution_article_356_chunk_1"
+      ],
+      "unit_id": "constitution_article_356",
+      "title": "Provisions in case of failure of constitutional machinery in"
+    },
+    "Article 357": {
+      "exists": true,
+      "type": "article",
+      "page": 246,
+      "chunk_ids": [
+        "constitution_article_357_chunk_1"
+      ],
+      "unit_id": "constitution_article_357",
+      "title": "Exercise of legislative powers under Proclamation issued under"
+    },
+    "Article 358": {
+      "exists": true,
+      "type": "article",
+      "page": 247,
+      "chunk_ids": [
+        "constitution_article_358_chunk_1",
+        "constitution_article_358_chunk_2"
+      ],
+      "unit_id": "constitution_article_358",
+      "title": "Suspension of provisions of article 19 during emergencies"
+    },
+    "Article 358(1)": {
+      "exists": true,
+      "type": "subsection",
+      "parent_article": "Article 358",
+      "page": 247,
+      "chunk_id": "constitution_article_358_chunk_1",
+      "char_offset": 64,
+      "text_snippet": " 2[(1)] 3[While a Proclamation of Emergency declaring that the security of India or any part of the territory thereof is threatened by war or by external aggression is in operation], nothing in articl"
+    },
+    "Article 359": {
+      "exists": true,
+      "type": "article",
+      "page": 248,
+      "chunk_ids": [
+        "constitution_article_359_chunk_1",
+        "constitution_article_359_chunk_2"
+      ],
+      "unit_id": "constitution_article_359",
+      "title": "Suspension of the enforcement of the rights conferred by"
+    },
+    "Article 36": {
+      "exists": true,
+      "type": "article",
+      "page": 52,
+      "chunk_ids": [
+        "constitution_article_36_chunk_1"
+      ],
+      "unit_id": "constitution_article_36",
+      "title": "Definition"
+    },
+    "Article 360": {
+      "exists": true,
+      "type": "article",
+      "page": 249,
+      "chunk_ids": [
+        "constitution_article_360_chunk_1"
+      ],
+      "unit_id": "constitution_article_360",
+      "title": "Provisions as to financial emergency"
+    },
+    "Article 361": {
+      "exists": true,
+      "type": "article",
+      "page": 251,
+      "chunk_ids": [
+        "constitution_article_361_chunk_1",
+        "constitution_article_361_chunk_2"
+      ],
+      "unit_id": "constitution_article_361",
+      "title": "Protection of President and Governors and Rajpramukhs"
+    },
+    "Article 361A": {
+      "exists": true,
+      "type": "article",
+      "page": 252,
+      "chunk_ids": [
+        "constitution_article_361A_chunk_1"
+      ],
+      "unit_id": "constitution_article_361A",
+      "title": "Protection of publication of proceedings of Parliament and"
+    },
+    "Article 361B": {
+      "exists": true,
+      "type": "article",
+      "page": 252,
+      "chunk_ids": [
+        "constitution_article_361B_chunk_1"
+      ],
+      "unit_id": "constitution_article_361B",
+      "title": "Disqualification for appointment on remunerative political"
+    },
+    "Article 362": {
+      "exists": true,
+      "type": "article",
+      "page": 253,
+      "chunk_ids": [
+        "constitution_article_362_chunk_1"
+      ],
+      "unit_id": "constitution_article_362",
+      "title": "Rights and privileges of Rulers of Indian States"
+    },
+    "Article 363": {
+      "exists": true,
+      "type": "article",
+      "page": 253,
+      "chunk_ids": [
+        "constitution_article_363_chunk_1",
+        "constitution_article_363_chunk_2"
+      ],
+      "unit_id": "constitution_article_363",
+      "title": "Bar to interference by courts in disputes arising out of certain"
+    },
+    "Article 363A": {
+      "exists": true,
+      "type": "article",
+      "page": 253,
+      "chunk_ids": [
+        "constitution_article_363A_chunk_1"
+      ],
+      "unit_id": "constitution_article_363A",
+      "title": "Recognition granted to Rulers of Indian States to cease and"
+    },
+    "Article 364": {
+      "exists": true,
+      "type": "article",
+      "page": 254,
+      "chunk_ids": [
+        "constitution_article_364_chunk_1"
+      ],
+      "unit_id": "constitution_article_364",
+      "title": "Special provisions as to major ports and aerodromes"
+    },
+    "Article 365": {
+      "exists": true,
+      "type": "article",
+      "page": 254,
+      "chunk_ids": [
+        "constitution_article_365_chunk_1"
+      ],
+      "unit_id": "constitution_article_365",
+      "title": "Effect of failure to comply with, or to give effect to, directions"
+    },
+    "Article 366": {
+      "exists": true,
+      "type": "article",
+      "page": 254,
+      "chunk_ids": [
+        "constitution_article_366_chunk_1",
+        "constitution_article_366_chunk_2"
+      ],
+      "unit_id": "constitution_article_366",
+      "title": "Definitions"
+    },
+    "Article 366(4)": {
+      "exists": true,
+      "type": "subsection",
+      "parent_article": "Article 366",
+      "page": 254,
+      "chunk_id": "constitution_article_366_chunk_1",
+      "char_offset": 736,
+      "text_snippet": " (4) “borrow” includes the raising of money by the grant of annuities, and “loan” shall be construed accordingly; 1[(4A)* * * *] (5) “clause” means a clause of the article in which the expression occu"
+    },
+    "Article 366(5)": {
+      "exists": true,
+      "type": "subsection",
+      "parent_article": "Article 366",
+      "page": 254,
+      "chunk_id": "constitution_article_366_chunk_1",
+      "char_offset": 864,
+      "text_snippet": " (5) “clause” means a clause of the article in which the expression occurs; (6) “corporation tax” means any tax on income, so far as that tax is payable by companies and is a tax in the case of which "
+    },
+    "Article 367": {
+      "exists": true,
+      "type": "article",
+      "page": 259,
+      "chunk_ids": [
+        "constitution_article_367_chunk_1"
+      ],
+      "unit_id": "constitution_article_367",
+      "title": "Interpretation"
+    },
+    "Article 368": {
+      "exists": true,
+      "type": "article",
+      "page": 260,
+      "chunk_ids": [
+        "constitution_article_368_chunk_1"
+      ],
+      "unit_id": "constitution_article_368",
+      "title": "Power of Parliament to amend the Constitution and"
+    },
+    "Article 369": {
+      "exists": true,
+      "type": "article",
+      "page": 262,
+      "chunk_ids": [
+        "constitution_article_369_chunk_1",
+        "constitution_article_369_chunk_2"
+      ],
+      "unit_id": "constitution_article_369",
+      "title": "Temporary power to Parliament to make laws with respect to"
+    },
+    "Article 37": {
+      "exists": true,
+      "type": "article",
+      "page": 52,
+      "chunk_ids": [
+        "constitution_article_37_chunk_1"
+      ],
+      "unit_id": "constitution_article_37",
+      "title": "Application of the principles contained in this Part"
+    },
+    "Article 371": {
+      "exists": true,
+      "type": "article",
+      "page": 265,
+      "chunk_ids": [
+        "constitution_article_371_chunk_1"
+      ],
+      "unit_id": "constitution_article_371",
+      "title": "Special provision with respect to the States of 2***"
+    },
+    "Article 371A": {
+      "exists": true,
+      "type": "article",
+      "page": 265,
+      "chunk_ids": [
+        "constitution_article_371A_chunk_1"
+      ],
+      "unit_id": "constitution_article_371A",
+      "title": "Special provision with respect to the State of Nagaland"
+    },
+    "Article 371B": {
+      "exists": true,
+      "type": "article",
+      "page": 268,
+      "chunk_ids": [
+        "constitution_article_371B_chunk_1"
+      ],
+      "unit_id": "constitution_article_371B",
+      "title": "Special provision with respect to the State of Assam"
+    },
+    "Article 371C": {
+      "exists": true,
+      "type": "article",
+      "page": 269,
+      "chunk_ids": [
+        "constitution_article_371C_chunk_1"
+      ],
+      "unit_id": "constitution_article_371C",
+      "title": "Special provision with respect to the State of Manipur"
+    },
+    "Article 371D": {
+      "exists": true,
+      "type": "article",
+      "page": 269,
+      "chunk_ids": [
+        "constitution_article_371D_chunk_1"
+      ],
+      "unit_id": "constitution_article_371D",
+      "title": "Special provisions with respect to 4the State of Andhra"
+    },
+    "Article 371E": {
+      "exists": true,
+      "type": "article",
+      "page": 273,
+      "chunk_ids": [
+        "constitution_article_371E_chunk_1"
+      ],
+      "unit_id": "constitution_article_371E",
+      "title": "Establishment of Central University in Andhra Pradesh"
+    },
+    "Article 371F": {
+      "exists": true,
+      "type": "article",
+      "page": 273,
+      "chunk_ids": [
+        "constitution_article_371F_chunk_1"
+      ],
+      "unit_id": "constitution_article_371F",
+      "title": "Special provisions with respect to the State of Sikkim"
+    },
+    "Article 371G": {
+      "exists": true,
+      "type": "article",
+      "page": 276,
+      "chunk_ids": [
+        "constitution_article_371G_chunk_1"
+      ],
+      "unit_id": "constitution_article_371G",
+      "title": "Special provision with respect to the State of Mizoram"
+    },
+    "Article 371H": {
+      "exists": true,
+      "type": "article",
+      "page": 276,
+      "chunk_ids": [
+        "constitution_article_371H_chunk_1"
+      ],
+      "unit_id": "constitution_article_371H",
+      "title": "Special provision with respect to the State of Arunachal"
+    },
+    "Article 371J": {
+      "exists": true,
+      "type": "article",
+      "page": 277,
+      "chunk_ids": [
+        "constitution_article_371J_chunk_1"
+      ],
+      "unit_id": "constitution_article_371J",
+      "title": "Special provisions with respect to the State of Karnataka"
+    },
+    "Article 372": {
+      "exists": true,
+      "type": "article",
+      "page": 278,
+      "chunk_ids": [
+        "constitution_article_372_chunk_1",
+        "constitution_article_372_chunk_2"
+      ],
+      "unit_id": "constitution_article_372",
+      "title": "Continuance in force of existing laws and their adaptation"
+    },
+    "Article 372A": {
+      "exists": true,
+      "type": "article",
+      "page": 279,
+      "chunk_ids": [
+        "constitution_article_372A_chunk_1"
+      ],
+      "unit_id": "constitution_article_372A",
+      "title": "Power of the President to adapt laws"
+    },
+    "Article 373": {
+      "exists": true,
+      "type": "article",
+      "page": 280,
+      "chunk_ids": [
+        "constitution_article_373_chunk_1"
+      ],
+      "unit_id": "constitution_article_373",
+      "title": "Power of President to make order in respect of persons under"
+    },
+    "Article 374": {
+      "exists": true,
+      "type": "article",
+      "page": 280,
+      "chunk_ids": [
+        "constitution_article_374_chunk_1",
+        "constitution_article_374_chunk_2",
+        "constitution_article_374_chunk_3"
+      ],
+      "unit_id": "constitution_article_374",
+      "title": "Provisions as to Judges of the Federal Court and proceedings"
+    },
+    "Article 374(3)": {
+      "exists": true,
+      "type": "subsection",
+      "parent_article": "Article 374",
+      "page": 280,
+      "chunk_id": "constitution_article_374_chunk_2",
+      "char_offset": 0,
+      "text_snippet": "(3) Nothing in this Constitution shall operate to invalidate the exercise of jurisdiction by His Majesty in Council to dispose of appeals and petitions from, or in respect of, any judgment, decree or "
+    },
+    "Article 375": {
+      "exists": true,
+      "type": "article",
+      "page": 281,
+      "chunk_ids": [
+        "constitution_article_375_chunk_1"
+      ],
+      "unit_id": "constitution_article_375",
+      "title": "Courts, authorities and officers to continue to function subject"
+    },
+    "Article 376": {
+      "exists": true,
+      "type": "article",
+      "page": 281,
+      "chunk_ids": [
+        "constitution_article_376_chunk_1",
+        "constitution_article_376_chunk_2"
+      ],
+      "unit_id": "constitution_article_376",
+      "title": "Provisions as to Judges of High Courts"
+    },
+    "Article 377": {
+      "exists": true,
+      "type": "article",
+      "page": 281,
+      "chunk_ids": [
+        "constitution_article_377_chunk_1"
+      ],
+      "unit_id": "constitution_article_377",
+      "title": "Provisions as to Comptroller and Auditor-General of India"
+    },
+    "Article 378": {
+      "exists": true,
+      "type": "article",
+      "page": 282,
+      "chunk_ids": [
+        "constitution_article_378_chunk_1",
+        "constitution_article_378_chunk_2"
+      ],
+      "unit_id": "constitution_article_378",
+      "title": "Provisions as to Public Service Commissions"
+    },
+    "Article 378A": {
+      "exists": true,
+      "type": "article",
+      "page": 282,
+      "chunk_ids": [
+        "constitution_article_378A_chunk_1"
+      ],
+      "unit_id": "constitution_article_378A",
+      "title": "Special provision as to duration of Andhra Pradesh"
+    },
+    "Article 38": {
+      "exists": true,
+      "type": "article",
+      "page": 52,
+      "chunk_ids": [
+        "constitution_article_38_chunk_1"
+      ],
+      "unit_id": "constitution_article_38",
+      "title": "State to secure a social order for the promotion of welfare of the"
+    },
+    "Article 381": {
+      "exists": true,
+      "type": "article",
+      "page": 282,
+      "chunk_ids": [
+        "constitution_article_381_chunk_1"
+      ],
+      "unit_id": "constitution_article_381",
+      "title": "Council of Ministers of the President"
+    },
+    "Article 383": {
+      "exists": true,
+      "type": "article",
+      "page": 282,
+      "chunk_ids": [
+        "constitution_article_383_chunk_1"
+      ],
+      "unit_id": "constitution_article_383",
+      "title": "Provision as to Governors of Provinces"
+    },
+    "Article 384": {
+      "exists": true,
+      "type": "article",
+      "page": 283,
+      "chunk_ids": [
+        "constitution_article_384_chunk_1"
+      ],
+      "unit_id": "constitution_article_384",
+      "title": "Council of Ministers of the Governors"
+    },
+    "Article 388": {
+      "exists": true,
+      "type": "article",
+      "page": 283,
+      "chunk_ids": [
+        "constitution_article_388_chunk_1"
+      ],
+      "unit_id": "constitution_article_388",
+      "title": "Provisions as to the filling of casual vacancies in the provisional"
+    },
+    "Article 39": {
+      "exists": true,
+      "type": "article",
+      "page": 52,
+      "chunk_ids": [
+        "constitution_article_39_chunk_1"
+      ],
+      "unit_id": "constitution_article_39",
+      "title": "Certain principles of policy to be followed by the State"
+    },
+    "Article 390": {
+      "exists": true,
+      "type": "article",
+      "page": 283,
+      "chunk_ids": [
+        "constitution_article_390_chunk_1"
+      ],
+      "unit_id": "constitution_article_390",
+      "title": "Money received or raised or expenditure incurred between the"
+    },
+    "Article 392": {
+      "exists": true,
+      "type": "article",
+      "page": 283,
+      "chunk_ids": [
+        "constitution_article_392_chunk_1"
+      ],
+      "unit_id": "constitution_article_392",
+      "title": "Power of the President to remove difficulties"
+    },
+    "Article 393": {
+      "exists": true,
+      "type": "article",
+      "page": 284,
+      "chunk_ids": [
+        "constitution_article_393_chunk_1"
+      ],
+      "unit_id": "constitution_article_393",
+      "title": "Short title"
+    },
+    "Article 394": {
+      "exists": true,
+      "type": "article",
+      "page": 284,
+      "chunk_ids": [
+        "constitution_article_394_chunk_1"
+      ],
+      "unit_id": "constitution_article_394",
+      "title": "Commencement"
+    },
+    "Article 394A": {
+      "exists": true,
+      "type": "article",
+      "page": 284,
+      "chunk_ids": [
+        "constitution_article_394A_chunk_1"
+      ],
+      "unit_id": "constitution_article_394A",
+      "title": "Authoritative text in the Hindi language"
+    },
+    "Article 395": {
+      "exists": true,
+      "type": "article",
+      "page": 284,
+      "chunk_ids": [
+        "constitution_article_395_chunk_1"
+      ],
+      "unit_id": "constitution_article_395",
+      "title": "Repeals"
+    },
+    "Article 39A": {
+      "exists": true,
+      "type": "article",
+      "page": 53,
+      "chunk_ids": [
+        "constitution_article_39A_chunk_1"
+      ],
+      "unit_id": "constitution_article_39A",
+      "title": "Equal justice and free legal aid"
+    },
+    "Article 4": {
+      "exists": true,
+      "type": "article",
+      "page": 34,
+      "chunk_ids": [
+        "constitution_article_4_chunk_1"
+      ],
+      "unit_id": "constitution_article_4",
+      "title": "Laws made under articles 2 and 3 to provide for the"
+    },
+    "Article 40": {
+      "exists": true,
+      "type": "article",
+      "page": 53,
+      "chunk_ids": [
+        "constitution_article_40_chunk_1"
+      ],
+      "unit_id": "constitution_article_40",
+      "title": "Organisation of village panchayats"
+    },
+    "Article 41": {
+      "exists": true,
+      "type": "article",
+      "page": 53,
+      "chunk_ids": [
+        "constitution_article_41_chunk_1"
+      ],
+      "unit_id": "constitution_article_41",
+      "title": "Right to work, to education and to public assistance in certain"
+    },
+    "Article 42": {
+      "exists": true,
+      "type": "article",
+      "page": 53,
+      "chunk_ids": [
+        "constitution_article_42_chunk_1"
+      ],
+      "unit_id": "constitution_article_42",
+      "title": "Provision for just and humane conditions of work and maternity"
+    },
+    "Article 43": {
+      "exists": true,
+      "type": "article",
+      "page": 53,
+      "chunk_ids": [
+        "constitution_article_43_chunk_1"
+      ],
+      "unit_id": "constitution_article_43",
+      "title": "Living wage, etc., for workers"
+    },
+    "Article 43A": {
+      "exists": true,
+      "type": "article",
+      "page": 53,
+      "chunk_ids": [
+        "constitution_article_43A_chunk_1"
+      ],
+      "unit_id": "constitution_article_43A",
+      "title": "Participation of workers in management of industries"
+    },
+    "Article 43B": {
+      "exists": true,
+      "type": "article",
+      "page": 54,
+      "chunk_ids": [
+        "constitution_article_43B_chunk_1"
+      ],
+      "unit_id": "constitution_article_43B",
+      "title": "Promotion of co-operative societies"
+    },
+    "Article 44": {
+      "exists": true,
+      "type": "article",
+      "page": 54,
+      "chunk_ids": [
+        "constitution_article_44_chunk_1"
+      ],
+      "unit_id": "constitution_article_44",
+      "title": "Uniform civil code for the citizens"
+    },
+    "Article 45": {
+      "exists": true,
+      "type": "article",
+      "page": 54,
+      "chunk_ids": [
+        "constitution_article_45_chunk_1"
+      ],
+      "unit_id": "constitution_article_45",
+      "title": "Provision for early childhood care and education to children"
+    },
+    "Article 46": {
+      "exists": true,
+      "type": "article",
+      "page": 54,
+      "chunk_ids": [
+        "constitution_article_46_chunk_1"
+      ],
+      "unit_id": "constitution_article_46",
+      "title": "Promotion of educational and economic interests of Scheduled"
+    },
+    "Article 47": {
+      "exists": true,
+      "type": "article",
+      "page": 54,
+      "chunk_ids": [
+        "constitution_article_47_chunk_1"
+      ],
+      "unit_id": "constitution_article_47",
+      "title": "Duty of the State to raise the level of nutrition and the standard"
+    },
+    "Article 48": {
+      "exists": true,
+      "type": "article",
+      "page": 54,
+      "chunk_ids": [
+        "constitution_article_48_chunk_1"
+      ],
+      "unit_id": "constitution_article_48",
+      "title": "Organisation of agriculture and animal husbandry"
+    },
+    "Article 48A": {
+      "exists": true,
+      "type": "article",
+      "page": 54,
+      "chunk_ids": [
+        "constitution_article_48A_chunk_1"
+      ],
+      "unit_id": "constitution_article_48A",
+      "title": "Protection and improvement of environment and"
+    },
+    "Article 49": {
+      "exists": true,
+      "type": "article",
+      "page": 55,
+      "chunk_ids": [
+        "constitution_article_49_chunk_1"
+      ],
+      "unit_id": "constitution_article_49",
+      "title": "Protection of monuments and places and objects of national"
+    },
+    "Article 5": {
+      "exists": true,
+      "type": "article",
+      "page": 35,
+      "chunk_ids": [
+        "constitution_article_5_chunk_1"
+      ],
+      "unit_id": "constitution_article_5",
+      "title": "Citizenship at the commencement of the Constitution"
+    },
+    "Article 50": {
+      "exists": true,
+      "type": "article",
+      "page": 55,
+      "chunk_ids": [
+        "constitution_article_50_chunk_1"
+      ],
+      "unit_id": "constitution_article_50",
+      "title": "Separation of judiciary from executive"
+    },
+    "Article 51": {
+      "exists": true,
+      "type": "article",
+      "page": 55,
+      "chunk_ids": [
+        "constitution_article_51_chunk_1"
+      ],
+      "unit_id": "constitution_article_51",
+      "title": "Promotion of international peace and security"
+    },
+    "Article 51A": {
+      "exists": true,
+      "type": "article",
+      "page": 56,
+      "chunk_ids": [
+        "constitution_article_51A_chunk_1",
+        "constitution_article_51A_chunk_2"
+      ],
+      "unit_id": "constitution_article_51A",
+      "title": "Fundamental duties"
+    },
+    "Article 52": {
+      "exists": true,
+      "type": "article",
+      "page": 57,
+      "chunk_ids": [
+        "constitution_article_52_chunk_1"
+      ],
+      "unit_id": "constitution_article_52",
+      "title": "The President of India"
+    },
+    "Article 53": {
+      "exists": true,
+      "type": "article",
+      "page": 57,
+      "chunk_ids": [
+        "constitution_article_53_chunk_1"
+      ],
+      "unit_id": "constitution_article_53",
+      "title": "Executive power of the Union"
+    },
+    "Article 54": {
+      "exists": true,
+      "type": "article",
+      "page": 57,
+      "chunk_ids": [
+        "constitution_article_54_chunk_1"
+      ],
+      "unit_id": "constitution_article_54",
+      "title": "Election of President"
+    },
+    "Article 55": {
+      "exists": true,
+      "type": "article",
+      "page": 57,
+      "chunk_ids": [
+        "constitution_article_55_chunk_1"
+      ],
+      "unit_id": "constitution_article_55",
+      "title": "Manner of election of President"
+    },
+    "Article 56": {
+      "exists": true,
+      "type": "article",
+      "page": 58,
+      "chunk_ids": [
+        "constitution_article_56_chunk_1"
+      ],
+      "unit_id": "constitution_article_56",
+      "title": "Term of office of President"
+    },
+    "Article 57": {
+      "exists": true,
+      "type": "article",
+      "page": 59,
+      "chunk_ids": [
+        "constitution_article_57_chunk_1"
+      ],
+      "unit_id": "constitution_article_57",
+      "title": "Eligibility for re-election"
+    },
+    "Article 58": {
+      "exists": true,
+      "type": "article",
+      "page": 59,
+      "chunk_ids": [
+        "constitution_article_58_chunk_1"
+      ],
+      "unit_id": "constitution_article_58",
+      "title": "Qualifications for election as President"
+    },
+    "Article 58(2)": {
+      "exists": true,
+      "type": "subsection",
+      "parent_article": "Article 58",
+      "page": 59,
+      "chunk_id": "constitution_article_58_chunk_1",
+      "char_offset": 263,
+      "text_snippet": " (2) A person shall not be eligible for election as President if he holds any office of profit under the Government of India or the Government of any State or under any local or other authority subjec"
+    },
+    "Article 59": {
+      "exists": true,
+      "type": "article",
+      "page": 59,
+      "chunk_ids": [
+        "constitution_article_59_chunk_1"
+      ],
+      "unit_id": "constitution_article_59",
+      "title": "Conditions of President's office"
+    },
+    "Article 59(3)": {
+      "exists": true,
+      "type": "subsection",
+      "parent_article": "Article 59",
+      "page": 59,
+      "chunk_id": "constitution_article_59_chunk_1",
+      "char_offset": 448,
+      "text_snippet": " (3) The President shall be entitled without payment of rent to the use of his official residences and shall be also entitled to such emoluments, allowances and privileges as may be determined by Parl"
+    },
+    "Article 6": {
+      "exists": true,
+      "type": "article",
+      "page": 35,
+      "chunk_ids": [
+        "constitution_article_6_chunk_1",
+        "constitution_article_6_chunk_2"
+      ],
+      "unit_id": "constitution_article_6",
+      "title": "Rights of citizenship of certain persons who have migrated to"
+    },
+    "Article 60": {
+      "exists": true,
+      "type": "article",
+      "page": 59,
+      "chunk_ids": [
+        "constitution_article_60_chunk_1"
+      ],
+      "unit_id": "constitution_article_60",
+      "title": "Oath or affirmation by the President"
+    },
+    "Article 61": {
+      "exists": true,
+      "type": "article",
+      "page": 60,
+      "chunk_ids": [
+        "constitution_article_61_chunk_1",
+        "constitution_article_61_chunk_2"
+      ],
+      "unit_id": "constitution_article_61",
+      "title": "Procedure for impeachment of the President"
+    },
+    "Article 62": {
+      "exists": true,
+      "type": "article",
+      "page": 60,
+      "chunk_ids": [
+        "constitution_article_62_chunk_1"
+      ],
+      "unit_id": "constitution_article_62",
+      "title": "Time of holding election to fill vacancy in the office of President"
+    },
+    "Article 63": {
+      "exists": true,
+      "type": "article",
+      "page": 60,
+      "chunk_ids": [
+        "constitution_article_63_chunk_1"
+      ],
+      "unit_id": "constitution_article_63",
+      "title": "The Vice-President of India"
+    },
+    "Article 64": {
+      "exists": true,
+      "type": "article",
+      "page": 60,
+      "chunk_ids": [
+        "constitution_article_64_chunk_1"
+      ],
+      "unit_id": "constitution_article_64",
+      "title": "The Vice-President to be ex officio Chairman of the Council of"
+    },
+    "Article 65": {
+      "exists": true,
+      "type": "article",
+      "page": 61,
+      "chunk_ids": [
+        "constitution_article_65_chunk_1"
+      ],
+      "unit_id": "constitution_article_65",
+      "title": "The Vice-President to act as President or to discharge his"
+    },
+    "Article 66": {
+      "exists": true,
+      "type": "article",
+      "page": 61,
+      "chunk_ids": [
+        "constitution_article_66_chunk_1"
+      ],
+      "unit_id": "constitution_article_66",
+      "title": "Election of Vice-President"
+    },
+    "Article 67": {
+      "exists": true,
+      "type": "article",
+      "page": 62,
+      "chunk_ids": [
+        "constitution_article_67_chunk_1"
+      ],
+      "unit_id": "constitution_article_67",
+      "title": "Term of office of Vice-President"
+    },
+    "Article 68": {
+      "exists": true,
+      "type": "article",
+      "page": 62,
+      "chunk_ids": [
+        "constitution_article_68_chunk_1"
+      ],
+      "unit_id": "constitution_article_68",
+      "title": "Time of holding election to fill vacancy in the office of Vice-"
+    },
+    "Article 69": {
+      "exists": true,
+      "type": "article",
+      "page": 62,
+      "chunk_ids": [
+        "constitution_article_69_chunk_1"
+      ],
+      "unit_id": "constitution_article_69",
+      "title": "Oath or affirmation by the Vice-President"
+    },
+    "Article 7": {
+      "exists": true,
+      "type": "article",
+      "page": 35,
+      "chunk_ids": [
+        "constitution_article_7_chunk_1"
+      ],
+      "unit_id": "constitution_article_7",
+      "title": "Rights of citizenship of certain migrants to Pakistan"
+    },
+    "Article 70": {
+      "exists": true,
+      "type": "article",
+      "page": 63,
+      "chunk_ids": [
+        "constitution_article_70_chunk_1"
+      ],
+      "unit_id": "constitution_article_70",
+      "title": "Discharge of President's functions in other contingencies"
+    },
+    "Article 71": {
+      "exists": true,
+      "type": "article",
+      "page": 63,
+      "chunk_ids": [
+        "constitution_article_71_chunk_1"
+      ],
+      "unit_id": "constitution_article_71",
+      "title": "Matters relating to, or connected with, the election of a"
+    },
+    "Article 72": {
+      "exists": true,
+      "type": "article",
+      "page": 63,
+      "chunk_ids": [
+        "constitution_article_72_chunk_1"
+      ],
+      "unit_id": "constitution_article_72",
+      "title": "Power of President to grant pardons, etc., and to suspend, remit"
+    },
+    "Article 73": {
+      "exists": true,
+      "type": "article",
+      "page": 64,
+      "chunk_ids": [
+        "constitution_article_73_chunk_1"
+      ],
+      "unit_id": "constitution_article_73",
+      "title": "Extent of executive power of the Union"
+    },
+    "Article 731D": {
+      "exists": true,
+      "type": "article",
+      "page": 49,
+      "chunk_ids": [
+        "constitution_article_731D_chunk_1"
+      ],
+      "unit_id": "constitution_article_731D",
+      "title": "Saving of laws in respect of anti-national activities"
+    },
+    "Article 74": {
+      "exists": true,
+      "type": "article",
+      "page": 65,
+      "chunk_ids": [
+        "constitution_article_74_chunk_1"
+      ],
+      "unit_id": "constitution_article_74",
+      "title": "Council of Ministers to aid and advise President"
+    },
+    "Article 75": {
+      "exists": true,
+      "type": "article",
+      "page": 65,
+      "chunk_ids": [
+        "constitution_article_75_chunk_1",
+        "constitution_article_75_chunk_2"
+      ],
+      "unit_id": "constitution_article_75",
+      "title": "Other provisions as to Ministers"
+    },
+    "Article 75(3)": {
+      "exists": true,
+      "type": "subsection",
+      "parent_article": "Article 75",
+      "page": 65,
+      "chunk_id": "constitution_article_75_chunk_1",
+      "char_offset": 1019,
+      "text_snippet": " (3) The Council of Ministers shall be collectively responsible to the House of the People. (4) Before a Minister enters upon his office, the President shall administer"
+    },
+    "Article 76": {
+      "exists": true,
+      "type": "article",
+      "page": 66,
+      "chunk_ids": [
+        "constitution_article_76_chunk_1"
+      ],
+      "unit_id": "constitution_article_76",
+      "title": "Attorney-General for India"
+    },
+    "Article 77": {
+      "exists": true,
+      "type": "article",
+      "page": 66,
+      "chunk_ids": [
+        "constitution_article_77_chunk_1"
+      ],
+      "unit_id": "constitution_article_77",
+      "title": "Conduct of business of the Government of India"
+    },
+    "Article 78": {
+      "exists": true,
+      "type": "article",
+      "page": 67,
+      "chunk_ids": [
+        "constitution_article_78_chunk_1"
+      ],
+      "unit_id": "constitution_article_78",
+      "title": "Duties of Prime Minister as respects the furnishing of information"
+    },
+    "Article 79": {
+      "exists": true,
+      "type": "article",
+      "page": 67,
+      "chunk_ids": [
+        "constitution_article_79_chunk_1"
+      ],
+      "unit_id": "constitution_article_79",
+      "title": "Constitution of Parliament"
+    },
+    "Article 8": {
+      "exists": true,
+      "type": "article",
+      "page": 36,
+      "chunk_ids": [
+        "constitution_article_8_chunk_1"
+      ],
+      "unit_id": "constitution_article_8",
+      "title": "Rights of citizenship of certain persons of Indian origin residing"
+    },
+    "Article 80": {
+      "exists": true,
+      "type": "article",
+      "page": 67,
+      "chunk_ids": [
+        "constitution_article_80_chunk_1"
+      ],
+      "unit_id": "constitution_article_80",
+      "title": "Composition of the Council of States"
+    },
+    "Article 81": {
+      "exists": true,
+      "type": "article",
+      "page": 68,
+      "chunk_ids": [
+        "constitution_article_81_chunk_1",
+        "constitution_article_81_chunk_2"
+      ],
+      "unit_id": "constitution_article_81",
+      "title": "Composition of the House of the People"
+    },
+    "Article 82": {
+      "exists": true,
+      "type": "article",
+      "page": 69,
+      "chunk_ids": [
+        "constitution_article_82_chunk_1"
+      ],
+      "unit_id": "constitution_article_82",
+      "title": "Readjustment after each census"
+    },
+    "Article 83": {
+      "exists": true,
+      "type": "article",
+      "page": 70,
+      "chunk_ids": [
+        "constitution_article_83_chunk_1"
+      ],
+      "unit_id": "constitution_article_83",
+      "title": "Duration of Houses of Parliament"
+    },
+    "Article 84": {
+      "exists": true,
+      "type": "article",
+      "page": 70,
+      "chunk_ids": [
+        "constitution_article_84_chunk_1"
+      ],
+      "unit_id": "constitution_article_84",
+      "title": "Qualification for membership of Parliament"
+    },
+    "Article 85": {
+      "exists": true,
+      "type": "article",
+      "page": 71,
+      "chunk_ids": [
+        "constitution_article_85_chunk_1"
+      ],
+      "unit_id": "constitution_article_85",
+      "title": "Sessions of Parliament, prorogation and dissolution"
+    },
+    "Article 86": {
+      "exists": true,
+      "type": "article",
+      "page": 71,
+      "chunk_ids": [
+        "constitution_article_86_chunk_1"
+      ],
+      "unit_id": "constitution_article_86",
+      "title": "Right of President to address and send messages to Houses"
+    },
+    "Article 87": {
+      "exists": true,
+      "type": "article",
+      "page": 71,
+      "chunk_ids": [
+        "constitution_article_87_chunk_1"
+      ],
+      "unit_id": "constitution_article_87",
+      "title": "Special address by the President"
+    },
+    "Article 88": {
+      "exists": true,
+      "type": "article",
+      "page": 71,
+      "chunk_ids": [
+        "constitution_article_88_chunk_1"
+      ],
+      "unit_id": "constitution_article_88",
+      "title": "Rights of Ministers and Attorney-General as respects Houses"
+    },
+    "Article 89": {
+      "exists": true,
+      "type": "article",
+      "page": 72,
+      "chunk_ids": [
+        "constitution_article_89_chunk_1"
+      ],
+      "unit_id": "constitution_article_89",
+      "title": "The Chairman and Deputy Chairman of the Council of States"
+    },
+    "Article 9": {
+      "exists": true,
+      "type": "article",
+      "page": 36,
+      "chunk_ids": [
+        "constitution_article_9_chunk_1"
+      ],
+      "unit_id": "constitution_article_9",
+      "title": "Persons voluntarily acquiring citizenship of a foreign State not to"
+    },
+    "Article 90": {
+      "exists": true,
+      "type": "article",
+      "page": 72,
+      "chunk_ids": [
+        "constitution_article_90_chunk_1"
+      ],
+      "unit_id": "constitution_article_90",
+      "title": "Vacation and resignation of, and removal from, the office of"
+    },
+    "Article 91": {
+      "exists": true,
+      "type": "article",
+      "page": 72,
+      "chunk_ids": [
+        "constitution_article_91_chunk_1"
+      ],
+      "unit_id": "constitution_article_91",
+      "title": "Power of the Deputy Chairman or other person to perform the"
+    },
+    "Article 92": {
+      "exists": true,
+      "type": "article",
+      "page": 72,
+      "chunk_ids": [
+        "constitution_article_92_chunk_1"
+      ],
+      "unit_id": "constitution_article_92",
+      "title": "The Chairman or the Deputy Chairman not to preside while a"
+    },
+    "Article 93": {
+      "exists": true,
+      "type": "article",
+      "page": 73,
+      "chunk_ids": [
+        "constitution_article_93_chunk_1"
+      ],
+      "unit_id": "constitution_article_93",
+      "title": "The Speaker and Deputy Speaker of the House of the People"
+    },
+    "Article 94": {
+      "exists": true,
+      "type": "article",
+      "page": 73,
+      "chunk_ids": [
+        "constitution_article_94_chunk_1"
+      ],
+      "unit_id": "constitution_article_94",
+      "title": "Vacation and resignation of, and removal from, the offices of"
+    },
+    "Article 95": {
+      "exists": true,
+      "type": "article",
+      "page": 73,
+      "chunk_ids": [
+        "constitution_article_95_chunk_1"
+      ],
+      "unit_id": "constitution_article_95",
+      "title": "Power of the Deputy Speaker or other person to perform the"
+    },
+    "Article 96": {
+      "exists": true,
+      "type": "article",
+      "page": 74,
+      "chunk_ids": [
+        "constitution_article_96_chunk_1"
+      ],
+      "unit_id": "constitution_article_96",
+      "title": "The Speaker or the Deputy Speaker not to preside while a"
+    },
+    "Article 97": {
+      "exists": true,
+      "type": "article",
+      "page": 74,
+      "chunk_ids": [
+        "constitution_article_97_chunk_1"
+      ],
+      "unit_id": "constitution_article_97",
+      "title": "Salaries and allowances of the Chairman and Deputy Chairman"
+    },
+    "Article 98": {
+      "exists": true,
+      "type": "article",
+      "page": 74,
+      "chunk_ids": [
+        "constitution_article_98_chunk_1"
+      ],
+      "unit_id": "constitution_article_98",
+      "title": "Secretariat of Parliament"
+    },
+    "Article 99": {
+      "exists": true,
+      "type": "article",
+      "page": 75,
+      "chunk_ids": [
+        "constitution_article_99_chunk_1"
+      ],
+      "unit_id": "constitution_article_99",
+      "title": "Oath or affirmation by members"
+    },
+    "Article ": {
+      "exists": true,
+      "type": "article",
+      "page": 30,
+      "chunk_ids": [
+        "income_tax_section_1_chunk_1",
+        "income_tax_section_10_chunk_1",
+        "income_tax_section_10_chunk_2",
+        "income_tax_section_10_chunk_3",
+        "income_tax_section_100_chunk_1",
+        "income_tax_section_101_chunk_1",
+        "income_tax_section_102_chunk_1",
+        "income_tax_section_102_chunk_2",
+        "income_tax_section_102_chunk_3",
+        "income_tax_section_102_chunk_4",
+        "income_tax_section_104_chunk_1",
+        "income_tax_section_105_chunk_1",
+        "income_tax_section_106_chunk_1",
+        "income_tax_section_107_chunk_1",
+        "income_tax_section_107A_chunk_1",
+        "income_tax_section_108_chunk_1",
+        "income_tax_section_10A_chunk_1",
+        "income_tax_section_10A_chunk_2",
+        "income_tax_section_10A_chunk_3",
+        "income_tax_section_10A_chunk_4",
+        "income_tax_section_10B_chunk_1",
+        "income_tax_section_10B_chunk_2",
+        "income_tax_section_10BA_chunk_1",
+        "income_tax_section_10BA_chunk_2",
+        "income_tax_section_10BB_chunk_1",
+        "income_tax_section_11_chunk_1",
+        "income_tax_section_11_chunk_2",
+        "income_tax_section_110_chunk_1",
+        "income_tax_section_111_chunk_1",
+        "income_tax_section_111A_chunk_1",
+        "income_tax_section_111A_chunk_2",
+        "income_tax_section_111A_chunk_3",
+        "income_tax_section_112_chunk_1",
+        "income_tax_section_112_chunk_2",
+        "income_tax_section_112_chunk_3",
+        "income_tax_section_112A_chunk_1",
+        "income_tax_section_113_chunk_1",
+        "income_tax_section_114_chunk_1",
+        "income_tax_section_115_chunk_1",
+        "income_tax_section_115B_chunk_1",
+        "income_tax_section_115B_chunk_2",
+        "income_tax_section_115BA_chunk_1",
+        "income_tax_section_115BA_chunk_2",
+        "income_tax_section_115BA_chunk_3",
+        "income_tax_section_115BBA_chunk_1",
+        "income_tax_section_115BBA_chunk_2",
+        "income_tax_section_115BBC_chunk_1",
+        "income_tax_section_115BBC_chunk_2",
+        "income_tax_section_115BBD_chunk_1",
+        "income_tax_section_115BBDA_chunk_1",
+        "income_tax_section_115BBDA_chunk_2",
+        "income_tax_section_115BBF_chunk_1",
+        "income_tax_section_115BBG_chunk_1",
+        "income_tax_section_115C_chunk_1",
+        "income_tax_section_115C_chunk_2",
+        "income_tax_section_115D_chunk_1",
+        "income_tax_section_115E_chunk_1",
+        "income_tax_section_115F_chunk_1",
+        "income_tax_section_115G_chunk_1",
+        "income_tax_section_115J_chunk_1",
+        "income_tax_section_115J_chunk_2",
+        "income_tax_section_115J_chunk_3",
+        "income_tax_section_115JA_chunk_1",
+        "income_tax_section_115JA_chunk_2",
+        "income_tax_section_115JAA_chunk_1",
+        "income_tax_section_115JB_chunk_1",
+        "income_tax_section_115JB_chunk_2",
+        "income_tax_section_115JB_chunk_3",
+        "income_tax_section_115JC_chunk_1",
+        "income_tax_section_115JC_chunk_2",
+        "income_tax_section_115JD_chunk_1",
+        "income_tax_section_115JE_chunk_1",
+        "income_tax_section_115JEE_chunk_1",
+        "income_tax_section_115JF_chunk_1",
+        "income_tax_section_115JH_chunk_1",
+        "income_tax_section_115K_chunk_1",
+        "income_tax_section_115L_chunk_1",
+        "income_tax_section_115M_chunk_1",
+        "income_tax_section_115N_chunk_1",
+        "income_tax_section_115P_chunk_1",
+        "income_tax_section_115Q_chunk_1",
+        "income_tax_section_115QA_chunk_1",
+        "income_tax_section_115QA_chunk_2",
+        "income_tax_section_115QB_chunk_1",
+        "income_tax_section_115QC_chunk_1",
+        "income_tax_section_115R_chunk_1",
+        "income_tax_section_115R_chunk_2",
+        "income_tax_section_115S_chunk_1",
+        "income_tax_section_115T_chunk_1",
+        "income_tax_section_115T_chunk_2",
+        "income_tax_section_115TA_chunk_1",
+        "income_tax_section_115TA_chunk_2",
+        "income_tax_section_115TB_chunk_1",
+        "income_tax_section_115TC_chunk_1",
+        "income_tax_section_115TCA_chunk_1",
+        "income_tax_section_115TE_chunk_1",
+        "income_tax_section_115TE_chunk_2",
+        "income_tax_section_115U_chunk_1",
+        "income_tax_section_115U_chunk_2",
+        "income_tax_section_115U_chunk_3",
+        "income_tax_section_115U_chunk_4",
+        "income_tax_section_115UA_chunk_1",
+        "income_tax_section_115UA_chunk_2",
+        "income_tax_section_115UB_chunk_1",
+        "income_tax_section_115UB_chunk_2",
+        "income_tax_section_115V_chunk_1",
+        "income_tax_section_115VA_chunk_1",
+        "income_tax_section_115VB_chunk_1",
+        "income_tax_section_115VC_chunk_1",
+        "income_tax_section_115VD_chunk_1",
+        "income_tax_section_115VE_chunk_1",
+        "income_tax_section_115VF_chunk_1",
+        "income_tax_section_115VG_chunk_1",
+        "income_tax_section_115VG_chunk_2",
+        "income_tax_section_115VG_chunk_3",
+        "income_tax_section_115VH_chunk_1",
+        "income_tax_section_115VI_chunk_1",
+        "income_tax_section_115VI_chunk_2",
+        "income_tax_section_115VI_chunk_3",
+        "income_tax_section_115VI_chunk_4",
+        "income_tax_section_115VI_chunk_5",
+        "income_tax_section_115VJ_chunk_1",
+        "income_tax_section_115VK_chunk_1",
+        "income_tax_section_115VK_chunk_2",
+        "income_tax_section_115VK_chunk_3",
+        "income_tax_section_115VK_chunk_4",
+        "income_tax_section_115VK_chunk_5",
+        "income_tax_section_115VL_chunk_1",
+        "income_tax_section_115VL_chunk_2",
+        "income_tax_section_115VM_chunk_1",
+        "income_tax_section_115VN_chunk_1",
+        "income_tax_section_115VP_chunk_1",
+        "income_tax_section_115VP_chunk_2",
+        "income_tax_section_115VQ_chunk_1",
+        "income_tax_section_115VR_chunk_1",
+        "income_tax_section_115VS_chunk_1",
+        "income_tax_section_115VT_chunk_1",
+        "income_tax_section_115VT_chunk_2",
+        "income_tax_section_115VT_chunk_3",
+        "income_tax_section_115VT_chunk_4",
+        "income_tax_section_115VT_chunk_5",
+        "income_tax_section_115VT_chunk_6",
+        "income_tax_section_115VU_chunk_1",
+        "income_tax_section_115VV_chunk_1",
+        "income_tax_section_115VV_chunk_2",
+        "income_tax_section_115VW_chunk_1",
+        "income_tax_section_115VX_chunk_1",
+        "income_tax_section_115VX_chunk_2",
+        "income_tax_section_115VY_chunk_1",
+        "income_tax_section_115VY_chunk_2",
+        "income_tax_section_115VZ_chunk_1",
+        "income_tax_section_115VZB_chunk_1",
+        "income_tax_section_115VZB_chunk_2",
+        "income_tax_section_115VZC_chunk_1",
+        "income_tax_section_115VZC_chunk_2",
+        "income_tax_section_115W_chunk_1",
+        "income_tax_section_115WA_chunk_1",
+        "income_tax_section_115WB_chunk_1",
+        "income_tax_section_115WC_chunk_1",
+        "income_tax_section_115WC_chunk_2",
+        "income_tax_section_115WC_chunk_3",
+        "income_tax_section_115WD_chunk_1",
+        "income_tax_section_115WE_chunk_1",
+        "income_tax_section_115WE_chunk_2",
+        "income_tax_section_115WF_chunk_1",
+        "income_tax_section_115WG_chunk_1",
+        "income_tax_section_115WH_chunk_1",
+        "income_tax_section_115WH_chunk_2",
+        "income_tax_section_115WI_chunk_1",
+        "income_tax_section_115WJ_chunk_1",
+        "income_tax_section_115WJ_chunk_2",
+        "income_tax_section_115WJ_chunk_3",
+        "income_tax_section_115WK_chunk_1",
+        "income_tax_section_115WK_chunk_2",
+        "income_tax_section_115WKA_chunk_1",
+        "income_tax_section_115WKB_chunk_1",
+        "income_tax_section_115WL_chunk_1",
+        "income_tax_section_115WM_chunk_1",
+        "income_tax_section_116_chunk_1",
+        "income_tax_section_117_chunk_1",
+        "income_tax_section_118_chunk_1",
+        "income_tax_section_12_chunk_1",
+        "income_tax_section_12_chunk_2",
+        "income_tax_section_120_chunk_1",
+        "income_tax_section_120_chunk_2",
+        "income_tax_section_120_chunk_3",
+        "income_tax_section_124_chunk_1",
+        "income_tax_section_124_chunk_2",
+        "income_tax_section_129_chunk_1",
+        "income_tax_section_12A_chunk_1",
+        "income_tax_section_12A_chunk_2",
+        "income_tax_section_12A_chunk_3",
+        "income_tax_section_12A_chunk_4",
+        "income_tax_section_12AA_chunk_1",
+        "income_tax_section_13_chunk_1",
+        "income_tax_section_13_chunk_2",
+        "income_tax_section_13_chunk_3",
+        "income_tax_section_131_chunk_1",
+        "income_tax_section_131_chunk_2",
+        "income_tax_section_131_chunk_3",
+        "income_tax_section_132_chunk_1",
+        "income_tax_section_132_chunk_2",
+        "income_tax_section_132A_chunk_1",
+        "income_tax_section_132A_chunk_2",
+        "income_tax_section_132A_chunk_3",
+        "income_tax_section_133_chunk_1",
+        "income_tax_section_133_chunk_2",
+        "income_tax_section_133_chunk_3",
+        "income_tax_section_133A_chunk_1",
+        "income_tax_section_133A_chunk_2",
+        "income_tax_section_133A_chunk_3",
+        "income_tax_section_134_chunk_1",
+        "income_tax_section_136_chunk_1",
+        "income_tax_section_138_chunk_1",
+        "income_tax_section_138_chunk_2",
+        "income_tax_section_138_chunk_3",
+        "income_tax_section_139_chunk_1",
+        "income_tax_section_139_chunk_2",
+        "income_tax_section_139_chunk_3",
+        "income_tax_section_139A_chunk_1",
+        "income_tax_section_139A_chunk_2",
+        "income_tax_section_139A_chunk_3",
+        "income_tax_section_139A_chunk_4",
+        "income_tax_section_139B_chunk_1",
+        "income_tax_section_139B_chunk_2",
+        "income_tax_section_139C_chunk_1",
+        "income_tax_section_139D_chunk_1",
+        "income_tax_section_13A_chunk_1",
+        "income_tax_section_13B_chunk_1",
+        "income_tax_section_14_chunk_1",
+        "income_tax_section_140_chunk_1",
+        "income_tax_section_140A_chunk_1",
+        "income_tax_section_140A_chunk_2",
+        "income_tax_section_141_chunk_1",
+        "income_tax_section_141A_chunk_1",
+        "income_tax_section_142_chunk_1",
+        "income_tax_section_142_chunk_2",
+        "income_tax_section_142_chunk_3",
+        "income_tax_section_142A_chunk_1",
+        "income_tax_section_142A_chunk_2",
+        "income_tax_section_143_chunk_1",
+        "income_tax_section_144_chunk_1",
+        "income_tax_section_144_chunk_2",
+        "income_tax_section_144A_chunk_1",
+        "income_tax_section_144BA_chunk_1",
+        "income_tax_section_144BA_chunk_2",
+        "income_tax_section_144BA_chunk_3",
+        "income_tax_section_144BA_chunk_4",
+        "income_tax_section_144C_chunk_1",
+        "income_tax_section_144C_chunk_2",
+        "income_tax_section_145_chunk_1",
+        "income_tax_section_145A_chunk_1",
+        "income_tax_section_145A_chunk_2",
+        "income_tax_section_145B_chunk_1",
+        "income_tax_section_146_chunk_1",
+        "income_tax_section_147_chunk_1",
+        "income_tax_section_147_chunk_2",
+        "income_tax_section_148_chunk_1",
+        "income_tax_section_148_chunk_2",
+        "income_tax_section_148_chunk_3",
+        "income_tax_section_149_chunk_1",
+        "income_tax_section_14A_chunk_1",
+        "income_tax_section_14A_chunk_2",
+        "income_tax_section_15_chunk_1",
+        "income_tax_section_15_chunk_2",
+        "income_tax_section_150_chunk_1",
+        "income_tax_section_150_chunk_2",
+        "income_tax_section_152_chunk_1",
+        "income_tax_section_153_chunk_1",
+        "income_tax_section_153_chunk_2",
+        "income_tax_section_153_chunk_3",
+        "income_tax_section_153_chunk_4",
+        "income_tax_section_153A_chunk_1",
+        "income_tax_section_153A_chunk_2",
+        "income_tax_section_153B_chunk_1",
+        "income_tax_section_153B_chunk_2",
+        "income_tax_section_153B_chunk_3",
+        "income_tax_section_153B_chunk_4",
+        "income_tax_section_153D_chunk_1",
+        "income_tax_section_154_chunk_1",
+        "income_tax_section_154_chunk_2",
+        "income_tax_section_154_chunk_3",
+        "income_tax_section_155_chunk_1",
+        "income_tax_section_155_chunk_2",
+        "income_tax_section_155_chunk_3",
+        "income_tax_section_156_chunk_1",
+        "income_tax_section_157_chunk_1",
+        "income_tax_section_158_chunk_1",
+        "income_tax_section_158BA_chunk_1",
+        "income_tax_section_158BB_chunk_1",
+        "income_tax_section_158BB_chunk_2",
+        "income_tax_section_158BB_chunk_3",
+        "income_tax_section_158BC_chunk_1",
+        "income_tax_section_158BD_chunk_1",
+        "income_tax_section_158BE_chunk_1",
+        "income_tax_section_158BE_chunk_2",
+        "income_tax_section_158BF_chunk_1",
+        "income_tax_section_158BFA_chunk_1",
+        "income_tax_section_158BG_chunk_1",
+        "income_tax_section_158BH_chunk_1",
+        "income_tax_section_158BI_chunk_1",
+        "income_tax_section_159_chunk_1",
+        "income_tax_section_159_chunk_2",
+        "income_tax_section_16_chunk_1",
+        "income_tax_section_160_chunk_1",
+        "income_tax_section_161_chunk_1",
+        "income_tax_section_161_chunk_2",
+        "income_tax_section_162_chunk_1",
+        "income_tax_section_162_chunk_2",
+        "income_tax_section_163_chunk_1",
+        "income_tax_section_163_chunk_2",
+        "income_tax_section_164_chunk_1",
+        "income_tax_section_164_chunk_2",
+        "income_tax_section_164_chunk_3",
+        "income_tax_section_164A_chunk_1",
+        "income_tax_section_165_chunk_1",
+        "income_tax_section_167_chunk_1",
+        "income_tax_section_167_chunk_2",
+        "income_tax_section_167_chunk_3",
+        "income_tax_section_167C_chunk_1",
+        "income_tax_section_167C_chunk_2",
+        "income_tax_section_167C_chunk_3",
+        "income_tax_section_169_chunk_1",
+        "income_tax_section_17_chunk_1",
+        "income_tax_section_170_chunk_1",
+        "income_tax_section_171_chunk_1",
+        "income_tax_section_171_chunk_2",
+        "income_tax_section_172_chunk_1",
+        "income_tax_section_172_chunk_2",
+        "income_tax_section_172_chunk_3",
+        "income_tax_section_172_chunk_4",
+        "income_tax_section_173_chunk_1",
+        "income_tax_section_174_chunk_1",
+        "income_tax_section_174_chunk_2",
+        "income_tax_section_174_chunk_3",
+        "income_tax_section_175_chunk_1",
+        "income_tax_section_176_chunk_1",
+        "income_tax_section_176_chunk_2",
+        "income_tax_section_177_chunk_1",
+        "income_tax_section_177_chunk_2",
+        "income_tax_section_178_chunk_1",
+        "income_tax_section_178_chunk_2",
+        "income_tax_section_178_chunk_3",
+        "income_tax_section_179_chunk_1",
+        "income_tax_section_179_chunk_2",
+        "income_tax_section_18_chunk_1",
+        "income_tax_section_180_chunk_1",
+        "income_tax_section_180A_chunk_1",
+        "income_tax_section_182_chunk_1",
+        "income_tax_section_183_chunk_1",
+        "income_tax_section_184_chunk_1",
+        "income_tax_section_184_chunk_2",
+        "income_tax_section_185_chunk_1",
+        "income_tax_section_188_chunk_1",
+        "income_tax_section_188A_chunk_1",
+        "income_tax_section_189_chunk_1",
+        "income_tax_section_189_chunk_2",
+        "income_tax_section_189A_chunk_1",
+        "income_tax_section_19_chunk_1",
+        "income_tax_section_190_chunk_1",
+        "income_tax_section_191_chunk_1",
+        "income_tax_section_192_chunk_1",
+        "income_tax_section_192_chunk_2",
+        "income_tax_section_192_chunk_3",
+        "income_tax_section_192_chunk_4",
+        "income_tax_section_192A_chunk_1",
+        "income_tax_section_193_chunk_1",
+        "income_tax_section_193_chunk_2",
+        "income_tax_section_194_chunk_1",
+        "income_tax_section_194_chunk_2",
+        "income_tax_section_194A_chunk_1",
+        "income_tax_section_194A_chunk_2",
+        "income_tax_section_194B_chunk_1",
+        "income_tax_section_194BB_chunk_1",
+        "income_tax_section_194C_chunk_1",
+        "income_tax_section_194C_chunk_2",
+        "income_tax_section_194DA_chunk_1",
+        "income_tax_section_194E_chunk_1",
+        "income_tax_section_194EE_chunk_1",
+        "income_tax_section_194F_chunk_1",
+        "income_tax_section_194G_chunk_1",
+        "income_tax_section_194H_chunk_1",
+        "income_tax_section_194H_chunk_2",
+        "income_tax_section_194H_chunk_3",
+        "income_tax_section_194J_chunk_1",
+        "income_tax_section_194J_chunk_2",
+        "income_tax_section_194K_chunk_1",
+        "income_tax_section_194L_chunk_1",
+        "income_tax_section_194LA_chunk_1",
+        "income_tax_section_194LB_chunk_1",
+        "income_tax_section_194LB_chunk_2",
+        "income_tax_section_194LB_chunk_3",
+        "income_tax_section_194LBB_chunk_1",
+        "income_tax_section_194LBB_chunk_2",
+        "income_tax_section_194LBB_chunk_3",
+        "income_tax_section_194LC_chunk_1",
+        "income_tax_section_194LC_chunk_2",
+        "income_tax_section_194LD_chunk_1",
+        "income_tax_section_194LD_chunk_2",
+        "income_tax_section_195_chunk_1",
+        "income_tax_section_195A_chunk_1",
+        "income_tax_section_196A_chunk_1",
+        "income_tax_section_196B_chunk_1",
+        "income_tax_section_196C_chunk_1",
+        "income_tax_section_196D_chunk_1",
+        "income_tax_section_197_chunk_1",
+        "income_tax_section_197_chunk_2",
+        "income_tax_section_197A_chunk_1",
+        "income_tax_section_197A_chunk_2",
+        "income_tax_section_197A_chunk_3",
+        "income_tax_section_198_chunk_1",
+        "income_tax_section_199_chunk_1",
+        "income_tax_section_19A_chunk_1",
+        "income_tax_section_2_chunk_1",
+        "income_tax_section_2_chunk_2",
+        "income_tax_section_20_chunk_1",
+        "income_tax_section_200_chunk_1",
+        "income_tax_section_200_chunk_2",
+        "income_tax_section_200A_chunk_1",
+        "income_tax_section_201_chunk_1",
+        "income_tax_section_202_chunk_1",
+        "income_tax_section_203_chunk_1",
+        "income_tax_section_203A_chunk_1",
+        "income_tax_section_203A_chunk_2",
+        "income_tax_section_203AA_chunk_1",
+        "income_tax_section_204_chunk_1",
+        "income_tax_section_204_chunk_2",
+        "income_tax_section_204_chunk_3",
+        "income_tax_section_205_chunk_1",
+        "income_tax_section_206_chunk_1",
+        "income_tax_section_206_chunk_2",
+        "income_tax_section_206_chunk_3",
+        "income_tax_section_206_chunk_4",
+        "income_tax_section_206AA_chunk_1",
+        "income_tax_section_206AA_chunk_2",
+        "income_tax_section_206CA_chunk_1",
+        "income_tax_section_206CB_chunk_1",
+        "income_tax_section_206CB_chunk_2",
+        "income_tax_section_206CC_chunk_1",
+        "income_tax_section_206CC_chunk_2",
+        "income_tax_section_207_chunk_1",
+        "income_tax_section_208_chunk_1",
+        "income_tax_section_208_chunk_2",
+        "income_tax_section_208_chunk_3",
+        "income_tax_section_209A_chunk_1",
+        "income_tax_section_21_chunk_1",
+        "income_tax_section_212_chunk_1",
+        "income_tax_section_214_chunk_1",
+        "income_tax_section_214_chunk_2",
+        "income_tax_section_214_chunk_3",
+        "income_tax_section_215_chunk_1",
+        "income_tax_section_216_chunk_1",
+        "income_tax_section_217_chunk_1",
+        "income_tax_section_217_chunk_2",
+        "income_tax_section_218_chunk_1",
+        "income_tax_section_219_chunk_1",
+        "income_tax_section_22_chunk_1",
+        "income_tax_section_220_chunk_1",
+        "income_tax_section_220_chunk_2",
+        "income_tax_section_221_chunk_1",
+        "income_tax_section_221_chunk_2",
+        "income_tax_section_222_chunk_1",
+        "income_tax_section_222_chunk_2",
+        "income_tax_section_223_chunk_1",
+        "income_tax_section_223_chunk_2",
+        "income_tax_section_224_chunk_1",
+        "income_tax_section_226_chunk_1",
+        "income_tax_section_226_chunk_2",
+        "income_tax_section_226_chunk_3",
+        "income_tax_section_226_chunk_4",
+        "income_tax_section_227_chunk_1",
+        "income_tax_section_228_chunk_1",
+        "income_tax_section_228A_chunk_1",
+        "income_tax_section_229_chunk_1",
+        "income_tax_section_23_chunk_1",
+        "income_tax_section_23_chunk_2",
+        "income_tax_section_23_chunk_3",
+        "income_tax_section_230_chunk_1",
+        "income_tax_section_230_chunk_2",
+        "income_tax_section_231_chunk_1",
+        "income_tax_section_232_chunk_1",
+        "income_tax_section_233_chunk_1",
+        "income_tax_section_234_chunk_1",
+        "income_tax_section_234_chunk_2",
+        "income_tax_section_234B_chunk_1",
+        "income_tax_section_234B_chunk_2",
+        "income_tax_section_234B_chunk_3",
+        "income_tax_section_234C_chunk_1",
+        "income_tax_section_234C_chunk_2",
+        "income_tax_section_234C_chunk_3",
+        "income_tax_section_234D_chunk_1",
+        "income_tax_section_234D_chunk_2",
+        "income_tax_section_234E_chunk_1",
+        "income_tax_section_234F_chunk_1",
+        "income_tax_section_236_chunk_1",
+        "income_tax_section_236_chunk_2",
+        "income_tax_section_236A_chunk_1",
+        "income_tax_section_236A_chunk_2",
+        "income_tax_section_237_chunk_1",
+        "income_tax_section_238_chunk_1",
+        "income_tax_section_239_chunk_1",
+        "income_tax_section_24_chunk_1",
+        "income_tax_section_24_chunk_2",
+        "income_tax_section_24_chunk_3",
+        "income_tax_section_240_chunk_1",
+        "income_tax_section_241_chunk_1",
+        "income_tax_section_241A_chunk_1",
+        "income_tax_section_242_chunk_1",
+        "income_tax_section_243_chunk_1",
+        "income_tax_section_243_chunk_2",
+        "income_tax_section_244_chunk_1",
+        "income_tax_section_244_chunk_2",
+        "income_tax_section_244_chunk_3",
+        "income_tax_section_244A_chunk_1",
+        "income_tax_section_244A_chunk_2",
+        "income_tax_section_244A_chunk_3",
+        "income_tax_section_245_chunk_1",
+        "income_tax_section_245A_chunk_1",
+        "income_tax_section_245A_chunk_2",
+        "income_tax_section_245A_chunk_3",
+        "income_tax_section_245B_chunk_1",
+        "income_tax_section_245BA_chunk_1",
+        "income_tax_section_245BA_chunk_2",
+        "income_tax_section_245BC_chunk_1",
+        "income_tax_section_245BD_chunk_1",
+        "income_tax_section_245C_chunk_1",
+        "income_tax_section_245D_chunk_1",
+        "income_tax_section_245D_chunk_2",
+        "income_tax_section_245D_chunk_3",
+        "income_tax_section_245E_chunk_1",
+        "income_tax_section_245F_chunk_1",
+        "income_tax_section_245F_chunk_2",
+        "income_tax_section_245F_chunk_3",
+        "income_tax_section_245H_chunk_1",
+        "income_tax_section_245H_chunk_2",
+        "income_tax_section_245H_chunk_3",
+        "income_tax_section_245HA_chunk_1",
+        "income_tax_section_245HAA_chunk_1",
+        "income_tax_section_245J_chunk_1",
+        "income_tax_section_245K_chunk_1",
+        "income_tax_section_245K_chunk_2",
+        "income_tax_section_245L_chunk_1",
+        "income_tax_section_245N_chunk_1",
+        "income_tax_section_245P_chunk_1",
+        "income_tax_section_245Q_chunk_1",
+        "income_tax_section_245R_chunk_1",
+        "income_tax_section_245R_chunk_2",
+        "income_tax_section_245S_chunk_1",
+        "income_tax_section_245T_chunk_1",
+        "income_tax_section_245T_chunk_2",
+        "income_tax_section_245V_chunk_1",
+        "income_tax_section_246A_chunk_1",
+        "income_tax_section_246A_chunk_2",
+        "income_tax_section_248_chunk_1",
+        "income_tax_section_249_chunk_1",
+        "income_tax_section_25_chunk_1",
+        "income_tax_section_25_chunk_2",
+        "income_tax_section_250_chunk_1",
+        "income_tax_section_250_chunk_2",
+        "income_tax_section_251_chunk_1",
+        "income_tax_section_251_chunk_2",
+        "income_tax_section_252_chunk_1",
+        "income_tax_section_253_chunk_1",
+        "income_tax_section_253_chunk_2",
+        "income_tax_section_253_chunk_3",
+        "income_tax_section_254_chunk_1",
+        "income_tax_section_254_chunk_2",
+        "income_tax_section_254_chunk_3",
+        "income_tax_section_255_chunk_1",
+        "income_tax_section_255_chunk_2",
+        "income_tax_section_255_chunk_3",
+        "income_tax_section_256_chunk_1",
+        "income_tax_section_256_chunk_2",
+        "income_tax_section_257_chunk_1",
+        "income_tax_section_258_chunk_1",
+        "income_tax_section_259_chunk_1",
+        "income_tax_section_25A_chunk_1",
+        "income_tax_section_26_chunk_1",
+        "income_tax_section_260_chunk_1",
+        "income_tax_section_260A_chunk_1",
+        "income_tax_section_260A_chunk_2",
+        "income_tax_section_260B_chunk_1",
+        "income_tax_section_261_chunk_1",
+        "income_tax_section_262_chunk_1",
+        "income_tax_section_263_chunk_1",
+        "income_tax_section_263_chunk_2",
+        "income_tax_section_265_chunk_1",
+        "income_tax_section_266_chunk_1",
+        "income_tax_section_267_chunk_1",
+        "income_tax_section_268_chunk_1",
+        "income_tax_section_269_chunk_1",
+        "income_tax_section_269A_chunk_1",
+        "income_tax_section_269A_chunk_2",
+        "income_tax_section_269AB_chunk_1",
+        "income_tax_section_269AB_chunk_2",
+        "income_tax_section_269C_chunk_1",
+        "income_tax_section_269D_chunk_1",
+        "income_tax_section_269E_chunk_1",
+        "income_tax_section_269F_chunk_1",
+        "income_tax_section_269F_chunk_2",
+        "income_tax_section_269F_chunk_3",
+        "income_tax_section_269G_chunk_1",
+        "income_tax_section_269G_chunk_2",
+        "income_tax_section_269G_chunk_3",
+        "income_tax_section_269H_chunk_1",
+        "income_tax_section_269H_chunk_2",
+        "income_tax_section_269H_chunk_3",
+        "income_tax_section_269J_chunk_1",
+        "income_tax_section_269K_chunk_1",
+        "income_tax_section_269K_chunk_2",
+        "income_tax_section_269K_chunk_3",
+        "income_tax_section_269K_chunk_4",
+        "income_tax_section_269L_chunk_1",
+        "income_tax_section_269M_chunk_1",
+        "income_tax_section_269N_chunk_1",
+        "income_tax_section_269N_chunk_2",
+        "income_tax_section_269P_chunk_1",
+        "income_tax_section_269P_chunk_2",
+        "income_tax_section_269Q_chunk_1",
+        "income_tax_section_269S_chunk_1",
+        "income_tax_section_269ST_chunk_1",
+        "income_tax_section_269ST_chunk_2",
+        "income_tax_section_269ST_chunk_3",
+        "income_tax_section_269U_chunk_1",
+        "income_tax_section_269UA_chunk_1",
+        "income_tax_section_269UA_chunk_2",
+        "income_tax_section_269UA_chunk_3",
+        "income_tax_section_269UB_chunk_1",
+        "income_tax_section_269UB_chunk_2",
+        "income_tax_section_269UB_chunk_3",
+        "income_tax_section_269UB_chunk_4",
+        "income_tax_section_269UE_chunk_1",
+        "income_tax_section_269UE_chunk_2",
+        "income_tax_section_269UE_chunk_3",
+        "income_tax_section_269UE_chunk_4",
+        "income_tax_section_269UF_chunk_1",
+        "income_tax_section_269UG_chunk_1",
+        "income_tax_section_269UG_chunk_2",
+        "income_tax_section_269UG_chunk_3",
+        "income_tax_section_269UI_chunk_1",
+        "income_tax_section_269UJ_chunk_1",
+        "income_tax_section_269UL_chunk_1",
+        "income_tax_section_269UL_chunk_2",
+        "income_tax_section_269UM_chunk_1",
+        "income_tax_section_269UN_chunk_1",
+        "income_tax_section_269UO_chunk_1",
+        "income_tax_section_27_chunk_1",
+        "income_tax_section_27_chunk_2",
+        "income_tax_section_270_chunk_1",
+        "income_tax_section_270A_chunk_1",
+        "income_tax_section_270A_chunk_2",
+        "income_tax_section_270AA_chunk_1",
+        "income_tax_section_270AA_chunk_2",
+        "income_tax_section_271_chunk_1",
+        "income_tax_section_271_chunk_2",
+        "income_tax_section_271A_chunk_1",
+        "income_tax_section_271AA_chunk_1",
+        "income_tax_section_271AAA_chunk_1",
+        "income_tax_section_271AAB_chunk_1",
+        "income_tax_section_271AAB_chunk_2",
+        "income_tax_section_271AAB_chunk_3",
+        "income_tax_section_271AAC_chunk_1",
+        "income_tax_section_271AAC_chunk_2",
+        "income_tax_section_271B_chunk_1",
+        "income_tax_section_271BA_chunk_1",
+        "income_tax_section_271BB_chunk_1",
+        "income_tax_section_271C_chunk_1",
+        "income_tax_section_271CA_chunk_1",
+        "income_tax_section_271D_chunk_1",
+        "income_tax_section_271DA_chunk_1",
+        "income_tax_section_271E_chunk_1",
+        "income_tax_section_271F_chunk_1",
+        "income_tax_section_271FB_chunk_1",
+        "income_tax_section_271G_chunk_1",
+        "income_tax_section_271GA_chunk_1",
+        "income_tax_section_271H_chunk_1",
+        "income_tax_section_271H_chunk_2",
+        "income_tax_section_271J_chunk_1",
+        "income_tax_section_271J_chunk_2",
+        "income_tax_section_272AA_chunk_1",
+        "income_tax_section_272BB_chunk_1",
+        "income_tax_section_272BBB_chunk_1",
+        "income_tax_section_273_chunk_1",
+        "income_tax_section_273_chunk_2",
+        "income_tax_section_273A_chunk_1",
+        "income_tax_section_273A_chunk_2",
+        "income_tax_section_273B_chunk_1",
+        "income_tax_section_274_chunk_1",
+        "income_tax_section_275_chunk_1",
+        "income_tax_section_275_chunk_2",
+        "income_tax_section_275_chunk_3",
+        "income_tax_section_275A_chunk_1",
+        "income_tax_section_275B_chunk_1",
+        "income_tax_section_276_chunk_1",
+        "income_tax_section_276A_chunk_1",
+        "income_tax_section_276AA_chunk_1",
+        "income_tax_section_276AB_chunk_1",
+        "income_tax_section_276BB_chunk_1",
+        "income_tax_section_276C_chunk_1",
+        "income_tax_section_276C_chunk_2",
+        "income_tax_section_276CC_chunk_1",
+        "income_tax_section_276CC_chunk_2",
+        "income_tax_section_276CCC_chunk_1",
+        "income_tax_section_276D_chunk_1",
+        "income_tax_section_276DD_chunk_1",
+        "income_tax_section_276E_chunk_1",
+        "income_tax_section_277_chunk_1",
+        "income_tax_section_277A_chunk_1",
+        "income_tax_section_278_chunk_1",
+        "income_tax_section_278A_chunk_1",
+        "income_tax_section_278AA_chunk_1",
+        "income_tax_section_278B_chunk_1",
+        "income_tax_section_278B_chunk_2",
+        "income_tax_section_278C_chunk_1",
+        "income_tax_section_278D_chunk_1",
+        "income_tax_section_278D_chunk_2",
+        "income_tax_section_278E_chunk_1",
+        "income_tax_section_279A_chunk_1",
+        "income_tax_section_279B_chunk_1",
+        "income_tax_section_28_chunk_1",
+        "income_tax_section_280_chunk_1",
+        "income_tax_section_280A_chunk_1",
+        "income_tax_section_280B_chunk_1",
+        "income_tax_section_280C_chunk_1",
+        "income_tax_section_281_chunk_1",
+        "income_tax_section_281_chunk_2",
+        "income_tax_section_281A_chunk_1",
+        "income_tax_section_281B_chunk_1",
+        "income_tax_section_282_chunk_1",
+        "income_tax_section_282_chunk_2",
+        "income_tax_section_282A_chunk_1",
+        "income_tax_section_282B_chunk_1",
+        "income_tax_section_283_chunk_1",
+        "income_tax_section_284_chunk_1",
+        "income_tax_section_285_chunk_1",
+        "income_tax_section_285A_chunk_1",
+        "income_tax_section_285B_chunk_1",
+        "income_tax_section_285BA_chunk_1",
+        "income_tax_section_285BA_chunk_2",
+        "income_tax_section_286_chunk_1",
+        "income_tax_section_286_chunk_2",
+        "income_tax_section_286_chunk_3",
+        "income_tax_section_287_chunk_1",
+        "income_tax_section_287A_chunk_1",
+        "income_tax_section_288_chunk_1",
+        "income_tax_section_288A_chunk_1",
+        "income_tax_section_288B_chunk_1",
+        "income_tax_section_29_chunk_1",
+        "income_tax_section_290_chunk_1",
+        "income_tax_section_291_chunk_1",
+        "income_tax_section_291_chunk_2",
+        "income_tax_section_292_chunk_1",
+        "income_tax_section_292B_chunk_1",
+        "income_tax_section_292BB_chunk_1",
+        "income_tax_section_292C_chunk_1",
+        "income_tax_section_292C_chunk_2",
+        "income_tax_section_292CC_chunk_1",
+        "income_tax_section_293_chunk_1",
+        "income_tax_section_293A_chunk_1",
+        "income_tax_section_293A_chunk_2",
+        "income_tax_section_293B_chunk_1",
+        "income_tax_section_293C_chunk_1",
+        "income_tax_section_294_chunk_1",
+        "income_tax_section_294A_chunk_1",
+        "income_tax_section_295_chunk_1",
+        "income_tax_section_295_chunk_2",
+        "income_tax_section_297_chunk_1",
+        "income_tax_section_297_chunk_2",
+        "income_tax_section_297_chunk_3",
+        "income_tax_section_298_chunk_1",
+        "income_tax_section_3_chunk_1",
+        "income_tax_section_30_chunk_1",
+        "income_tax_section_31_chunk_1",
+        "income_tax_section_32_chunk_1",
+        "income_tax_section_32A_chunk_1",
+        "income_tax_section_32A_chunk_2",
+        "income_tax_section_32A_chunk_3",
+        "income_tax_section_32AB_chunk_1",
+        "income_tax_section_32AB_chunk_2",
+        "income_tax_section_32AB_chunk_3",
+        "income_tax_section_32AC_chunk_1",
+        "income_tax_section_32AC_chunk_2",
+        "income_tax_section_32AC_chunk_3",
+        "income_tax_section_32AC_chunk_4",
+        "income_tax_section_33_chunk_1",
+        "income_tax_section_33_chunk_2",
+        "income_tax_section_33_chunk_3",
+        "income_tax_section_33A_chunk_1",
+        "income_tax_section_33ABA_chunk_1",
+        "income_tax_section_33ABA_chunk_2",
+        "income_tax_section_33ABA_chunk_3",
+        "income_tax_section_33ABA_chunk_4",
+        "income_tax_section_33AC_chunk_1",
+        "income_tax_section_33AC_chunk_2",
+        "income_tax_section_33B_chunk_1",
+        "income_tax_section_33B_chunk_2",
+        "income_tax_section_34_chunk_1",
+        "income_tax_section_34_chunk_2",
+        "income_tax_section_35_chunk_1",
+        "income_tax_section_35_chunk_2",
+        "income_tax_section_35_chunk_3",
+        "income_tax_section_35A_chunk_1",
+        "income_tax_section_35A_chunk_2",
+        "income_tax_section_35A_chunk_3",
+        "income_tax_section_35A_chunk_4",
+        "income_tax_section_35AB_chunk_1",
+        "income_tax_section_35AB_chunk_2",
+        "income_tax_section_35ABA_chunk_1",
+        "income_tax_section_35ABB_chunk_1",
+        "income_tax_section_35AC_chunk_1",
+        "income_tax_section_35AC_chunk_2",
+        "income_tax_section_35AC_chunk_3",
+        "income_tax_section_35AC_chunk_4",
+        "income_tax_section_35AD_chunk_1",
+        "income_tax_section_35B_chunk_1",
+        "income_tax_section_35C_chunk_1",
+        "income_tax_section_35CC_chunk_1",
+        "income_tax_section_35CC_chunk_2",
+        "income_tax_section_35CC_chunk_3",
+        "income_tax_section_35CCC_chunk_1",
+        "income_tax_section_35CCD_chunk_1",
+        "income_tax_section_35D_chunk_1",
+        "income_tax_section_35D_chunk_2",
+        "income_tax_section_35DD_chunk_1",
+        "income_tax_section_35DDA_chunk_1",
+        "income_tax_section_35DDA_chunk_2",
+        "income_tax_section_35DDA_chunk_3",
+        "income_tax_section_35E_chunk_1",
+        "income_tax_section_35E_chunk_2",
+        "income_tax_section_35E_chunk_3",
+        "income_tax_section_35E_chunk_4",
+        "income_tax_section_35E_chunk_5",
+        "income_tax_section_35E_chunk_6",
+        "income_tax_section_36_chunk_1",
+        "income_tax_section_36_chunk_2",
+        "income_tax_section_36_chunk_3",
+        "income_tax_section_37_chunk_1",
+        "income_tax_section_37_chunk_2",
+        "income_tax_section_38_chunk_1",
+        "income_tax_section_39_chunk_1",
+        "income_tax_section_4_chunk_1",
+        "income_tax_section_4_chunk_2",
+        "income_tax_section_40_chunk_1",
+        "income_tax_section_40_chunk_2",
+        "income_tax_section_40A_chunk_1",
+        "income_tax_section_40A_chunk_2",
+        "income_tax_section_40A_chunk_3",
+        "income_tax_section_41_chunk_1",
+        "income_tax_section_41_chunk_2",
+        "income_tax_section_41_chunk_3",
+        "income_tax_section_42_chunk_1",
+        "income_tax_section_42_chunk_2",
+        "income_tax_section_43_chunk_1",
+        "income_tax_section_43A_chunk_1",
+        "income_tax_section_43A_chunk_2",
+        "income_tax_section_43A_chunk_3",
+        "income_tax_section_43A_chunk_4",
+        "income_tax_section_43AA_chunk_1",
+        "income_tax_section_43B_chunk_1",
+        "income_tax_section_43B_chunk_2",
+        "income_tax_section_43C_chunk_1",
+        "income_tax_section_43C_chunk_2",
+        "income_tax_section_43CB_chunk_1",
+        "income_tax_section_44_chunk_1",
+        "income_tax_section_44A_chunk_1",
+        "income_tax_section_44A_chunk_2",
+        "income_tax_section_44AA_chunk_1",
+        "income_tax_section_44AA_chunk_2",
+        "income_tax_section_44AA_chunk_3",
+        "income_tax_section_44AA_chunk_4",
+        "income_tax_section_44AB_chunk_1",
+        "income_tax_section_44AB_chunk_2",
+        "income_tax_section_44AB_chunk_3",
+        "income_tax_section_44AF_chunk_1",
+        "income_tax_section_44AF_chunk_2",
+        "income_tax_section_44AF_chunk_3",
+        "income_tax_section_44C_chunk_1",
+        "income_tax_section_44D_chunk_1",
+        "income_tax_section_44D_chunk_2",
+        "income_tax_section_44D_chunk_3",
+        "income_tax_section_44DA_chunk_1",
+        "income_tax_section_45_chunk_1",
+        "income_tax_section_45_chunk_2",
+        "income_tax_section_45_chunk_3",
+        "income_tax_section_46_chunk_1",
+        "income_tax_section_46A_chunk_1",
+        "income_tax_section_47_chunk_1",
+        "income_tax_section_47A_chunk_1",
+        "income_tax_section_47A_chunk_2",
+        "income_tax_section_47A_chunk_3",
+        "income_tax_section_48_chunk_1",
+        "income_tax_section_48_chunk_2",
+        "income_tax_section_48_chunk_3",
+        "income_tax_section_48_chunk_4",
+        "income_tax_section_49_chunk_1",
+        "income_tax_section_5_chunk_1",
+        "income_tax_section_5_chunk_2",
+        "income_tax_section_50_chunk_1",
+        "income_tax_section_50_chunk_2",
+        "income_tax_section_50A_chunk_1",
+        "income_tax_section_50B_chunk_1",
+        "income_tax_section_50B_chunk_2",
+        "income_tax_section_50B_chunk_3",
+        "income_tax_section_50C_chunk_1",
+        "income_tax_section_50D_chunk_1",
+        "income_tax_section_51_chunk_1",
+        "income_tax_section_52_chunk_1",
+        "income_tax_section_53_chunk_1",
+        "income_tax_section_54_chunk_1",
+        "income_tax_section_54_chunk_2",
+        "income_tax_section_54A_chunk_1",
+        "income_tax_section_54C_chunk_1",
+        "income_tax_section_54E_chunk_1",
+        "income_tax_section_54E_chunk_2",
+        "income_tax_section_54E_chunk_3",
+        "income_tax_section_54EC_chunk_1",
+        "income_tax_section_54EE_chunk_1",
+        "income_tax_section_54EE_chunk_2",
+        "income_tax_section_55_chunk_1",
+        "income_tax_section_55_chunk_2",
+        "income_tax_section_55A_chunk_1",
+        "income_tax_section_56_chunk_1",
+        "income_tax_section_56_chunk_2",
+        "income_tax_section_57_chunk_1",
+        "income_tax_section_57_chunk_2",
+        "income_tax_section_58_chunk_1",
+        "income_tax_section_59_chunk_1",
+        "income_tax_section_5A_chunk_1",
+        "income_tax_section_6_chunk_1",
+        "income_tax_section_6_chunk_2",
+        "income_tax_section_60_chunk_1",
+        "income_tax_section_61_chunk_1",
+        "income_tax_section_62_chunk_1",
+        "income_tax_section_63_chunk_1",
+        "income_tax_section_64_chunk_1",
+        "income_tax_section_64_chunk_2",
+        "income_tax_section_65_chunk_1",
+        "income_tax_section_66_chunk_1",
+        "income_tax_section_67_chunk_1",
+        "income_tax_section_68_chunk_1",
+        "income_tax_section_68_chunk_2",
+        "income_tax_section_68A_chunk_1",
+        "income_tax_section_68B_chunk_1",
+        "income_tax_section_68B_chunk_2",
+        "income_tax_section_68B_chunk_3",
+        "income_tax_section_69_chunk_1",
+        "income_tax_section_69A_chunk_1",
+        "income_tax_section_69B_chunk_1",
+        "income_tax_section_69C_chunk_1",
+        "income_tax_section_69D_chunk_1",
+        "income_tax_section_7_chunk_1",
+        "income_tax_section_70_chunk_1",
+        "income_tax_section_71_chunk_1",
+        "income_tax_section_72_chunk_1",
+        "income_tax_section_73_chunk_1",
+        "income_tax_section_73_chunk_2",
+        "income_tax_section_73A_chunk_1",
+        "income_tax_section_74_chunk_1",
+        "income_tax_section_75_chunk_1",
+        "income_tax_section_76_chunk_1",
+        "income_tax_section_77_chunk_1",
+        "income_tax_section_78_chunk_1",
+        "income_tax_section_79_chunk_1",
+        "income_tax_section_79_chunk_2",
+        "income_tax_section_79_chunk_3",
+        "income_tax_section_8_chunk_1",
+        "income_tax_section_80_chunk_1",
+        "income_tax_section_80A_chunk_1",
+        "income_tax_section_80A_chunk_2",
+        "income_tax_section_80A_chunk_3",
+        "income_tax_section_80A_chunk_4",
+        "income_tax_section_80AA_chunk_1",
+        "income_tax_section_80AC_chunk_1",
+        "income_tax_section_80B_chunk_1",
+        "income_tax_section_80CC_chunk_1",
+        "income_tax_section_80CCB_chunk_1",
+        "income_tax_section_80CCB_chunk_2",
+        "income_tax_section_80CCC_chunk_1",
+        "income_tax_section_80CCC_chunk_2",
+        "income_tax_section_80CCD_chunk_1",
+        "income_tax_section_80CCE_chunk_1",
+        "income_tax_section_80CCF_chunk_1",
+        "income_tax_section_80CCG_chunk_1",
+        "income_tax_section_80CCG_chunk_2",
+        "income_tax_section_80D_chunk_1",
+        "income_tax_section_80D_chunk_2",
+        "income_tax_section_80D_chunk_3",
+        "income_tax_section_80DDB_chunk_1",
+        "income_tax_section_80DDB_chunk_2",
+        "income_tax_section_80E_chunk_1",
+        "income_tax_section_80E_chunk_2",
+        "income_tax_section_80EE_chunk_1",
+        "income_tax_section_80EE_chunk_2",
+        "income_tax_section_80F_chunk_1",
+        "income_tax_section_80FF_chunk_1",
+        "income_tax_section_80G_chunk_1",
+        "income_tax_section_80G_chunk_2",
+        "income_tax_section_80GG_chunk_1",
+        "income_tax_section_80GG_chunk_2",
+        "income_tax_section_80GGB_chunk_1",
+        "income_tax_section_80GGC_chunk_1",
+        "income_tax_section_80HHB_chunk_1",
+        "income_tax_section_80HHD_chunk_1",
+        "income_tax_section_80HHD_chunk_2",
+        "income_tax_section_80HHD_chunk_3",
+        "income_tax_section_80JJ_chunk_1",
+        "income_tax_section_80JJAA_chunk_1",
+        "income_tax_section_80JJAA_chunk_2",
+        "income_tax_section_80L_chunk_1",
+        "income_tax_section_80M_chunk_1",
+        "income_tax_section_80MM_chunk_1",
+        "income_tax_section_80N_chunk_1",
+        "income_tax_section_80N_chunk_2",
+        "income_tax_section_80PA_chunk_1",
+        "income_tax_section_80PA_chunk_2",
+        "income_tax_section_80Q_chunk_1",
+        "income_tax_section_80Q_chunk_2",
+        "income_tax_section_80QQB_chunk_1",
+        "income_tax_section_80QQB_chunk_2",
+        "income_tax_section_80RRB_chunk_1",
+        "income_tax_section_80RRB_chunk_2",
+        "income_tax_section_80RRB_chunk_3",
+        "income_tax_section_80RRB_chunk_4",
+        "income_tax_section_80S_chunk_1",
+        "income_tax_section_80T_chunk_1",
+        "income_tax_section_80TT_chunk_1",
+        "income_tax_section_80TTB_chunk_1",
+        "income_tax_section_80TTB_chunk_2",
+        "income_tax_section_80U_chunk_1",
+        "income_tax_section_80V_chunk_1",
+        "income_tax_section_81_chunk_1",
+        "income_tax_section_81_chunk_2",
+        "income_tax_section_82_chunk_1",
+        "income_tax_section_83_chunk_1",
+        "income_tax_section_84_chunk_1",
+        "income_tax_section_85_chunk_1",
+        "income_tax_section_86_chunk_1",
+        "income_tax_section_86A_chunk_1",
+        "income_tax_section_87_chunk_1",
+        "income_tax_section_87A_chunk_1",
+        "income_tax_section_88_chunk_1",
+        "income_tax_section_88_chunk_2",
+        "income_tax_section_88A_chunk_1",
+        "income_tax_section_88B_chunk_1",
+        "income_tax_section_88C_chunk_1",
+        "income_tax_section_88D_chunk_1",
+        "income_tax_section_88E_chunk_1",
+        "income_tax_section_88E_chunk_2",
+        "income_tax_section_89_chunk_1",
+        "income_tax_section_89_chunk_2",
+        "income_tax_section_89A_chunk_1",
+        "income_tax_section_8A_chunk_1",
+        "income_tax_section_9_chunk_1",
+        "income_tax_section_9_chunk_2",
+        "income_tax_section_9_chunk_3",
+        "income_tax_section_90_chunk_1",
+        "income_tax_section_90_chunk_2",
+        "income_tax_section_90_chunk_3",
+        "income_tax_section_91_chunk_1",
+        "income_tax_section_91_chunk_2",
+        "income_tax_section_91_chunk_3",
+        "income_tax_section_92A_chunk_1",
+        "income_tax_section_92B_chunk_1",
+        "income_tax_section_92B_chunk_2",
+        "income_tax_section_92B_chunk_3",
+        "income_tax_section_92B_chunk_4",
+        "income_tax_section_92BA_chunk_1",
+        "income_tax_section_92C_chunk_1",
+        "income_tax_section_92C_chunk_2",
+        "income_tax_section_92C_chunk_3",
+        "income_tax_section_92C_chunk_4",
+        "income_tax_section_92CC_chunk_1",
+        "income_tax_section_92CC_chunk_2",
+        "income_tax_section_92CC_chunk_3",
+        "income_tax_section_92CD_chunk_1",
+        "income_tax_section_92CD_chunk_2",
+        "income_tax_section_92CD_chunk_3",
+        "income_tax_section_92CE_chunk_1",
+        "income_tax_section_92CE_chunk_2",
+        "income_tax_section_92CE_chunk_3",
+        "income_tax_section_93_chunk_1",
+        "income_tax_section_93_chunk_2",
+        "income_tax_section_93_chunk_3",
+        "income_tax_section_94_chunk_1",
+        "income_tax_section_94_chunk_2",
+        "income_tax_section_94_chunk_3",
+        "income_tax_section_94_chunk_4",
+        "income_tax_section_94B_chunk_1",
+        "income_tax_section_95_chunk_1",
+        "income_tax_section_96_chunk_1",
+        "income_tax_section_97_chunk_1",
+        "income_tax_section_97_chunk_2",
+        "income_tax_section_97_chunk_3",
+        "income_tax_section_98_chunk_1",
+        "income_tax_section_98_chunk_2",
+        "income_tax_section_99_chunk_1",
+        "income_tax_section_9A_chunk_1",
+        "income_tax_section_9A_chunk_2",
+        "income_tax_section_9A_chunk_3",
+        "income_tax_section_9A_chunk_4"
+      ],
+      "unit_id": "income_tax_section_1",
+      "title": "Short title, extent and commencement"
+    },
+    "Article (2)": {
+      "exists": true,
+      "type": "subsection",
+      "parent_article": "Article ",
+      "page": 30,
+      "chunk_id": "income_tax_section_1_chunk_1",
+      "char_offset": 93,
+      "text_snippet": " (2) It extends to the whole of India. (3) Save as otherwise provided in this Act, it shall come into force on the 1st day of April, 1962."
+    },
+    "Article (3)": {
+      "exists": true,
+      "type": "subsection",
+      "parent_article": "Article ",
+      "page": 30,
+      "chunk_id": "income_tax_section_1_chunk_1",
+      "char_offset": 131,
+      "text_snippet": " (3) Save as otherwise provided in this Act, it shall come into force on the 1st day of April, 1962."
+    },
+    "Article (1)": {
+      "exists": true,
+      "type": "subsection",
+      "parent_article": "Article ",
+      "page": 459,
+      "chunk_id": "income_tax_section_102_chunk_1",
+      "char_offset": 74,
+      "text_snippet": " (1) “arrangement” means any step in, or a part or whole of, any transaction, operation, scheme, agreement or understanding, whether enforceable or not, and includes the alienation of any property in "
+    },
+    "Article (4)": {
+      "exists": true,
+      "type": "subsection",
+      "parent_article": "Article ",
+      "page": 459,
+      "chunk_id": "income_tax_section_102_chunk_1",
+      "char_offset": 477,
+      "text_snippet": " (4) “connected person” means any person who is connected directly or indirectly to another person and includes,— (a) any relative of the person, if such person is an individual; (b) any director of t"
+    },
+    "Article (6)": {
+      "exists": true,
+      "type": "subsection",
+      "parent_article": "Article ",
+      "page": 459,
+      "chunk_id": "income_tax_section_102_chunk_3",
+      "char_offset": 515,
+      "text_snippet": " (6) “party” includes a person or a permanent establishment which participates or takes part in an arrangement; (7) “relative” shall have the meaning assigned to it in the Explanation to clause (vi) o"
+    },
+    "Article (1A)": {
+      "exists": true,
+      "type": "subsection",
+      "parent_article": "Article ",
+      "page": 541,
+      "chunk_id": "income_tax_section_131_chunk_1",
+      "char_offset": 790,
+      "text_snippet": " 7[(1A) 8[If the 9[Principal Director General or Director General] or 10[Principal Director or Director] or 11[Joint Director] or 12[Assistant Director or Deputy Director], or the authorised officer r"
+    },
+    "Article (5)": {
+      "exists": true,
+      "type": "subsection",
+      "parent_article": "Article ",
+      "page": 575,
+      "chunk_id": "income_tax_section_142A_chunk_2",
+      "char_offset": 0,
+      "text_snippet": "(5) The Valuation Officer may estimate the value of the asset, property or investment to the best of his judgment, if the assessee does not co-operate or comply with his directions. (6) The Valuation "
+    },
+    "Article (9)": {
+      "exists": true,
+      "type": "subsection",
+      "parent_article": "Article ",
+      "page": 580,
+      "chunk_id": "income_tax_section_144BA_chunk_4",
+      "char_offset": 165,
+      "text_snippet": " (9) If the members of the Approving Panel differ in opinion on any point, such point shall be decided according to the opinion of the majority of the members. (10) The Assessing Officer, on receipt o"
+    }
+  }
+}

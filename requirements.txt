@@ -11,3 +11,21 @@ python-dotenv
 psycopg2-binary
 redis
 qdrant-client
+sqlalchemy
+alembic
+
+##pdf parsing
+docling
+pdfplumber
+pymupdf
+fitz
+
+#chunking
+langchain-text-splitters
+
+## embedding
+flagembedding
+qdrant-client
+fastembed
+
+#pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
