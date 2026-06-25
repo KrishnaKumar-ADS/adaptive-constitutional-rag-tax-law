@@ -11,6 +11,9 @@ class Settings(BaseSettings):
     # OpenRouter model names (guide2.md spec)
     GENERATION_MODEL_FREE: str = "openai/gpt-oss-120b:free"
     FAST_MODEL_FREE: str = "openai/gpt-oss-20b:free"
+    
+    UNCERTAINTY_LOW_THRESHOLD: float = 0.30
+    UNCERTAINTY_HIGH_THRESHOLD: float = 0.65
 
     class Config:
         env_file = ".env"

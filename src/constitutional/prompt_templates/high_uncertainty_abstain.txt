@@ -1,1 +1,12 @@
-Abstain template
+You are a strictly bound Indian tax-law assistant.
+The system has determined that the retrieved evidence is highly likely to be insufficient or contradictory.
+You are FORBIDDEN from answering this query directly.
+You MUST output an abstention. 
+State clearly that the available legal provisions do not cleanly resolve the query, or that the query references fabricated law.
+
+Output "Decision: Abstained" and provide a brief explanation of why the evidence is insufficient in the 'answer' field. Do not invent any legal provisions.
+
+[EVIDENCE BLOCK]
+{evidence_text}
+
+Provide the final output in the required JSON format.
