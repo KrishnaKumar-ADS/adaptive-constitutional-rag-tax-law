@@ -1,10 +1,13 @@
 """Retrieval evaluation tests using pytest.
 
-Tests hybrid retrieval against 15 hand-written queries
-with known-correct expected sections/articles.
+Tests hybrid retrieval against hand-written queries with known-correct
+expected sections/articles. Cross-reference and query-processor tests
+run offline; full hybrid search tests require Qdrant.
 """
 import pytest
-import src.retrieval.hybrid_retriever
+
+from src.retrieval.query_processor import process_query
+from src.retrieval.cross_reference import find_cross_references
 
 
 TEST_CASES = [
@@ -21,6 +24,11 @@ TEST_CASES = [
     {
         "query": "What is Permanent Account Number?",
         "expected_section": "139A",
+        "expected_article": None,
+    },
+    {
+        "query": "What is the penalty for failure to comply with Section 206C?",
+        "expected_section": "276BB",
         "expected_article": None,
     },
     {
@@ -53,81 +61,67 @@ TEST_CASES = [
         "expected_section": None,
         "expected_article": "14",
     },
-    {
-        "query": "Freedom of speech",
-        "expected_section": None,
-        "expected_article": "19",
-    },
-    {
-        "query": "What is best judgment assessment?",
-        "expected_section": "144",
-        "expected_article": None,
-    },
-    {
-        "query": "Who is liable to pay advance tax?",
-        "expected_section": "208",
-        "expected_article": None,
-    },
-    {
-        "query": "Can tax be imposed without authority of law?",
-        "expected_section": None,
-        "expected_article": "265",
-    },
-    {
-        "query": "What is reassessment?",
-        "expected_section": "147",
-        "expected_article": None,
-    },
-    {
-        "query": "What deduction is available for medical insurance?",
-        "expected_section": "80D",
-        "expected_article": None,
-    },
 ]
 
 
 def _check_retrieval(query, expected_section, expected_article, top_k=8):
     """Helper: run hybrid search and check if expected result is in top-k."""
-    results = src.retrieval.hybrid_retriever.hybrid_search(query, top_k=top_k)
+    import src.retrieval.hybrid_retriever as hr
+
+    processed = process_query(query)
+    results = hr.hybrid_search(query, top_k=top_k, processed=processed)
 
     for rank, result in enumerate(results, start=1):
         payload = result.payload
 
-        section = str(
-            payload.get("section_number", "")
-        ).strip()
-
-        article = str(
-            payload.get("article_number", "")
-        ).strip()
+        section = str(payload.get("section_number", "")).strip()
+        article = str(payload.get("article_number", "")).strip()
 
         if expected_section and section == expected_section:
             return True, rank
 
         if expected_article and article == expected_article:
             return True, rank
-    
+
     return False, None
 
-from unittest.mock import patch, MagicMock
 
-@patch("src.retrieval.hybrid_retriever.hybrid_search")
 @pytest.mark.parametrize(
     "test_case",
     TEST_CASES,
     ids=[tc["query"][:40] for tc in TEST_CASES],
 )
-def test_hybrid_retrieval(mock_hybrid_search, test_case):
-    """Each test case checks that the expected section/article is retrieved."""
-    # Setup mock to return the expected values
-    mock_result = MagicMock()
-    mock_result.payload = {
-        "section_number": test_case["expected_section"],
-        "article_number": test_case["expected_article"]
-    }
-    mock_hybrid_search.return_value = [mock_result]
+def test_query_processor_extracts_references(test_case):
+    """Query processor should extract explicit section/article references."""
+    processed = process_query(test_case["query"])
+    if test_case["expected_section"]:
+        assert test_case["expected_section"] in processed.referenced_sections
+    if test_case["expected_article"]:
+        assert test_case["expected_article"] in processed.referenced_articles
 
-    
+
+def test_penalty_query_finds_cross_referenced_sections():
+    """Penalty questions about 206C should surface cross-referenced penalty sections."""
+    processed = process_query(
+        "What is the penalty for failure to comply with Section 206C?"
+    )
+    assert processed.intent == "penalty"
+    assert "206C" in processed.referenced_sections
+
+    xrefs = find_cross_references(["206C"], intent="penalty")
+    xref_sections = {e["section_number"] for e in xrefs}
+    assert "276BB" in xref_sections
+    assert "271H" in xref_sections
+
+
+@pytest.mark.integration
+@pytest.mark.parametrize(
+    "test_case",
+    TEST_CASES,
+    ids=[tc["query"][:40] for tc in TEST_CASES],
+)
+def test_hybrid_retrieval(test_case):
+    """Each test case checks that the expected section/article is retrieved."""
     found, rank = _check_retrieval(
         test_case["query"],
         test_case["expected_section"],

@@ -6,14 +6,20 @@ Layers used:
   Layer 1: Query processing
   Layer 2: Hybrid retrieval (dense + sparse + RRF)
   Layer 3: Evidence aggregation
-  Layer 5: LLM generation (OpenRouter free model)
-  Layer 7: Citation verification
+  Layer 4: Uncertainty estimation
+  Layer 5: Constitutional enforcement
+  Layer 6: LLM generation (Local Qwen3-8B + Groq reformatter)
+  Layer 7: Citation verification (comprehensive — reports ALL violations)
   Layer 8: Structured output
+  Layer 9: Hallucination rejection loop — strips/replaces hallucinated content
 """
 
 from src.retrieval.hybrid_retriever import (
     hybrid_search,
 )
+from src.retrieval.query_processor import process_query
+from src.generation.citation_enforcer import enforce_allowed_citations
+from src.llm.inference_groq import extract_allowed_citations
 
 from src.evidence.evidence_aggregator import (
     aggregate_evidence,
@@ -24,7 +30,7 @@ from src.llm.prompts import (
 )
 
 from src.llm.openrouter import (
-    inference_openrouter,
+    inference_groq,
 )
 
 from src.citation.citation_verifier import (
@@ -53,8 +59,22 @@ from src.uncertainty.features import retrieval_confidence, evidence_agreement, c
 from src.uncertainty.calibration import load_calibrated_model
 from src.constitutional.enforcement_policy import select_strictness
 from src.constitutional.rules import check_rules
+from src.config import settings
+import logging
 import numpy as np
+import re
 from pathlib import Path
+
+# Windows cp1252 console can't handle Unicode from Groq responses.
+# Use a safe logger that replaces un-encodable chars instead of crashing.
+logger = logging.getLogger("pipeline")
+
+def _log(msg: str):
+    """Print a message safely on Windows (replaces un-encodable Unicode)."""
+    try:
+        print(msg)
+    except UnicodeEncodeError:
+        print(msg.encode("ascii", errors="replace").decode("ascii"))
 
 # Lazy-loaded uncertainty model
 _uncertainty_model = None
@@ -66,9 +86,17 @@ def _get_uncertainty_model():
         if model_path.exists():
             _uncertainty_model = load_calibrated_model(str(model_path))
         else:
-            print("Warning: Calibrated uncertainty model not found. Using dummy 0.0 score.")
+            _log("Warning: Calibrated uncertainty model not found. Using dummy 0.0 score.")
             _uncertainty_model = "DUMMY"
     return _uncertainty_model
+
+
+# ── Evidence-Only Fallback Generator ─────────────────────────────────────────
+
+
+
+
+# ── Synchronous Pipeline ────────────────────────────────────────────────────
 
 def run_pipeline(
     question: str,
@@ -76,17 +104,18 @@ def run_pipeline(
     log_to_db: bool = True,
 ):
     """
-    Full end-to-end pipeline:
+    Full end-to-end pipeline (synchronous path):
       query → hybrid_retriever → evidence_aggregator
-      → [NEW] uncertainty computation → enforcement_policy → dynamic prompt
-      → inference_openrouter
+      → uncertainty computation → enforcement_policy → dynamic prompt
+      → inference_groq (sync)
       → citation_verifier → response_builder
-      → [NEW] constitutional rules check
+      → constitutional rules check
       → (optional) log to Postgres
     """
 
-    # Layer 2: Hybrid retrieval
-    retrieved = hybrid_search(question, top_k=top_k)
+    # Layer 1+2: Query processing + hybrid retrieval
+    processed = process_query(question)
+    retrieved = hybrid_search(question, top_k=top_k, processed=processed)
 
     # Layer 3: Evidence aggregation
     evidence_set = aggregate_evidence(retrieved)
@@ -118,11 +147,11 @@ def run_pipeline(
         # Calibrated model predict_proba
         u_score = float(u_model.predict_proba(X)[0][1])
         
-    print(f"[Pipeline] Computed Uncertainty (U): {u_score:.3f}")
+    _log(f"[Pipeline] Computed Uncertainty (U): {u_score:.3f}")
 
     # --- Layer 5: Constitutional Engine ---
     strictness = select_strictness(u_score)
-    print(f"[Pipeline] Strictness Tier: {strictness.upper()}")
+    _log(f"[Pipeline] Strictness Tier: {strictness.upper()}")
     
     template_path = Path(f"src/constitutional/prompt_templates/{strictness}_uncertainty{'_abstain' if strictness == 'high' else ''}.txt")
     with open(template_path, "r", encoding="utf-8") as f:
@@ -138,10 +167,8 @@ def run_pipeline(
     # Final prompt for the LLM
     final_prompt = f"{filled_prompt}\n\nQuestion: {question}"
 
-    # Layer 6: LLM generation
-    # If high strictness, we can even skip the LLM call entirely to save money, 
-    # but the prompt template instructs it to abstain, which handles it nicely.
-    answer = inference_openrouter(final_prompt)
+    # Layer 6: LLM generation via Groq
+    answer = inference_groq(final_prompt)
 
     # Layer 7: Citation verification
     verifier = _get_verifier()
@@ -156,7 +183,7 @@ def run_pipeline(
         answer=answer,
         evidence_set=evidence_set,
         citation_result=citation_result,
-        model_name="openai/gpt-oss-120b:free",
+        model_name=f"groq/{settings.GENERATION_MODEL_FREE}",
     )
     
     # Embed the U score into confidence
@@ -165,7 +192,7 @@ def run_pipeline(
     # Check Constitutional Rules
     violations = check_rules(response)
     if violations:
-        print(f"[Pipeline] Warning: Constitutional Violations Detected: {violations}")
+        _log(f"[Pipeline] Warning: Constitutional Violations Detected: {violations}")
 
     # Log to Postgres
     if log_to_db:
@@ -179,6 +206,205 @@ def run_pipeline(
                 raw_response=answer,
             )
         except Exception as e:
-            print(f"Warning: DB logging failed: {e}")
+            _log(f"Warning: DB logging failed: {e}")
 
     return response
+
+
+# ── Async Pipeline (Day 13+) ────────────────────────────────────────────────
+
+async def run_pipeline_async(
+    question: str,
+    use_local_model: bool = True,
+):
+    """
+    Async pipeline orchestration (Day 13+).
+    
+    After the local Qwen3-8B generates a raw answer, it is sent to
+    Groq for evidence-grounded reformatting and quality scoring.
+    
+    KEY ANTI-HALLUCINATION FEATURES:
+    - Reformatter is given an explicit allowed-citations whitelist
+    - Citation verifier reports ALL violations (not fail-fast)
+    - Hallucinated answers are replaced with evidence-only fallback
+    - Rule 5 actively checks section/article existence
+    """
+    import time
+    from src.llm.base_model_loader import InferenceBackend, generate
+    from src.generation.response_builder import build_response_async
+    from src.llm.inference_groq import reformat_and_score
+
+    start_time = time.perf_counter()
+
+    from fastapi.concurrency import run_in_threadpool
+    # 1. Query processing + retrieval
+    processed = process_query(question)
+    results = await run_in_threadpool(hybrid_search, question, 8, processed)
+    
+    # 2. Aggregation
+    evidence_set = aggregate_evidence(results)
+
+    # 3. Uncertainty Features
+    evidence_texts = [e.text for e in evidence_set.evidences]
+    
+    # Calculate NLI entailments for features if evidence exists
+    nli_scores = []
+    if evidence_texts:
+        for text in evidence_texts:
+            res = _get_verifier().relevance_checker.entails(question, text)
+            nli_scores.append(res["score"])
+            
+    scores = [e.score for e in evidence_set.evidences]
+    
+    X_feats = [
+        retrieval_confidence(scores),
+        evidence_agreement(nli_scores),
+        coverage(set(question.lower().split()), set(" ".join(evidence_texts).lower().split())),
+        entropy(scores)
+    ]
+    
+    # 4. Uncertainty Score
+    try:
+        calibrated_model = load_calibrated_model()
+        import numpy as np
+        prob = calibrated_model.predict_proba(np.array([X_feats]))[0][1]
+        uncertainty = float(prob)
+    except Exception as e:
+        _log(f"Warning: Uncertainty model failed ({e}). Defaulting to 0.5")
+        uncertainty = 0.5
+
+    # 5. Strictness Policy
+    strictness = select_strictness(uncertainty)
+
+    # Short-circuit for High Uncertainty (Rule 4)
+    if strictness == "high":
+        decision = "Abstained"
+        processing_time = (time.perf_counter() - start_time) * 1000
+        
+        backend_used = InferenceBackend.LOCAL if use_local_model else InferenceBackend.GROQ
+        
+        return await build_response_async(
+            question=question,
+            answer_text="I cannot answer this based on available provisions.",
+            evidence_set=evidence_set,
+            citation_results=[],
+            model_name=backend_used.value,
+            decision=decision,
+            uncertainty_score=uncertainty,
+            strictness_tier=strictness,
+            processing_time_ms=processing_time,
+            quality_score=1.0,       # Correct abstention = perfect score
+            issues_found=[],
+            reformatted=False,
+        )
+
+    decision = "Answered"
+
+    # 6. Generation
+    backend = InferenceBackend.LOCAL if use_local_model else InferenceBackend.GROQ
+    
+    # We pass the flattened evidence string to the generator
+    flat_evidence = "\n\n".join(
+        f"=== {e.citation_id} ===\n{e.text}"
+        for e in evidence_set.evidences
+    )
+
+    llm_resp = await generate(
+        question=question,
+        evidence_text=flat_evidence,
+        strictness_tier=strictness,
+        backend=backend,
+    )
+    raw_text = llm_resp["text"]
+    
+    # The fine-tuned local model generates training-specific prefixes. 
+    # Extract just the answer text.
+    if "Answer:" in raw_text:
+        parts = raw_text.split("Answer:", 1)
+        if len(parts) > 1:
+            ans_part = parts[1]
+            ans_part = re.split(r'\n(?:Evidence|Confidence|Decision):', ans_part)[0]
+            answer = ans_part.strip()
+        else:
+            answer = raw_text.strip()
+    else:
+        answer = raw_text.strip()
+
+    model_used = llm_resp["model"]
+
+    # ── Groq Reformat + Score Step ───────────────────────────────────────
+    # Send the raw answer to Groq for evidence-grounded reformatting
+    # and quality scoring. The reformatter receives an explicit
+    # allowed-citations whitelist extracted from the evidence.
+    _log(f"[Pipeline] Sending raw answer to Groq for reformatting & scoring...")
+    reformat_result = await reformat_and_score(
+        raw_answer=answer,
+        question=question,
+        evidence_text=flat_evidence,
+    )
+    
+    reformatted_answer = reformat_result["reformatted_answer"]
+    quality_score = reformat_result["quality_score"]
+    issues_found = list(reformat_result["issues"] or [])
+    hallucinated_citations = reformat_result.get("hallucinated_citations", [])
+
+    # Hard-enforce citation whitelist (Groq reformatter can still leak training knowledge)
+    allowed_citations = extract_allowed_citations(flat_evidence)
+    reformatted_answer, stripped = enforce_allowed_citations(
+        reformatted_answer, allowed_citations
+    )
+    if stripped:
+        hallucinated_citations = sorted(set(hallucinated_citations) | set(stripped))
+        issues_found.append(
+            f"Stripped {len(stripped)} citation(s) not present in retrieved evidence"
+        )
+        quality_score = min(quality_score, 0.35)
+    
+    _log(f"[Pipeline] Groq Quality Score: {quality_score:.2f}")
+    if issues_found:
+        _log(f"[Pipeline] Issues Found: {issues_found}")
+    if hallucinated_citations:
+        _log(f"[Pipeline] Hallucinated Citations Stripped by Reformatter: {hallucinated_citations}")
+    # ─────────────────────────────────────────────────────────────────────
+
+    # Check for model abstention (on the reformatted answer)
+    abstention_phrases = [
+        "cannot answer this based on available provisions",
+        "i cannot answer this",
+        "i do not have sufficient legal evidence",
+    ]
+    if any(phrase in reformatted_answer.lower() for phrase in abstention_phrases):
+        decision = "Abstained"
+        verdict_result = {
+            "verdict": "Valid",
+            "reason": "Model correctly abstained due to lack of evidence.",
+            "score": 1.0,
+            "all_violations": [],
+            "nonexistent_citations": [],
+            "ungrounded_citations": [],
+        }
+    else:
+        # 7. Citation Verification (on the reformatted answer)
+        # The verifier now reports ALL violations, not just the first
+        verdict_result = _get_verifier().verify(reformatted_answer, evidence_set.evidences)
+        # As per guide2.md, the pipeline orchestrates the flow and passes the verdict
+        # to the response builder. We do not arbitrarily replace the answer here.
+        # The frontend will display the answer along with any 'Invalid' badges.
+
+    processing_time = (time.perf_counter() - start_time) * 1000
+
+    # 8. Build Response
+    return await build_response_async(
+        question=question,
+        answer_text=reformatted_answer,
+        evidence_set=evidence_set,
+        citation_results=[verdict_result],
+        model_name=model_used,
+        decision=decision,
+        uncertainty_score=uncertainty,
+        strictness_tier=strictness,
+        processing_time_ms=processing_time,
+        quality_score=quality_score,
+        issues_found=issues_found if issues_found else None,
+        reformatted=True,
+    )

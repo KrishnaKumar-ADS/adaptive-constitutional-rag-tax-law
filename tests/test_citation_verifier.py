@@ -30,7 +30,7 @@ def test_fake_section(verifier):
 def test_real_not_retrieved(verifier):
     """
     Real section exists but was never retrieved.
-    Should be Partially Supported.
+    Should be Invalid (all citations ungrounded).
     """
     claim = (
         "Agricultural income is exempt under Section 10."
@@ -53,7 +53,7 @@ def test_real_not_retrieved(verifier):
         evidence,
     )
 
-    assert result["verdict"] == "Partially Supported"
+    assert result["verdict"] == "Invalid"
 
 
 def test_valid_citation(verifier):

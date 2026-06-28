@@ -248,21 +248,16 @@ class IncomeTaxParser(BaseParser):
             # TITLE
             # ======================================
 
-            first_line = (
-                section_text
-                .splitlines()[0]
-                .strip()
-            )
-
+            # Robust title match: look at the first 300 characters of section text (replacing newlines with spaces)
+            # to handle long/wrapped titles like Section 206C.
+            title_text = section_text[:300].replace("\n", " ").strip()
             title = None
-
             title_match = re.match(
                 r"(?:\d+\[)?\d+[A-Z]{0,5}\.\s*(.*?)(?:—|\.)",
-                first_line,
+                title_text,
             )
 
             if title_match:
-
                 title = (
                     title_match.group(1)
                     .strip()

@@ -6,6 +6,9 @@ Orchestrates:
   3. NLI relevance check (does the evidence entail the claim?)
 
 Returns: Valid / Invalid / Partially Supported
+
+Collects ALL violations instead of failing fast on the first one,
+so the pipeline can report and strip every hallucinated citation.
 """
 from src.citation.section_validator import (
     SectionValidator,
@@ -43,21 +46,29 @@ class CitationVerifier:
         evidence_list,
     ):
         """
-        Verify citations in a claim against evidence.
+        Verify ALL citations in a claim against evidence.
+
+        Unlike the previous fail-fast approach, this collects every violation
+        so the pipeline can report (and strip) all hallucinated citations.
 
         Args:
             claim: The generated answer text containing citations
             evidence_list: List of Evidence objects (from EvidenceSet.evidences)
                           or list of dicts with section_number/article_number/text keys
+
+        Returns:
+            dict with:
+              - verdict: "Valid" | "Partially Supported" | "Invalid"
+              - score: float 0.0-1.0
+              - reason: str
+              - all_violations: list of dicts describing each violation
+              - nonexistent_citations: list of citation refs that don't exist in the Act
+              - ungrounded_citations: list of citation refs not in retrieved evidence
         """
 
         # Step 1: Extract and validate section/article references
-        section_results = (
-            self.section_validator.validate(claim)
-        )
-        article_results = (
-            self.article_validator.validate(claim)
-        )
+        section_results = self.section_validator.validate(claim)
+        article_results = self.article_validator.validate(claim)
 
         citations = section_results + article_results
 
@@ -66,71 +77,111 @@ class CitationVerifier:
                 "verdict": "Invalid",
                 "reason": "No citations found in claim",
                 "score": 0.0,
+                "all_violations": [{"type": "no_citations", "detail": "Answer contains no legal citations"}],
+                "nonexistent_citations": [],
+                "ungrounded_citations": [],
             }
 
-        # Step 2: Check existence in ground-truth index
+        # Collect ALL violations instead of stopping at first
+        all_violations = []
+        nonexistent_citations = []
+        ungrounded_citations = []
+        valid_count = 0
+
+        # Step 2 + 3: Check existence AND grounding for every citation
         for citation in citations:
             exists = citation.get("exists", False)
+            ref = citation.get("section") or citation.get("article")
 
             if not exists:
-                return {
-                    "verdict": "Invalid",
-                    "reason": f"Citation does not exist: {citation}",
-                    "citation": citation,
-                    "score": 0.0,
-                }
+                nonexistent_citations.append(ref)
+                all_violations.append({
+                    "type": "nonexistent",
+                    "citation": ref,
+                    "detail": f"Citation '{ref}' does not exist in the Income Tax Act / Constitution",
+                })
+                continue
 
-        # Step 3: Check grounding (was citation actually retrieved?)
-        for citation in citations:
-            ref = (
-                citation.get("section")
-                or citation.get("article")
-            )
-
-            grounded = (
-                self.grounding_checker.citation_used(
-                    ref,
-                    evidence_list,
-                )
-            )
+            # Check grounding (was citation actually retrieved?)
+            grounded = self.grounding_checker.citation_used(ref, evidence_list)
 
             if not grounded:
-                return {
-                    "verdict": "Partially Supported",
-                    "reason": f"Citation {ref} exists but was not in retrieved evidence",
+                ungrounded_citations.append(ref)
+                all_violations.append({
+                    "type": "ungrounded",
                     "citation": ref,
-                    "score": 0.3,
-                }
+                    "detail": f"Citation '{ref}' exists but was NOT in retrieved evidence",
+                })
+            else:
+                valid_count += 1
 
-        # Step 4: NLI entailment check against best evidence
-        best_evidence_text = ""
-        if evidence_list:
-            first = evidence_list[0]
-            if hasattr(first, "text"):
-                best_evidence_text = first.text
-            elif isinstance(first, dict):
-                best_evidence_text = first.get("text", "")
+        # Determine overall verdict based on violation severity
+        total_citations = len(citations)
 
-        if not best_evidence_text:
-            return {
-                "verdict": "Partially Supported",
-                "reason": "No evidence text available for entailment check",
-                "score": 0.3,
-            }
+        if nonexistent_citations:
+            # Any fabricated citation -> Invalid
+            verdict = "Invalid"
+            score = 0.0
+            reason = (
+                f"Found {len(nonexistent_citations)} nonexistent citation(s): "
+                f"{', '.join(nonexistent_citations)}"
+            )
+        elif ungrounded_citations:
+            if valid_count == 0:
+                verdict = "Invalid"
+                score = 0.1
+                reason = (
+                    f"All {len(ungrounded_citations)} citation(s) exist but "
+                    f"none were in retrieved evidence: "
+                    f"{', '.join(ungrounded_citations)}"
+                )
+            else:
+                verdict = "Partially Supported"
+                score = round(valid_count / total_citations, 2)
+                reason = (
+                    f"{len(ungrounded_citations)} citation(s) not in evidence: "
+                    f"{', '.join(ungrounded_citations)}; "
+                    f"{valid_count}/{total_citations} grounded"
+                )
+        else:
+            # All citations exist and are grounded - run NLI entailment
+            if not evidence_list:
+                verdict = "Partially Supported"
+                score = 0.3
+                reason = "No evidence text available for entailment check"
+            else:
+                best_score = 0.0
+                is_entailed = False
+                
+                # Check claim against all evidence chunks, since the relevant section
+                # might not be the top-ranked (first) chunk.
+                for evidence in evidence_list:
+                    text = evidence.text if hasattr(evidence, "text") else evidence.get("text", "")
+                    if not text:
+                        continue
+                        
+                    result = self.relevance_checker.entails(claim, text)
+                    if result["score"] > best_score:
+                        best_score = result["score"]
+                        
+                    if result["entails"]:
+                        is_entailed = True
+                        break # Found an entailment, no need to check further
 
-        result = self.relevance_checker.entails(
-            claim,
-            best_evidence_text,
-        )
-
-        if result["entails"]:
-            return {
-                "verdict": "Valid",
-                "score": result["score"],
-            }
+                if is_entailed:
+                    verdict = "Valid"
+                    score = best_score
+                    reason = "All citations grounded and entailed by evidence"
+                else:
+                    verdict = "Partially Supported"
+                    score = best_score
+                    reason = "Citations grounded but evidence does not strongly entail claim"
 
         return {
-            "verdict": "Partially Supported",
-            "reason": "Evidence does not strongly entail claim",
-            "score": result["score"],
+            "verdict": verdict,
+            "score": score,
+            "reason": reason,
+            "all_violations": all_violations,
+            "nonexistent_citations": nonexistent_citations,
+            "ungrounded_citations": ungrounded_citations,
         }

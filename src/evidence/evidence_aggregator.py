@@ -82,9 +82,16 @@ def aggregate_evidence(results) -> EvidenceSet:
         section_number = chunks[0]["metadata"].get("section_number")
         article_number = chunks[0]["metadata"].get("article_number")
 
+        if section_number:
+            display_id = f"Section {section_number}"
+        elif article_number:
+            display_id = f"Article {article_number}"
+        else:
+            display_id = str(citation_id)
+
         evidences.append(
             Evidence(
-                citation_id=str(citation_id),
+                citation_id=display_id,
                 text=merged_text,
                 source_type=source_type,
                 score=best_score,

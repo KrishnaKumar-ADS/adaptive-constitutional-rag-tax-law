@@ -37,9 +37,48 @@ services:
 
     volumes:
       - qdrant_data:/qdrant/storage
+    restart: always
+
+  # Fast API Backend
+  api:
+    build: 
+      context: .
+      dockerfile: Dockerfile.api
+    container_name: adaptive-rag-api
+    ports:
+      - "8000:8000"
+    environment:
+      - OPENROUTER_API_KEY=${OPENROUTER_API_KEY}
+      - QDRANT_HOST=http://qdrant:6333
+      - REDIS_URL=redis://redis:6379
+      - POSTGRES_URL=postgresql://tax_user:securepassword@postgres:5432/tax_db
+      - OLLAMA_HOST=http://ollama:11434
+      - LOCAL_MODEL_NAME=qwen3-tax
+    depends_on:
+      - qdrant
+      - redis
+      - postgres
+      - ollama
+    volumes:
+      - api_cache:/root/.cache/huggingface
+
+  # Ollama Local LLM Server
+  ollama:
+    image: ollama/ollama:latest
+    container_name: ollama-server
+    ports:
+      - "11434:11434"
+    volumes:
+      - ./finetuning/checkpoints:/models
+      - ollama_data:/root/.ollama
+    restart: always
 
 volumes:
 
   postgres_data:
 
   qdrant_data:
+
+  ollama_data:
+  
+  api_cache:

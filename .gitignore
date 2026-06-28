@@ -1,26 +1,93 @@
-# Git ignore rules
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-# Virtual Environment
-venv/
-
-# Environment Variables
+# Environment
 .env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 
-# Jupyter
-.ipynb_checkpoints/
+# Jupyter Notebook
+.ipynb_checkpoints
 
-# IDE
+# Next.js / Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/.vercel/
+frontend/.env*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDEs and Editors
+.idea/
 .vscode/
+*.swp
+*.swo
+*~
+.project
+.settings/
 
-# Logs
-*.log
+# Testing and coverage
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
 
-# Database
+# Databases
+*.sqlite3
 *.db
+!data/raw/*.pdf
 
-# OS Files
-.DS_Store
-Thumbs.db
+# Machine Learning / Outputs
+finetuning/outputs/
+finetuning/checkpoints/
+unsloth_compiled_cache/
+wandb/
+*.safetensors
+*.bin
+*.gguf
+*.pt
+
+# Custom Project Data
+last_response.json
+test_output*.txt

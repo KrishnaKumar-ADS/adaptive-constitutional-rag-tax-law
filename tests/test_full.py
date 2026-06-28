@@ -4,7 +4,7 @@ from src.pipeline import run_pipeline
 from src.evidence.evidence_aggregator import Evidence, EvidenceSet
 
 @patch("src.pipeline.hybrid_search")
-@patch("src.pipeline.inference_openrouter")
+@patch("src.pipeline.inference_groq")
 @patch("src.pipeline.log_query")
 def test_full_pipeline(mock_log_query, mock_inference, mock_hybrid_search):
     # Mock retrieval

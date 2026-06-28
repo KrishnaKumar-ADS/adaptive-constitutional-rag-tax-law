@@ -15,15 +15,16 @@ CHUNKS_FILE = "data/processed/chunks.jsonl"
 
 BATCH_SIZE = 16
 
+import os
+
 client = QdrantClient(
-    url="http://localhost:6333"
+    url=os.environ.get("QDRANT_HOST", "http://localhost:6333")
 )
 
 print("Loading BGE-M3...")
 
 model = BGEM3FlagModel(
-    "BAAI/bge-m3",
-    use_fp16=True
+    "BAAI/bge-m3"
 )
 
 print("Loading chunks...")
@@ -100,5 +101,5 @@ for start_idx in tqdm(
         wait=True
     )
 
-print("\n✓ Vector DB population complete")
-print(f"✓ Inserted {len(chunks)} chunks")
+print("\nVector DB population complete")
+print(f"Inserted {len(chunks)} chunks")

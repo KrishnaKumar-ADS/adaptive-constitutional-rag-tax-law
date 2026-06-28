@@ -1,1 +1,42 @@
 # QLoRA configuration
+model:
+  name: "Qwen/Qwen3-8B-Instruct"
+  trust_remote_code: true
+
+dataset:
+  train_file: "data/processed/finetune_train.jsonl"
+  eval_file: "data/processed/finetune_eval.jsonl"
+
+quantization:
+  load_in_4bit: true
+  bnb_4bit_quant_type: "nf4"
+  bnb_4bit_compute_dtype: "bfloat16"
+  bnb_4bit_use_double_quant: true
+
+lora:
+  r: 16
+  lora_alpha: 32
+  lora_dropout: 0.05
+  target_modules: "all-linear"
+  use_dora: true
+  bias: "none"
+
+training:
+  output_dir: "outputs/qwen-tax-lora"
+  num_train_epochs: 6
+  per_device_train_batch_size: 16
+  per_device_eval_batch_size: 16
+  gradient_accumulation_steps: 16
+  learning_rate: 2e-4
+  warmup_ratio: 0.03
+  lr_scheduler_type: "cosine"
+  optim: "paged_adamw_8bit"
+  weight_decay: 0.01
+  max_grad_norm: 1.0
+  bf16: true
+  logging_steps: 10
+  save_strategy: "epoch"
+  evaluation_strategy: "epoch"
+  save_total_limit: 2
+  load_best_model_at_end: true
+  report_to: "wandb"

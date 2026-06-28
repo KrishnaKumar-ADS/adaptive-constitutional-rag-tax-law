@@ -7,8 +7,10 @@ from qdrant_client.models import (
 
 COLLECTION_NAME = "tax_law"
 
+import os
+
 client = QdrantClient(
-    url="http://localhost:6333"
+    url=os.environ.get("QDRANT_HOST", "http://localhost:6333")
 )
 
 # Delete old collection if it exists
@@ -34,7 +36,7 @@ client.create_collection(
     }
 )
 
-print(f"\n✓ Collection '{COLLECTION_NAME}' created successfully")
+print(f"\nCollection '{COLLECTION_NAME}' created successfully")
 
 info = client.get_collection(COLLECTION_NAME)
 
@@ -44,3 +46,4 @@ print("Dense Vector Size: 1024")
 print("Distance Metric: COSINE")
 print("Sparse Vector: Enabled")
 print(f"Status: {info.status}")
+print(f"Points: {info.points_count}")

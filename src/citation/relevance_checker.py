@@ -9,9 +9,12 @@ from sentence_transformers import CrossEncoder
 class RelevanceChecker:
 
     def __init__(self):
-        self.model = CrossEncoder(
-            "cross-encoder/nli-deberta-v3-base"
-        )
+        self.model = None
+
+    def _get_model(self):
+        if self.model is None:
+            self.model = CrossEncoder("cross-encoder/nli-deberta-v3-base")
+        return self.model
 
     def entails(
         self,
@@ -24,7 +27,7 @@ class RelevanceChecker:
         [contradiction, entailment, neutral].
         We use the entailment score as our relevance signal.
         """
-        scores = self.model.predict(
+        scores = self._get_model().predict(
             [(evidence, claim)]
         )
 

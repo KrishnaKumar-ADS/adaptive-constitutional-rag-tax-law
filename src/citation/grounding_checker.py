@@ -65,4 +65,18 @@ class GroundingChecker:
             if citation_norm and citation_norm in cit_id:
                 return True
 
+            # ALSO check if it's in the raw text, as metadata might be incomplete
+            if hasattr(evidence, "text"):
+                text = getattr(evidence, "text") or ""
+            else:
+                text = evidence.get("text", "")
+            
+            # Simple substring check (e.g. '206c' in lowercased text)
+            if citation_norm and citation_norm in str(text).lower():
+                return True
+
+            # Also check the raw citation string just in case
+            if str(citation).lower() in str(text).lower():
+                return True
+
         return False

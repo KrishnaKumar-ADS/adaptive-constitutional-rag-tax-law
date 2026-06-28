@@ -1,9 +1,9 @@
 import pytest
 from unittest.mock import patch, MagicMock
-from src.llm.openrouter import inference_openrouter
+from src.llm.openrouter import inference_groq
 
 @patch("src.llm.openrouter.client")
-def test_inference_openrouter(mock_client):
+def test_inference_groq(mock_client):
     # Setup mock response
     mock_response = MagicMock()
     mock_response.choices = [MagicMock()]
@@ -12,7 +12,7 @@ def test_inference_openrouter(mock_client):
     mock_client.chat.completions.create.return_value = mock_response
     
     prompt = "What is the capital of India?"
-    answer = inference_openrouter(prompt)
+    answer = inference_groq(prompt)
     
     assert answer == "This is a mocked answer."
     mock_client.chat.completions.create.assert_called_once()
